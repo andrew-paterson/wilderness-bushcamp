@@ -1,0 +1,17 @@
+<nav class="main">
+  <div class="nav-ul-container">
+    <ul class="menu level-1">
+      {{ $currentNode := . }}
+      {{ range .Site.Menus.main }}
+      <li>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        <ul class="menu level-2">
+          {{ range .Children }}
+            <li><a href="{{.URL}}"> {{ .Name }} </a> </li>
+          {{ end }}
+        </ul>
+      </li>
+      {{end}}
+    </ul>
+  </div>
+</nav>

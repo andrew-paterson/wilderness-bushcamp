@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    {{ partial "head-element-markup.html" . }}
+    {{ partial "dynamic-css-js-files.html" (dict "context" . "type" "css" ) }}
+  </head>
+  <body class="{{ .Params.pageclass }}">
+    <div id="wrapper">
+      <div class='panels'>
+        {{ partial "header.html" . }}
+        {{ block "main" . }}{{ end }}
+      </div>
+      <section id="sm-links-strip">
+          <div class="sm-links">
+            {{partial "_shared/menu" (dict "context" . "menu" .Site.Menus.social)}}
+          </div>
+        </section>
+      {{ partial "footer.html" (dict "context" . "social_menu" .Site.Menus.social) }}
+    </div>
+    {{ partial "dynamic-css-js-files.html" (dict "context" . "type" "js" ) }}
+  </body>
+</html>

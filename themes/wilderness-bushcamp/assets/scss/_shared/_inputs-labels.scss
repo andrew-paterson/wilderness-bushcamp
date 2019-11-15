@@ -1,0 +1,101 @@
+.body-content {
+  input, .input, textarea {
+    font-size: #{($input-font-size / $body-content-text-font-size)}em;
+  }
+  label {
+    font-size: #{($label-font-size / $body-content-text-font-size)}em;
+  }
+}
+
+label {
+  color: $label-color;
+  font-family: $label-font-family;
+  font-size: $label-font-size;
+  font-weight: $label-font-weight;
+  line-height: $label-line-height;
+}
+
+fieldset {
+  border: $fieldset-border-width solid $fieldset-border-color;
+  border-radius: $fieldset-border-radius;
+  background-color: $fieldset-background-color;
+}
+
+input,
+.input,
+textarea {
+  background-color: $input-background-color;
+  color: $input-color;
+  border: $input-border-width $input-border-style $input-border-color;
+  border-radius: $input-border-radius;
+  -moz-border-radius: $input-border-radius;
+  -webkit-border-radius: $input-border-radius;
+  height: $input-height;
+  font-family: $input-font-family;
+  margin: 0;
+  padding: $input-top-bottom-padding $input-side-padding;
+  font-size: $input-font-size;
+  &:hover {
+    border-color: $input-hover-border-color;
+  }
+  &:focus {
+    outline: none;
+    border-color: $input-focus-border-color;
+  }
+}
+
+.input {
+  display: inline-flex;
+  align-items: center;
+}
+
+textarea {
+  min-height: 100px;
+  line-height: 150%;
+}
+
+input[type=radio],
+input[type=checkbox] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  cursor: pointer;
+  left: 0;
+  top: 0;
+  width: $radio-button-checkbox-width-height;
+  height: $radio-button-checkbox-width-height;
+  padding: 0 !important;
+  background: transparent !important;
+  border-width: 0 !important;
+  &:after {
+    border: 2px solid $input-border-color;
+    content: "";
+    background-color: $input-background-color;
+    border: 2px solid $input-hover-border-color;
+    width: $radio-button-checkbox-width-height;
+    height: $radio-button-checkbox-width-height;
+    position: absolute;
+    top: 0;
+    left: 0px;
+  }
+  &:checked:after {
+    background: $radio-checkbox-selected-background-color $svg-data-uri-icon-tick no-repeat center 4px;
+    background-size: 14px;
+  }
+  &:focus:after, &:focus:checked:after {
+    border-color: $input-focus-border-color;
+  }
+}
+
+input[type=radio],
+input[type=radio]:before,
+input[type=radio]:after {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+input[type=radio]+label {
+  line-height: 150%;
+  margin: 0;
+}

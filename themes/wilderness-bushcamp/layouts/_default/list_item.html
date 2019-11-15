@@ -1,0 +1,30 @@
+<div class="content-list-item">
+  <h2 class="item-title"><a href="{{ .URL }}">{{ .Title }}</a></h2>
+  <a href="{{ .URL }}" class="thumbnail-link"><img class="item-thumbnail" src="{{ .Params.cover_image }}" /></a>
+  <div class='item-date'>{{dateFormat "Monday, 2 January 2006" .PublishDate }}</div>
+  <div class="item-summary">
+    {{ .Summary }}
+  </div>
+  <div class="tags">
+    <ul>
+      <li class="list-header">Tags</li>
+      {{ range .Params.tags }}
+      <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+      {{ end }}
+    </ul>
+  </div>
+  <div class="clr"></div>
+  <div class="categories">
+    <ul>
+      <li class="list-header">Categories</li>
+      {{ range .Params.categories }}
+      <li><a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+      {{ end }}
+    </ul>
+  </div>
+  <div class="clr"></div>
+  <a  class="read-more" href="{{ .URL }}">Read more</a>
+</div>
+
+
+

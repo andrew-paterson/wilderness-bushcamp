@@ -1,0 +1,121 @@
+baseurl = "http://www.wildernessbushcamp.co.za"
+languageCode = "en-gb"
+title = "Wilderness Bushcamp"
+theme = "wilderness-bushcamp"
+metaDataFormat = "toml"
+version = "0.0.1"
+
+[params.css]
+  main = ["style.css"]
+
+[params.js]
+  main = ["scripts.js"]
+
+[params.js.portfolio]
+  single = ["jquery-3.2.1.min.js", "jquery.fancybox.min.js", "perfect-scrollbar.min.js", "portfolio.js", "scripts.js"]
+
+[menu]
+
+[[menu.main]]
+  identifier = "/accomodation"
+  url = "/accomodation"
+  name = "Accommodation"
+  weight = 1.0
+
+  [[menu.main]]
+  url = "/accomodation"
+  name = "All Accommodation"
+  parent = "/accomodation"
+  weight = 10.0
+
+  [[menu.main]]
+  identifier = "/bushcamp"
+  name = "Bushcamp"
+  parent = "/accomodation"
+  weight = 11.0
+
+  [[menu.main]]
+  url = "/bushcamp/loerie-cabin"
+  name = "Loerie Cabin"
+  parent = "/bushcamp"
+  weight = 100.0
+
+  [[menu.main]]
+  url = "/sunset-ridge"
+  name = "Sunset Ridge"
+  parent = "/bushcamp"
+  weight = 101.0
+
+  [[menu.main]]
+  url = "/lagoon-view"
+  name = "Lagoon View"
+  parent = "/bushcamp"
+  weight = 102.0
+
+  [[menu.main]]
+  url = "/honeymoon-cottage"
+  name = "Honeymoon Cottage"
+  parent = "/bushcamp"
+  weight = 103.0
+
+  [[menu.main]]
+  url = "/bird-haven"
+  name = "Bird Haven"
+  parent = "/bushcamp"
+  weight = 104.0
+
+  [[menu.main]]
+  identifier = "/aloe-heights"
+  url = "/aloe-heights"
+  name = "Aloe Heights"
+  parent = "/accomodation"
+  weight = 12.0
+
+  [[menu.main]]
+  url = "/aloe-house"
+  name = "Aloe House"
+  parent = "/aloe-heights"
+  weight = 100.0
+
+  [[menu.main]]
+  url = "/aloe-suite"
+  name = "Aloe Suite"
+  parent = "/aloe-heights"
+  weight = 101.0
+
+  [[menu.main]]
+  url = "/aloe-studio"
+  name = "Aloe Studio"
+  parent = "/aloe-heights"
+  weight = 102.0
+
+  [[menu.main]]
+  url = "/the-loft"
+  name = "The Loft"
+  parent = "/accomodation"
+  weight = 14.0
+
+  [[menu.main]]
+  url = "/rates-and-bookings"
+  name = "Rates & Bookings"
+  weight = 2.0
+
+  [[menu.main]]
+  url = "/contact-us"
+  name = "Contact Us"
+  weight = 5.0
+
+  [[menu.social]]
+  identifier = "facebook"
+  url = "https://www.facebook.com/therealwildernessbushcamp"
+  weight = 0
+
+  [[menu.social]]
+  identifier = "instagram"
+  url = "https://www.instagram.com/wildernessbushcamp"
+  weight = 0
+
+  [[menu.social]]
+  identifier = "tripadvisor"
+  url = "http://www.tripadvisor.com/Hotel_Review-g312610-d1161107-Reviews-Wilderness_Bushcamp-Wilderness_Western_Cape.html"
+  weight = 0

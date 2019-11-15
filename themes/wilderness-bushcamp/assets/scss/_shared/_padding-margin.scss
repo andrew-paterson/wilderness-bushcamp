@@ -1,0 +1,34 @@
+$spacers: (
+  sm: $spacer-sm,
+  md: $spacer-md,
+  lg: $spacer-lg,
+  xl: $spacer-xl
+);
+
+@each $spacing-type in 'padding', 'margin' {
+  @each $key, $value in $spacers {
+    .#{$spacing-type}-#{$key} {
+      #{$spacing-type}: $value;
+    }
+    .#{$spacing-type}-x-#{$key} {
+      #{$spacing-type}-left: $value;
+      #{$spacing-type}-right: $value;
+    }
+    .#{$spacing-type}-y-#{$key} {
+      #{$spacing-type}-top: $value;
+      #{$spacing-type}-bottom: $value;
+    }
+    .#{$spacing-type}-top-#{$key} {
+      #{$spacing-type}-top: $value;
+    }
+    .#{$spacing-type}-bottom-#{$key} {
+      #{$spacing-type}-bottom: $value;
+    }
+     .#{$spacing-type}-left-#{$key} {
+      #{$spacing-type}-left: $value;
+    }
+     .#{$spacing-type}-right-#{$key} {
+      #{$spacing-type}-right: $value;
+    }
+  }
+}

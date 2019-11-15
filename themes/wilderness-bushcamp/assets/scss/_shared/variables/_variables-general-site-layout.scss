@@ -1,0 +1,46 @@
+/*---------------------------------------------------------
+CONTENT AREA LAYOUT.LESS
+---------------------------------------------------------*/
+$pc-page-gutter-left-right: 30px !default;
+$pc-main-content-box-border-width: 0px !default;
+$pc-main-content-box-outer-padding-top: 40px !default;
+$pc-main-content-box-outer-padding-bottom: 30px !default;
+$pc-content-container-max-width: 960px + 2 * $pc-page-gutter-left-right !default;
+$main-block-max-width: 700px !default;
+$pc-body-content-padding-left-right: 0px !default;
+$pc-body-content-padding-top: 0px !default;
+$pc-body-content-padding-bottom: 0px !default;
+$body-background-color: #fff !default;
+
+
+$desktop-header-container-max-width: 100% !default;
+
+$desktop-header-background-color: rgba(255,255,255,0.9) !default;
+$desktop-header-box-shadow: 0 3px 6px rgba(0,0,0,0.16) !default;
+
+$desktop-logo-width: auto !default; 
+$desktop-logo-height: auto !default; 
+$desktop-logo-margin-left: $spacer-lg !default;
+$desktop-logo-margin-right: $spacer-lg !default;
+
+$mobile-logo-margin-left: $spacer-lg !default;
+$mobile-logo-margin-right: $spacer-lg !default;
+
+$banner-margin-bottom: $spacer-xl !default;
+$mobile-banner-display: none !default;
+
+$entry-content-width: 100% !default;
+$entry-content-max-width: 700px !default;
+
+$sidebar-box-width: 100% !default;
+$desktop-sidebar-width: 325px !default;
+$sidebar-box-background-color: #fcfcfc !default;
+$sidebar-box-border-color: #ddd !default;
+$sidebar-box-border-style: solid !default;
+$sidebar-box-border-width: 1px !default;
+$sidebar-box-padding-y: $spacer-lg !default; 
+$sidebar-box-padding-x: $spacer-lg !default;
+
+$footer-background-color: #f5f5f5 !default;
+
+$panel-dark-bg-default-background-color: #bbb;

@@ -1,0 +1,27 @@
+
+.btn {
+  background: $button-background-color;
+  border: $button-border-width $button-border-style $button-border-color;
+  border-radius: $button-border-radius;
+  color: $button-color;
+  font-weight: $button-font-weight;
+  font-family: $button-font-family;
+  text-transform: $button-text-transform;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: $button-padding;
+  text-decoration: none;
+  font-size: $button-font-size;
+  .body-content & {
+    font-size: #{$button-font-size/$body-content-text-font-size}em;
+  }
+  &:hover {
+    color: $button-hover-color;
+    border-color: $button-hover-border-color;
+    background: $button-hover-background-color;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,111 @@
+#wrapper {
+  transition: $dynamic-header-transition;
+}
+
+// TODO position fixed if header fixed class added.
+header {
+  transition: $dynamic-header-transition;
+
+  .logo-container {
+    flex-shrink: 0;
+    padding: 5px 0;
+
+    svg {
+      height: $dynamic-header-short-height - 8px; // TODO IE
+      width: auto;
+      transition: $dynamic-header-transition;
+    }
+  }
+}
+
+.header-height-tall,
+.header-height-start-tall:not(.scrolled) {
+  header {
+    .logo-container {
+      svg {
+        height: $dynamic-header-tall-height - 8px; // TODO IE
+      }
+    }
+  }
+}
+
+.header-bg-transparent,
+.header-bg-start-transparent:not(.scrolled) {
+  header {
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+
+.header-text-light,
+.header-text-start-light:not(.scrolled) {
+  header {
+    color: $dynamic-header-light-text-color;
+
+    a {
+      color: $dynamic-header-light-text-color;
+    }
+
+    .logo-container svg .st0 {
+      fill: $dynamic-header-light-text-color;
+    }
+
+    nav.main ul.menu>li>a,
+    nav.main ul.menu>li>span {
+      color: $dynamic-header-light-text-color;
+
+    }
+
+    @media (max-width: 979px) {
+      nav.main ul.menu>li {
+        border-width: 0;
+
+        a,
+        span {
+          background-color: rgba(0, 0, 0, 0.4);
+        }
+      }
+
+    }
+  }
+}
+
+.header-text-dark,
+.header-text-start-dark:not(.scrolled) {
+  header {
+    color: $dynamic-header-dark-text-color;
+
+    a {
+      color: $dynamic-header-dark-text-color;
+    }
+
+    .logo-container svg .st0 {
+      fill: $dynamic-header-dark-text-color;
+    }
+
+    nav.main ul.menu>li>a,
+    nav.main ul.menu>li>span {
+      color: $dynamic-header-dark-text-color;
+    }
+  }
+}
+
+.header-fixed {
+  header {
+    position: fixed;
+    top: 0;
+  }
+
+  #wrapper {
+    padding-top: $dynamic-header-short-height;
+
+    .header-overlay & {
+      padding-top: 0;
+    }
+
+    .header-height-tall:not(.header-overlay) &,
+    .header-height-start-tall:not(.scrolled):not(.header-overlay) & {
+      padding-top: $dynamic-header-tall-height;
+    }
+  }
+}

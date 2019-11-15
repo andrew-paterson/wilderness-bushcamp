@@ -1,0 +1,25 @@
+.next-prev-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: $pagination-ul-margin-top;
+  margin-bottom: $pagination-ul-margin-bottom;
+  border-top: 1px solid #ccc;
+  padding-top: $pagination-ul-padding-top;
+  font-style: $pagination-text-font-style;
+  font-size: $pagination-font-size/$body-content-text-font-size;
+}
+
+.next-prev-links a {
+  text-align: $pagination-text-align;
+  text-transform: $pagination-text-text-transform;
+  color: $pagination-text-color;
+  font-style: $pagination-text-font-style;
+  font-size: 1em;
+  color: $pagination-link-color;
+  text-decoration: none;
+}
+
+.next-prev-links a:hover {
+  color: $pagination-link-hover-color;
+  text-decoration: none;
+}
