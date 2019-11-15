@@ -1,6 +1,6 @@
 +++
 title = "Lagoon View"
-url = "/bushcamp/lagoon-view"
+url = "/accommodation/bushcamp/lagoon-view"
 accommodates = "2 – 4 people."
 rate = "R1200 per night for 2 people (high season 2018)"
 additional_guests = "150 per person upto a maximum of 4"

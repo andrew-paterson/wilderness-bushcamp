@@ -118,7 +118,7 @@ h4 {
 }
 
 a {
-	color: red;
+	color: #7FB145;
 	text-decoration: underline;
 	font-weight: 400;
 }
@@ -128,7 +128,7 @@ a {
 }
 
 a:hover {
-	color: #990000;
+	color: #4a6828;
 	text-decoration: underline;
 }
 
@@ -137,12 +137,12 @@ a:hover {
 }
 
 a:active {
-	color: red;
+	color: #7FB145;
 	text-decoration: underline;
 }
 
 .main-header {
-	color: #355ca5;
+	color: #7FB145;
 	font-size: 4em;
 	text-transform: none;
 	text-align: center;
@@ -649,8 +649,8 @@ div.main-block {
 }
 
 .btn {
-	background: red;
-	border: 2px solid red;
+	background: #7FB145;
+	border: 2px solid #7FB145;
 	border-radius: 4px;
 	color: #fff;
 	font-weight: 700;
@@ -674,8 +674,8 @@ div.main-block {
 
 .btn:hover {
 	color: #fff;
-	border-color: red;
-	background: red;
+	border-color: #7FB145;
+	background: #7FB145;
 	cursor: pointer;
 	text-decoration: none;
 }
@@ -731,7 +731,7 @@ div.main-block {
 }
 
 .blog-layout .content-list-item h2.item-title a:hover {
-	color: #990000;
+	color: #4a6828;
 	text-decoration: none;
 }
 
@@ -745,7 +745,7 @@ div.main-block {
 	padding: 0px 0px;
 	background: transparent;
 	border-radius: 5px;
-	color: red;
+	color: #7FB145;
 	font-weight: 600;
 	text-decoration: none;
 	font-family: "Lato", sans-serif;
@@ -754,7 +754,7 @@ div.main-block {
 }
 
 .blog-layout .content-list-item a.more-link:hover {
-	color: #990000;
+	color: #4a6828;
 	text-decoration: none;
 }
 
@@ -1025,24 +1025,24 @@ nav.main ul li.active > a:hover {
 	nav.main ul.menu.level-1 > li.parent > a:focus,
 	nav.main ul.menu.level-1 > li.parent > a:hover,
 	nav.main ul.menu.level-1 > li.parent > span:hover {
-		color: red;
+		color: #7FB145;
 		background-color: transparent;
 	}
 	nav.main ul.menu.level-1 > li.active,
 	nav.main ul.menu.level-1 > li.active > a,
 	nav.main ul.menu.level-1 > li.active > span {
-		color: red;
+		color: #7FB145;
 		background-color: transparent;
 	}
 	nav.main ul.menu.level-1 > li > a:focus,
 	nav.main ul.menu.level-1 > li > a:hover,
 	nav.main ul.menu.level-1 > li > span:hover {
-		color: red;
+		color: #7FB145;
 		background-color: transparent;
 	}
 	nav.main ul.menu.level-1 > li.highlighted > a,
 	nav.main ul.menu.level-1 > li.highlighted > span {
-		color: red;
+		color: #7FB145;
 		background-color: transparent;
 	}
 	nav.main ul.level-2 {
@@ -1062,7 +1062,7 @@ nav.main ul li.active > a:hover {
 		background-color: #fafafa;
 		font-weight: 600;
 		font-size: 1.2em;
-		text-transform: uppercase;
+		text-transform: none;
 		padding-top: 13px;
 		padding-bottom: 13px;
 		min-width: 240px;
@@ -1070,14 +1070,24 @@ nav.main ul li.active > a:hover {
 	nav.main ul.level-2 li > a:hover,
 	nav.main ul.level-2 li > a:focus,
 	nav.main ul.level-2 li > span:hover {
-		color: red;
+		color: #7FB145;
 		background-color: #fafafa;
 	}
 	nav.main ul.level-2 li.active > span,
 	nav.main ul.level-2 li.active > a,
 	nav.main ul.level-2 li.current-menu-ancestor > a {
-		color: red;
+		color: #7FB145;
 		background-color: #fafafa;
+	}
+	nav.main ul.level-2 li .divider {
+		border-top: 1px solid #ccc;
+	}
+	nav.main ul.level-3 {
+		-ms-flex-direction: column;
+		    flex-direction: column;
+	}
+	nav.main ul.level-3 li a, nav.main ul.level-3 li span {
+		padding-left: 26px;
 	}
 }
 
@@ -1103,7 +1113,7 @@ nav.main ul li.active > a:hover {
 		display: block;
 		border-radius: 2px;
 		height: 3px;
-		background-color: red;
+		background-color: #7FB145;
 		width: 22px;
 	}
 	.mobile-nav-toggler span.icon-bar + span.icon-bar {
@@ -1422,12 +1432,12 @@ nav.main ul li.active > a:hover {
 	color: #000;
 	font-style: normal;
 	font-size: 1em;
-	color: red;
+	color: #7FB145;
 	text-decoration: none;
 }
 
 .next-prev-links a:hover {
-	color: #990000;
+	color: #4a6828;
 	text-decoration: none;
 }
 
@@ -2592,6 +2602,18 @@ li.fancybox-thumbs-loading {
 
 .google-maps-container-outer {
 	width: 100%;
+}
+
+.logo-colour-1 {
+	fill: #7FB145;
+}
+
+.logo-colour-2 {
+	fill: #444;
+}
+
+.sm-links ul {
+	padding-bottom: 0;
 }
 
 .image-gallery {

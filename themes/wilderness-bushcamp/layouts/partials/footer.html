@@ -1,9 +1,8 @@
 <footer>
-  <ul>
-    {{ range .Site.Menus.footer }}
-      <li>
-        <a href="{{ .URL }}">{{ .Name }}</a>
-      </li>
-    {{end}}
-  </ul>
+  <div class="sm-links">
+    {{partial "_shared/menu" (dict "context" . "menu" .Site.Menus.social)}}
+  </div>
+</footer>
+<footer>
+  {{partial "_shared/menu" (dict "context" . "menu" .Site.Menus.footer)}}
 </footer>

@@ -1,6 +1,6 @@
 +++
 title = "Aloe Studio"
-url = "/aloe-heights/aloe-studio"
+url = "/accommodation/aloe-heights//aloe-studio"
 accommodates = "2 people"
 rate = "R800 per night (high season 2018)"
 +++

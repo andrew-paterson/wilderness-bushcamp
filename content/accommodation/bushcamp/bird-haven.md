@@ -1,6 +1,6 @@
 +++
 title = "Bird Haven"
-url = "/bushcamp/bird-haven"
+url = "accommodation/bushcamp/bird-haven"
 accommodates = "2-4 people"
 rate = "R1500 per night for 2 people (high season 2018)"
 additional_guests = "+ R150 per person upto a maximum of 4"

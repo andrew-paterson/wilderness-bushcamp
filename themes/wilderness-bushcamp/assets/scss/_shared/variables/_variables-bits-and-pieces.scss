@@ -6,7 +6,7 @@ $spacer-md: 8px !default;
 $spacer-lg: 16px !default;
 $spacer-xl: 32px !default;
 
-$main-header-color: rgb(53, 92, 165) !default;
+$main-header-color: $primary !default;
 $main-header-font-size: 4em !default;
 $main-header-text-align: center !default;
 $main-header-text-transform: none !default;

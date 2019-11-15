@@ -1,6 +1,6 @@
 +++
 title = "Sunset Ridge"
-url = "/bushcamp/sunset-ridge"
+url = "/accommodation/bushcamp/sunset-ridge"
 accommodates = "2 people"
 rate = "R950 per night for 2 people (high season 2018)"
 +++

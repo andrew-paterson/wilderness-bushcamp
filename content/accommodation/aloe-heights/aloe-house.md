@@ -1,6 +1,6 @@
 +++
 title = "Aloe House"
-url = "/aloe-heights/aloe-house"
+url = "/accommodation/aloe-heights//aloe-house"
 accommodates = "2-6 people"
 rate = "(high season 2018) R2750 per night for 2 people" 
 additional_guests = "R250 per night. Up to a maximum of 6 people."

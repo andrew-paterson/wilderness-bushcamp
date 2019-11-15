@@ -1,8 +1,9 @@
 +++
 title = "The Loft"
-url = "/the-loft"
+url = "accommodation/the-loft"
 accommodates = "2 people"
 rate = "R1600 per night for 2 people"
+gallery_path = "/images/accommodation/the-loft"
 +++
 
 **Aloe Loft offers an abundance of ocean views and elegant comfort. This is open plan living at its finest.**

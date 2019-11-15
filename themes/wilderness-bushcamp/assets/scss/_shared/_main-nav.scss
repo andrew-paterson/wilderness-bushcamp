@@ -161,7 +161,23 @@ nav.main ul li.active > a:hover {
 	nav.main ul.level-2 li.current-menu-ancestor > a {
 		color: $desktop-main-nav-level-2-active-color;
 		background-color: $desktop-main-nav-level-2-active-background-color;
-	}
+  }
+  
+  nav.main ul.level-2 li {
+    .divider {
+      border-top: 1px solid #ccc;
+    }
+  }
+
+  nav.main ul.level-3 {
+    flex-direction: column;
+    li {
+      a, span {
+        padding-left: 2*$desktop-main-nav-item-padding-left-right;
+      }
+      
+    }
+  }
 }
 
 @media (max-width: 979px) {

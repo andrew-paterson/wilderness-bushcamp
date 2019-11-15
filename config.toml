@@ -17,82 +17,81 @@ version = "0.0.1"
 [menu]
 
 [[menu.main]]
-  identifier = "/accommodation"
-  url = "/accomodation"
+  identifier = "accommodation"
+  url = "/accommodation"
   name = "Accommodation"
   weight = 1.0
 
   [[menu.main]]
   url = "/accommodation"
   name = "All Accommodation"
-  parent = "/accomodation"
+  parent = "accommodation"
   weight = 10.0
 
   [[menu.main]]
-  identifier = "/bushcamp"
+  identifier = "bushcamp"
   name = "Bushcamp"
-  parent = "/accommodation"
+  parent = "accommodation"
   weight = 11.0
 
   [[menu.main]]
-  url = "/bushcamp/loerie-cabin"
+  url = "/accommodation/bushcamp/loerie-cabin"
   name = "Loerie Cabin"
-  parent = "/bushcamp"
+  parent = "bushcamp"
   weight = 100.0
 
   [[menu.main]]
-  url = "/sunset-ridge"
+  url = "/accommodation/bushcamp/sunset-ridge"
   name = "Sunset Ridge"
-  parent = "/bushcamp"
+  parent = "bushcamp"
   weight = 101.0
 
   [[menu.main]]
-  url = "/lagoon-view"
+  url = "/accommodation/bushcamp/lagoon-view"
   name = "Lagoon View"
-  parent = "/bushcamp"
+  parent = "bushcamp"
   weight = 102.0
 
   [[menu.main]]
-  url = "/honeymoon-cottage"
+  url = "/accommodation/bushcamp/honeymoon-cottage"
   name = "Honeymoon Cottage"
-  parent = "/bushcamp"
+  parent = "bushcamp"
   weight = 103.0
 
   [[menu.main]]
-  url = "/bird-haven"
+  url = "/accommodation/bushcamp/bird-haven"
   name = "Bird Haven"
-  parent = "/bushcamp"
+  parent = "bushcamp"
   weight = 104.0
 
   [[menu.main]]
-  identifier = "/aloe-heights"
-  url = "/aloe-heights"
+  identifier = "aloe-heights"
   name = "Aloe Heights"
-  parent = "/accomodation"
+  parent = "accommodation"
   weight = 12.0
 
   [[menu.main]]
-  url = "/aloe-house"
+  url = "/accommodation/aloe-heights/aloe-house"
   name = "Aloe House"
-  parent = "/aloe-heights"
+  parent = "aloe-heights"
   weight = 100.0
 
   [[menu.main]]
-  url = "/aloe-suite"
+  url = "/accommodation/aloe-heights/aloe-suite"
   name = "Aloe Suite"
-  parent = "/aloe-heights"
+  parent = "aloe-heights"
   weight = 101.0
 
   [[menu.main]]
-  url = "/aloe-studio"
+  url = "/accommodation/aloe-heights/aloe-studio"
   name = "Aloe Studio"
-  parent = "/aloe-heights"
+  parent = "aloe-heights"
   weight = 102.0
 
   [[menu.main]]
-  url = "/the-loft"
+  url = "/accommodation/the-loft"
   name = "The Loft"
-  parent = "/accomodation"
+  parent = "accommodation"
   weight = 14.0
 
   [[menu.main]]
@@ -108,14 +107,32 @@ version = "0.0.1"
   [[menu.social]]
   identifier = "facebook"
   url = "https://www.facebook.com/therealwildernessbushcamp"
-  weight = 0
+  weight = 1
 
   [[menu.social]]
   identifier = "instagram"
   url = "https://www.instagram.com/wildernessbushcamp"
-  weight = 0
+  weight = 2
 
   [[menu.social]]
   identifier = "tripadvisor"
   url = "http://www.tripadvisor.com/Hotel_Review-g312610-d1161107-Reviews-Wilderness_Bushcamp-Wilderness_Western_Cape.html"
-  weight = 0
+  weight = 3
+
+  [[menu.footer]]
+  identifier = "phone"
+  name = "044 877 1168"
+  weight = 1.0
+
+  [[menu.footer]]
+  identifier = "email"
+  name = "info@wildernessbushcamp.co.za"
+  url = "mailto:info@wildernessbushcamp.co.za"
+  weight = 2.0
+
+  [[menu.footer]]
+  identifier = "mobile"
+  name = "078 419 2021"
+  weight = 3.0
+
+ 

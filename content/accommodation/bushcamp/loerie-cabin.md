@@ -1,9 +1,10 @@
 +++
 title = "Loerie Cabin"
-url = "/bushcamp/loerie-cabin"
+url = "/accommodation/bushcamp/loerie-cabin"
 accommodates = "2-4 people"
 rate = "R900 per night for 2 people (high season 2018)"
 additional_guests = "+R150 per person upto a maximum of 4"
+gallery_path = "/images/accommodation/loerie-cabin"
 +++
 
 **A cosy cottage with accommodation on 3 levels and a private deck that offers total privacy and uninterrupted views of the ocean.**
