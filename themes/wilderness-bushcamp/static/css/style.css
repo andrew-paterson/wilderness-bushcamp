@@ -2594,4 +2594,25 @@ li.fancybox-thumbs-loading {
 	width: 100%;
 }
 
+.image-gallery {
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.image-gallery a.gallery-thumbnail {
+	width: calc(33.3% - 10px);
+	display: block;
+	background-size: cover;
+	background-position: center center;
+	background-color: #ccc;
+	overflow: hidden;
+	margin: 5px;
+}
+
+.image-gallery a.gallery-thumbnail img {
+	margin: 0;
+}
+
 /*# sourceMappingURL=maps/style.css.map */

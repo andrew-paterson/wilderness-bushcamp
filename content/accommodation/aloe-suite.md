@@ -3,6 +3,8 @@ title = "Aloe Suite"
 url = "/aloe-heights/aloe-suite"
 accommodates = "2 people"
 rate = "R900 per night (high season 2018)"
+gallery_path = "/images/accommodation/aloe-suite"
+type = "accommodation"
 +++
 
 **A private gateway leads to this spacious and comfortable self-catering suite, which is attached to the main house but enjoys total privacy.**

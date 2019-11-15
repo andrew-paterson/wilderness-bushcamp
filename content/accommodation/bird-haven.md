@@ -3,7 +3,7 @@ title = "Bird Haven"
 url = "/bushcamp/bird-haven"
 accommodates = "2-4 people"
 rate = "R1500 per night for 2 people (high season 2018)"
-Additional_guests = "+ R150 per person upto a maximum of 4"
+additional_guests = "+ R150 per person upto a maximum of 4"
 +++
 
 **Our newest addition to the Bushcamp is a beautifully appointed cabin on the very top of the hill.**

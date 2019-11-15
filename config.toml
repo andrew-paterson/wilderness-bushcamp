@@ -11,19 +11,19 @@ version = "0.0.1"
 [params.js]
   main = ["scripts.js"]
 
-[params.js.portfolio]
-  single = ["jquery-3.2.1.min.js", "jquery.fancybox.min.js", "perfect-scrollbar.min.js", "portfolio.js", "scripts.js"]
+[params.js.accommodation]
+  single = ["jquery-3.2.1.min.js", "jquery.fancybox.min.js", "scripts.js"]
 
 [menu]
 
 [[menu.main]]
-  identifier = "/accomodation"
+  identifier = "/accommodation"
   url = "/accomodation"
   name = "Accommodation"
   weight = 1.0
 
   [[menu.main]]
-  url = "/accomodation"
+  url = "/accommodation"
   name = "All Accommodation"
   parent = "/accomodation"
   weight = 10.0
@@ -31,7 +31,7 @@ version = "0.0.1"
   [[menu.main]]
   identifier = "/bushcamp"
   name = "Bushcamp"
-  parent = "/accomodation"
+  parent = "/accommodation"
   weight = 11.0
 
   [[menu.main]]
