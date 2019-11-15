@@ -2613,6 +2613,7 @@ li.fancybox-thumbs-loading {
 
 .image-gallery a.gallery-thumbnail img {
 	margin: 0;
+	display: none;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
