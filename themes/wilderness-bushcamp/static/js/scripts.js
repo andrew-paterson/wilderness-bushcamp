@@ -115,7 +115,25 @@ $(document).ready(function () {
     });
   });
   $('.image-gallery').after(' <div class="load-more-images">Loading more Images</div>');
+  galleryItems.forEach(function (galleryItem) {
+    $('.image-gallery').append(generateGalleryElement(galleryItem));
+  });
   loadImageBatch();
+
+  function generateGalleryElement(galleryItem) {
+    var element;
+
+    if (galleryItem.value) {
+      var fullSizeHref = "".concat(path, "/w").concat(fullSizeScrset[0], "/").concat(galleryItem.value);
+      var fullSizeSrcsetAttr = fullSizeScrset.map(function (item) {
+        return "".concat(path, "/w").concat(item, "/").concat(galleryItem.value, " ").concat(item, "w");
+      }).join(', ');
+      var additionalClasses = galleryItem.class.join(' ');
+      element = "\n      <a class=\"gallery-thumbnail ".concat(additionalClasses, "\" data-fancybox=\"gallery\" href=\"").concat(fullSizeHref, "\" data-srcset=\"").concat(fullSizeSrcsetAttr, "\" style=\"display: non;\" data-thumbnail-id=").concat(galleryItem.index, ">\n      </a>");
+    }
+
+    return element;
+  }
 
   function generateThumbnail(galleryItem) {
     var element;
@@ -125,12 +143,7 @@ $(document).ready(function () {
       var thumbnailSrcSetAttr = thumbnailSrcsetSizes.map(function (item) {
         return "".concat(path, "/w").concat(item, "/").concat(galleryItem.value, " ").concat(item, "w");
       }).join(', ');
-      var fullSizeHref = "".concat(path, "/w").concat(fullSizeScrset[0], "/").concat(galleryItem.value);
-      var fullSizeSrcsetAttr = fullSizeScrset.map(function (item) {
-        return "".concat(path, "/w").concat(item, "/").concat(galleryItem.value, " ").concat(item, "w");
-      }).join(', ');
-      var additionalClasses = galleryItem.class.join(' ');
-      element = "\n      <a class=\"gallery-thumbnail ".concat(additionalClasses, "\" data-fancybox=\"gallery\" href=\"").concat(fullSizeHref, "\" data-srcset=\"").concat(fullSizeSrcsetAttr, "\" ><img srcset=\"").concat(thumbnailSrcSetAttr, "\" sizes=\"").concat(thumbnailSizesAttr, "\" src=\"").concat(thumbnailSrc, "\">\n      </a>");
+      element = "\n      <img srcset=\"".concat(thumbnailSrcSetAttr, "\" sizes=\"").concat(thumbnailSizesAttr, "\" src=\"").concat(thumbnailSrc, "\">");
     }
 
     return element;
@@ -154,7 +167,8 @@ $(document).ready(function () {
       return !item.loaded;
     }).slice(0, batchSize);
     $.each(currentBatch, function (_index, galleryItem) {
-      $('.image-gallery').append(generateThumbnail(galleryItem));
+      var galleryItemElement = $("[data-thumbnail-id=\"".concat(galleryItem.index, "\"]"));
+      $(galleryItemElement).append(generateThumbnail(galleryItem));
       var thumbnailElement = $(".thumbnail-".concat(galleryItem.index));
       var thumbnailImage = thumbnailElement.find('img');
       thumbnailImage.on('load', function (responseTxt) {

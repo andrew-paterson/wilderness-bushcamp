@@ -24,7 +24,28 @@ $(document).ready(function() {
   });
   $('.image-gallery').after(' <div class="load-more-images">Loading more Images</div>');
 
+  galleryItems.forEach(galleryItem => {
+    $('.image-gallery').append(generateGalleryElement(galleryItem));
+  });
+
   loadImageBatch();
+
+  function generateGalleryElement(galleryItem) {
+    var element;
+    if (galleryItem.value) {
+      var fullSizeHref = `${path}/w${fullSizeScrset[0]}/${galleryItem.value}`;
+      var fullSizeSrcsetAttr = fullSizeScrset.map(item => {
+        return `${path}/w${item}/${galleryItem.value} ${item}w`;
+      }).join(', ');   
+
+      var additionalClasses = galleryItem.class.join(' ');
+
+      element = `
+      <a class="gallery-thumbnail ${additionalClasses}" data-fancybox="gallery" href="${fullSizeHref}" data-srcset="${fullSizeSrcsetAttr}" style="display: non;" data-thumbnail-id=${galleryItem.index}>
+      </a>`;
+    }
+    return element;
+  }
 
   function generateThumbnail(galleryItem) {
     var element;
@@ -34,16 +55,8 @@ $(document).ready(function() {
         return `${path}/w${item}/${galleryItem.value} ${item}w`;
       }).join(', ');
 
-      var fullSizeHref = `${path}/w${fullSizeScrset[0]}/${galleryItem.value}`;
-      var fullSizeSrcsetAttr = fullSizeScrset.map(item => {
-        return `${path}/w${item}/${galleryItem.value} ${item}w`;
-      }).join(', ');   
-
-      var additionalClasses = galleryItem.class.join(' ');
-
       element = `
-      <a class="gallery-thumbnail ${additionalClasses}" data-fancybox="gallery" href="${fullSizeHref}" data-srcset="${fullSizeSrcsetAttr}" ><img srcset="${thumbnailSrcSetAttr}" sizes="${thumbnailSizesAttr}" src="${thumbnailSrc}">
-      </a>`;
+      <img srcset="${thumbnailSrcSetAttr}" sizes="${thumbnailSizesAttr}" src="${thumbnailSrc}">`;
     }
     return element;
   }
@@ -62,7 +75,8 @@ $(document).ready(function() {
       return !item.loaded;
     }).slice(0, batchSize);
     $.each(currentBatch, function(_index, galleryItem) {
-      $('.image-gallery').append(generateThumbnail(galleryItem));
+      var galleryItemElement = $(`[data-thumbnail-id="${galleryItem.index}"]`);
+      $(galleryItemElement).append(generateThumbnail(galleryItem));
       var thumbnailElement = $(`.thumbnail-${galleryItem.index}`);
       var thumbnailImage = thumbnailElement.find('img');
       thumbnailImage.on('load', function(responseTxt) {
