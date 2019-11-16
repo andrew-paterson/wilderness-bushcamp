@@ -3,6 +3,8 @@ title = "Sunset Ridge"
 url = "/accommodation/bushcamp/sunset-ridge"
 accommodates = "2 people"
 rate = "R950 per night for 2 people (high season 2018)"
+categories = ["accommodation", "bushcamp"]
+cover_image = "/images/accommodation/sunset-ridge-01.jpg"
 +++
 
 **Situated in a less densely vegetated area of the Bushcamp, this cabin is built on the upper section of the hill, known as Sunset Ridge.**

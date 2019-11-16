@@ -4,6 +4,8 @@ url = "/accommodation/bushcamp/lagoon-view"
 accommodates = "2 – 4 people."
 rate = "R1200 per night for 2 people (high season 2018)"
 additional_guests = "150 per person upto a maximum of 4"
+categories = ["accommodation", "bushcamp"]
+cover_image = "/images/accommodation/lagoon-view-01.jpg"
 +++
 
 **Lagoon View is one of our most popular cabins, with a private deck that offers the best views of Wilderness lagoon. There’s no better place to watch the sun rise while you enjoy your early morning cup of coffee…**

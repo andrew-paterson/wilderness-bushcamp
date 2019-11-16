@@ -2638,4 +2638,34 @@ li.fancybox-thumbs-loading {
 	display: none;
 }
 
+.accommodation-category {
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-pack: center;
+	    justify-content: center;
+}
+
+.accommodation-item-card {
+	width: 50%;
+}
+
+.accommodation-card-text {
+	padding-top: 0;
+}
+
+.accommodation-card-summary {
+	font-size: 1.4em;
+}
+
+@media (min-width: 980px) {
+	.accommodation-item-card {
+		width: 50%;
+	}
+	.accommodation-item-card .accommodation-card-cover-image {
+		width: 50%;
+		-ms-flex-negative: 0;
+		    flex-shrink: 0;
+	}
+}
+
 /*# sourceMappingURL=maps/style.css.map */

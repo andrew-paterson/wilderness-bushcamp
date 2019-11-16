@@ -4,6 +4,8 @@ url = "/accommodation/bushcamp/honeymoon-cottage"
 Accommodate = "2-4 people"
 rate = "R900 per night for 2 people (high season 2018)"
 Aditional_guests = "+R150 per person upto a maximum of 4"
+categories = ["accommodation", "bushcamp"]
+cover_image = "/images/accommodation/honeymoon-cottage-01.jpg"
 +++
 
 **Tucked away in the heart of the Bushcamp, this cabin earned its name after guests started requesting ‘the honeymoon cottage’.** **Discreetly located at the end of a wooden walkway and hidden amongst dense bush, this is the perfect choice for those who don’t want to be disturbed…**

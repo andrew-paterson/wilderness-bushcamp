@@ -1,0 +1,13 @@
+<h2>{{ .header }}</h2>
+<div class="d-flex accommodation-category">
+  {{ range (index .context.Site.Taxonomies.categories .type ) }}
+    <div class="accommodation-item-card d-flex">
+      <a href="{{ .Page.RelPermalink }}" class="accommodation-card-cover-image"><img src="{{ .Page.Params.cover_image }}" alt="{{ .Page.Params.cover_image }}"></a>
+      <div class="padding-lg accommodation-card-text">
+        <a href="{{ .Page.RelPermalink }}"><h3 class="accommodation-card-header">{{ .Page.Title }}</h3></a>
+        <div class="accommodation-card-summary">{{ .Page.Summary }}</div>
+      </div>
+    </div>
+  {{ end }}
+</div>
+
