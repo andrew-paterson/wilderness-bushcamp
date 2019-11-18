@@ -6,7 +6,7 @@ rate = "R900 per night for 2 people (high season 2018)"
 additional_guests = "+R150 per person upto a maximum of 4"
 gallery_path = "/images/accommodation/loerie-cabin"
 categories = ["accommodation", "bushcamp"]
-cover_image = "/images/accommodation/loerie-cottage-01.jpg"
+cover_image = "/images/accommodation/bird-haven/w480/bird-haven-02.jpg"
 +++
 
 **A cosy cottage with accommodation on 3 levels and a private deck that offers total privacy and uninterrupted views of the ocean.**

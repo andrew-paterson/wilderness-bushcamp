@@ -82,9 +82,9 @@ body {
 }
 
 h1, h2, h3, h4 {
-	color: #666;
-	text-transform: uppercase;
-	font-family: "Lato", sans-serif;
+	color: #444;
+	text-transform: none;
+	font-family: inherit;
 	font-weight: 600;
 	margin-bottom: 0.5em;
 	line-height: 150%;
@@ -142,7 +142,7 @@ a:active {
 }
 
 .main-header {
-	color: #7FB145;
+	color: #111;
 	font-size: 4em;
 	text-transform: none;
 	text-align: center;
@@ -2655,11 +2655,37 @@ li.fancybox-thumbs-loading {
 
 .accommodation-card-summary {
 	font-size: 1.4em;
+	line-height: 150%;
+}
+
+.accommodation-category h2 {
+	color: #444;
+	font-size: 3.6em;
+}
+
+.accommodation-category.bushcamp {
+	background: #ccc;
+}
+
+.accommodation-category.aloe-heights {
+	background: #ddd;
+}
+
+.accommodation-category.the-loft {
+	background: #eee;
 }
 
 @media (min-width: 980px) {
 	.accommodation-item-card {
-		width: 50%;
+		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+		padding: 16px;
+		margin: 8px;
+		background: #fff;
+		width: calc(50% - 16px);
+		border-radius: 3px;
+	}
+	.accommodation-item-card .accommodation-card-header-link {
+		text-decoration: none;
 	}
 	.accommodation-item-card .accommodation-card-cover-image {
 		width: 50%;

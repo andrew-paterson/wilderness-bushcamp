@@ -1,7 +1,8 @@
-<h2>{{ .header }}</h2>
-<div class="d-flex accommodation-category">
-  {{ range (index .context.Site.Taxonomies.categories .type ) }}
-    {{ partial "accommodation-card.html" . }}
-  {{ end }}
+<div class="accommodation-category padding-x-md padding-y-xl {{ .class }}">
+  <h2 class="main-header">{{ .header }}</h2>
+  <div class="d-flex accommodation-category">
+    {{ range (index .context.Site.Taxonomies.categories .type ) }}
+      {{ partial "accommodation-card.html" . }}
+    {{ end }}
+  </div>
 </div>
-

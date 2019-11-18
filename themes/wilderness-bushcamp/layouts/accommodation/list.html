@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{ if isset .Params "banner" }}
+  <section id="panorama">
+    <img src="{{ .Params.banner }}" alt="PageBanner" />
+  </section>
+{{end}}
+<section id="accommodation" class="panel">
+  <h1 class="main-header">Accommodation</h1>
+  {{ partial "all-accommodation.html" . }}
+</section>
+{{ end }}

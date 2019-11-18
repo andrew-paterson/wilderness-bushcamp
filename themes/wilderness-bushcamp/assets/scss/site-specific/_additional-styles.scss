@@ -49,11 +49,36 @@
 
 .accommodation-card-summary {
   font-size: 1.4em;
+  line-height: 150%;
+}
+
+.accommodation-category {
+  h2 {
+    color: #444;
+    font-size: 3.6em;
+  }
+  &.bushcamp {
+    background: #ccc;
+  }
+  &.aloe-heights {
+    background: #ddd;
+  }
+  &.the-loft {
+    background: #eee;
+  }
 }
 
 @media (min-width: 980px) {
   .accommodation-item-card {
-    width: 50%;
+    @include card-box-shadow($level:2);
+    padding: $spacer-lg;
+    margin: $spacer-md;
+    background: #fff;
+    width: calc(50% - 16px);
+    border-radius: 3px;
+    .accommodation-card-header-link {
+      text-decoration: none;
+    }
     .accommodation-card-cover-image {
       width: 50%;
       flex-shrink: 0;
