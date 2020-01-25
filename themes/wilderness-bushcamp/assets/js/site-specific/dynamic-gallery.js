@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var currentlyLoadingImages = false;
-  var batchSize = 20;
+  var batchSize = 6;
   var thumbnailSrcsetSizes = [480, 160];
   var thumbnailSizesAttr = '(max-width: 400px) 130px, 300px';
   var files = $('.gallery-files li');
@@ -23,7 +23,6 @@ $(document).ready(function() {
   });
   
   let uniqueFileNames = commonFileNames.filter((item, i, ar) => ar.indexOf(item) === i);
-  console.log(uniqueFileNames);
 
   uniqueFileNames.forEach((uniqueFileName, index) => {
     var fullFileNames = fileNames.filter(filename => {
@@ -45,12 +44,11 @@ $(document).ready(function() {
       class: [`thumbnail-${index}`]
     });
   });
-  console.log(galleryItems);
   $('.image-gallery').after(' <div class="load-more-images">Loading more Images</div>');
 
-  galleryItems.forEach(galleryItem => {
-    $('.image-gallery').append(generateGalleryElement(galleryItem));
-  });
+  // galleryItems.forEach(galleryItem => {
+  //   $('.image-gallery').append(generateGalleryElement(galleryItem));
+  // });
 
   loadImageBatch();
 
@@ -88,43 +86,39 @@ $(document).ready(function() {
 
   
   function loadImageBatch() {
+    console.log('loadImageBatch');
     currentlyLoadingImages = true;
     function thumbnailRequestComplete(fakeImage, galleryItem, currentBatch) {
       galleryItem.loaded = true;
       if (currentBatch.filter(item => { return !item.loaded; }).length === 0) {
         currentlyLoadingImages = false;
-        checkLoad();
+        checkLoad(); //Check for a new batch whenever the current batch finishes.
       }
     }
     var currentBatch = galleryItems.filter(item => {
       return !item.loaded;
     }).slice(0, batchSize);
     $.each(currentBatch, function(_index, galleryItem) {
-      var galleryItemElement = $(`[data-thumbnail-id="${galleryItem.index}"]`);
-      $(galleryItemElement).append(generateThumbnail(galleryItem));
+      $('.image-gallery').append(generateGalleryElement(galleryItem));
       var thumbnailElement = $(`.thumbnail-${galleryItem.index}`);
       var thumbnailImage = thumbnailElement.find('img');
       thumbnailImage.on('load', function(responseTxt) {
         thumbnailRequestComplete(this, galleryItem, currentBatch);
-        // setThumbnailBackgroundImage(thumbnailElement);
       }).on('error', function(responseTxt) {
         thumbnailRequestComplete(this, galleryItem, currentBatch);
         $(thumbnailElement).addClass('failed');
       });
-      setTimeout(function() { // For bug on FF mobile where some images hang and don't return error or done.
-      if (!galleryItem.loaded) {
-        thumbnailRequestComplete(thumbnailImage, galleryItem, currentBatch);
-      }  
-    }, 5000);
+      setTimeout(function() { // Allow user to move on if one thumbnail is taking very long.
+        if (!galleryItem.loaded) {
+          thumbnailRequestComplete(thumbnailImage, galleryItem, currentBatch);
+        }  
+      }, 5000);
       setGalleryImageHeight(thumbnailElement);
     });
   }
 
-  // function setThumbnailBackgroundImage(thumbnailElement) {
-  //   thumbnailElement.css("background-image", "url(".concat(thumbnailElement.find('img')[0].currentSrc, ")")).css("display", "block");
-  // }
-
   function checkLoad() {
+    // When all images have loaded.
     if (galleryItems.filter(item => { return !item.loaded; }).length === 0) {
       $(".load-more-images").remove();
       return;
