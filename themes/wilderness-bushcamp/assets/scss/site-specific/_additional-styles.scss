@@ -37,10 +37,6 @@
   justify-content: center;
 }
 
-.accommodation-item-card {
-  width: 33%;
-}
-
 .accommodation-card-text {
   padding-top: 0;
 }
@@ -75,6 +71,7 @@
   text-decoration: none;
   color: $body-text-color;
   overflow: hidden;
+  max-width: 400px;
   &:hover {
     text-decoration: none;
     color: $body-text-color;
@@ -98,5 +95,11 @@
 @media (min-width: 980px) {
   .accommodation-item-card {
     width: calc(33.3% - #{2*$spacer-lg});
+  }
+}
+
+@media (min-width: 700px) {
+  .accommodation-item-card {
+    width: calc(50% - #{2*$spacer-lg});
   }
 }

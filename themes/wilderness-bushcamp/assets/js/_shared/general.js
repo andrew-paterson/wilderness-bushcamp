@@ -49,4 +49,18 @@ if (GetIEVersion() > 0) {
     setSVGsize(svg);
   } 
 }
-   
+
+function adjustHeight() {
+  var dimensionedElements = document.querySelectorAll('[data-dimensions]');
+  dimensionedElements.forEach(element => {
+    var dimensions = element.getAttribute('data-dimensions').split(':');
+    var widthRatio = parseInt(dimensions[0]);
+    var heightRatio = parseInt(dimensions[1]);
+    var height = `${dimensions[1]}px`;
+    var adjustedHeight = Math.ceil(element.offsetWidth/widthRatio*heightRatio);
+    element.style.height = `${adjustedHeight}px`;
+  });
+}
+
+adjustHeight();
+window.addEventListener("resize", adjustHeight);

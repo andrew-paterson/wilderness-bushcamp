@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var currentlyLoadingImages = false;
-  var batchSize = 6;
+  var batchSize = 9;
   var thumbnailSrcsetSizes = [480, 160];
   var thumbnailSizesAttr = '(max-width: 400px) 130px, 300px';
   var files = $('.gallery-files li');
@@ -45,11 +45,6 @@ $(document).ready(function() {
     });
   });
   $('.image-gallery').after(' <div class="load-more-images">Loading more Images</div>');
-
-  // galleryItems.forEach(galleryItem => {
-  //   $('.image-gallery').append(generateGalleryElement(galleryItem));
-  // });
-
   loadImageBatch();
 
   function generateGalleryElement(galleryItem) {
@@ -86,7 +81,6 @@ $(document).ready(function() {
 
   
   function loadImageBatch() {
-    console.log('loadImageBatch');
     currentlyLoadingImages = true;
     function thumbnailRequestComplete(fakeImage, galleryItem, currentBatch) {
       galleryItem.loaded = true;

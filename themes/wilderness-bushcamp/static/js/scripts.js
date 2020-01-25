@@ -56,6 +56,21 @@ if (GetIEVersion() > 0) {
     setSVGsize(svg);
   }
 }
+
+function adjustHeight() {
+  var dimensionedElements = document.querySelectorAll('[data-dimensions]');
+  dimensionedElements.forEach(function (element) {
+    var dimensions = element.getAttribute('data-dimensions').split(':');
+    var widthRatio = parseInt(dimensions[0]);
+    var heightRatio = parseInt(dimensions[1]);
+    var height = "".concat(dimensions[1], "px");
+    var adjustedHeight = Math.ceil(element.offsetWidth / widthRatio * heightRatio);
+    element.style.height = "".concat(adjustedHeight, "px");
+  });
+}
+
+adjustHeight();
+window.addEventListener("resize", adjustHeight);
 "use strict";
 
 var wrapperElem = document.querySelector('#wrapper');
@@ -95,7 +110,7 @@ mobileNavToggler.addEventListener('click', function () {
 
 $(document).ready(function () {
   var currentlyLoadingImages = false;
-  var batchSize = 6;
+  var batchSize = 9;
   var thumbnailSrcsetSizes = [480, 160];
   var thumbnailSizesAttr = '(max-width: 400px) 130px, 300px';
   var files = $('.gallery-files li');
@@ -136,10 +151,7 @@ $(document).ready(function () {
       class: ["thumbnail-".concat(index)]
     });
   });
-  $('.image-gallery').after(' <div class="load-more-images">Loading more Images</div>'); // galleryItems.forEach(galleryItem => {
-  //   $('.image-gallery').append(generateGalleryElement(galleryItem));
-  // });
-
+  $('.image-gallery').after(' <div class="load-more-images">Loading more Images</div>');
   loadImageBatch();
 
   function generateGalleryElement(galleryItem) {
@@ -172,7 +184,6 @@ $(document).ready(function () {
   }
 
   function loadImageBatch() {
-    console.log('loadImageBatch');
     currentlyLoadingImages = true;
 
     function thumbnailRequestComplete(fakeImage, galleryItem, currentBatch) {

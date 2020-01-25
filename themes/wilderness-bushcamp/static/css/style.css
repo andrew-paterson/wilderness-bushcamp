@@ -679,6 +679,11 @@ div.main-block {
 	width: 100%;
 }
 
+.object-fit-cover {
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+
 .btn {
 	background: #7FB145;
 	border: 2px solid #7FB145;
@@ -2693,10 +2698,6 @@ li.fancybox-thumbs-loading {
 	    justify-content: center;
 }
 
-.accommodation-item-card {
-	width: 33%;
-}
-
 .accommodation-card-text {
 	padding-top: 0;
 }
@@ -2732,6 +2733,7 @@ li.fancybox-thumbs-loading {
 	text-decoration: none;
 	color: #666;
 	overflow: hidden;
+	max-width: 400px;
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 	margin: 8px;
 	background: #fff;
@@ -2760,6 +2762,12 @@ li.fancybox-thumbs-loading {
 @media (min-width: 980px) {
 	.accommodation-item-card {
 		width: calc(33.3% - 32px);
+	}
+}
+
+@media (min-width: 700px) {
+	.accommodation-item-card {
+		width: calc(50% - 32px);
 	}
 }
 
