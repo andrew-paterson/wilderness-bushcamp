@@ -10,7 +10,7 @@ table {
 table th {
   color: $table-header-cell-color;
   background-color: $table-header-cell-background-color;
-  font-size: $table-header-cell-font-size/$body-content-text-font-size;
+  font-size: $table-header-cell-font-size/$body-text-font-size;
   text-transform: $table-header-cell-text-transform;
   font-family: $table-header-cell-font-family;
   font-weight: $table-header-cell-font-weight;
@@ -19,7 +19,7 @@ table th {
   border-radius: 0px;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
-  font-size: $table-header-cell-font-size/$body-content-text-font-size;
+  font-size: $table-header-cell-font-size/$body-text-font-size;
   line-height: 100%;
 }
 

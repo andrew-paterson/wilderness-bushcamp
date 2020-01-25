@@ -14,8 +14,8 @@
   padding: $button-padding;
   text-decoration: none;
   font-size: $button-font-size;
-  .body-content & {
-    font-size: #{$button-font-size/$body-content-text-font-size}em;
+  .body-text & {
+    font-size: #{$button-font-size/$body-text-font-size}em;
   }
   &:hover {
     color: $button-hover-color;

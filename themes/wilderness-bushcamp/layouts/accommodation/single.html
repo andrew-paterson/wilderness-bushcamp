@@ -9,7 +9,7 @@
     {{if .Title}}<h1 class="main-header">{{ .Title }}</h1>{{end}}
     <div class="image-gallery" data-thumbnail-dimensions="4:3">
         {{ if  .Params.gallery_path }}
-          {{ $full_path := printf "%s%s%s" "static" .Params.gallery_path "/w1440" }}
+          {{ $full_path := printf "%s%s" "static" .Params.gallery_path }}
           {{ $.Scratch.Set "scratched_path" $full_path }}
           {{ $scratched_path := $.Scratch.Get "scratched_path"}}
           {{ $files := readDir $scratched_path }}
@@ -22,7 +22,7 @@
       </div>
      
 
-    <div class="body-content">
+    <div class="body-text">
       <div class="main-block centred">
         {{ .Content }}
       </div>

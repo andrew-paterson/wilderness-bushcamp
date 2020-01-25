@@ -3,11 +3,11 @@ body {
 }
 
 h1, h2, h3, h4 {
-	color: $body-content-header-color;
-	text-transform: $body-content-header-text-transform;
-	font-family: $body-content-header-font-family;
-	font-weight: $body-content-header-font-weight;
-	margin-bottom: $body-content-header-margin-bottom;
+	color: $body-text-header-color;
+	text-transform: $body-text-header-text-transform;
+	font-family: $body-text-header-font-family;
+	font-weight: $body-text-header-font-weight;
+	margin-bottom: $body-text-header-margin-bottom;
 	line-height: 150%;
 	padding: 0;
 	background-color: transparent;
@@ -15,45 +15,45 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-	font-size: $body-content-header-h2-font-size;
-	.body-content & {
-		font-size: #{$body-content-header-h2-font-size/$body-content-text-font-size}em;
+	font-size: $body-text-header-h2-font-size;
+	.body-text & {
+		font-size: #{$body-text-header-h2-font-size/$body-text-font-size}em;
 	}
 }
 
 h3 {
-	font-size: $body-content-header-h3-font-size;
-	.body-content & {
-		font-size: #{$body-content-header-h3-font-size/$body-content-text-font-size}em;
+	font-size: $body-text-header-h3-font-size;
+	.body-text & {
+		font-size: #{$body-text-header-h3-font-size/$body-text-font-size}em;
 	}
 }
 h4 {
-	font-size: $body-content-header-h4-font-size;
-	.body-content & {
-		font-size: #{$body-content-header-h4-font-size/$body-content-text-font-size}em;
+	font-size: $body-text-header-h4-font-size;
+	.body-text & {
+		font-size: #{$body-text-header-h4-font-size/$body-text-font-size}em;
 	}
 }
 
 a {
-	color: $body-content-link-color;
-	text-decoration: $body-content-link-text-decoration;
-	font-weight: $body-content-link-font-weight;
+	color: $body-text-link-color;
+	text-decoration: $body-text-link-text-decoration;
+	font-weight: $body-text-link-font-weight;
 	.dark-bg & {
 		color: #fff;
 	}
 }
 
 a:hover {
-	color: $body-content-link-hover-color;
-	text-decoration: $body-content-link-hover-text-decoration;
+	color: $body-text-link-hover-color;
+	text-decoration: $body-text-link-hover-text-decoration;
 	.dark-bg & {
 		color: #bbb;
 	}
 }
 
 a:active {
-	color: $body-content-link-color;
-	text-decoration: $body-content-link-text-decoration;
+	color: $body-text-link-color;
+	text-decoration: $body-text-link-text-decoration;
 }
 
 .main-header {
@@ -65,18 +65,18 @@ a:active {
 	font-weight: $main-header-font-weight;
 	margin-top: $main-header-margin-top;
 	margin-bottom: $main-header-margin-bottom;
-	.body-content & {
-		font-size: #{$main-header-font-size/$body-content-text-font-size}em;
+	.body-text & {
+		font-size: #{$main-header-font-size/$body-text-font-size}em;
 	}
 	&.main-header-xl {
 		font-size: $main-header-xl-font-size;
-		.body-content & {
-			font-size: #{$main-header-xl-font-size/$body-content-text-font-size}em;
+		.body-text & {
+			font-size: #{$main-header-xl-font-size/$body-text-font-size}em;
 		}
 		@media (max-width: 479px) {
 			font-size: 0.7*$main-header-xl-font-size;
-			.body-content & {
-				font-size: #{$main-header-xl-font-size/$body-content-text-font-size}em;
+			.body-text & {
+				font-size: #{$main-header-xl-font-size/$body-text-font-size}em;
 			}
 		}
 	}
@@ -86,14 +86,13 @@ a:active {
 	.panel-header {
 		color: $main-header-dark-bg-color;
 	}
-	.body-content, h1, h2, h3, h4 {
+	.body-text, h1, h2, h3, h4 {
 		color: #fff;
 	}
 }
 
 img {
 	max-width: 100%;
-	width: auto;
 	height: auto;
 	margin-bottom: 10px;
 }
@@ -109,27 +108,27 @@ ul, ol {
 
 /*------------------------BODY CONTENT PARAGRAPH------------------------*/
 
-.body-content {
-	line-height: $body-content-text-line-height;
-	color: $body-content-text-color;
-	font-family: $body-content-text-font-family;
-	font-size: $body-content-text-font-size;
-	font-weight: $body-content-text-font-weight;
-	.body-content {
+.body-text {
+	line-height: $body-text-line-height;
+	color: $body-text-color;
+	font-family: $body-text-font-family;
+	font-size: $body-text-font-size;
+	font-weight: $body-text-font-weight;
+	.body-text {
 		font-size: 1em;
 	}
 }
-.body-content p {
-	line-height: $body-content-paragraph-line-height;
-	margin-bottom: $body-content-paragraph-space-after;
+.body-text p {
+	line-height: $body-text-paragraph-line-height;
+	margin-bottom: $body-text-paragraph-space-after;
 	margin-top: 0;
 }
 
 .large-text {
 	font-size: 2.3em;
 	line-height: 140%;
-	.body-content & {
-		font-size: #{2.3em/$body-content-text-font-size}em;
+	.body-text & {
+		font-size: #{2.3em/$body-text-font-size}em;
 		
 	}
 }
@@ -160,22 +159,22 @@ hr {
 }
 
 @media (min-width: 480px) {
-	#main-content .body-content p {
-		text-align: $main-content-body-content-paragraph-text-align;
+	#main-content .body-text p {
+		text-align: $main-content-body-text-paragraph-text-align;
 	}
 }
 
-.body-content p:last-child {
+.body-text p:last-child {
 	margin-bottom: 0;
 }
 
-.body-content ul,
-.body-content ol {
-	margin-bottom: $body-content-paragraph-space-after;
+.body-text ul,
+.body-text ol {
+	margin-bottom: $body-text-paragraph-space-after;
 	padding: 0px;
 }
 
-.body-content ul li, .body-content ol li {
+.body-text ul li, .body-text ol li {
 	margin-left: 1em;
 	padding-left: 0.5em;
 }

@@ -23,7 +23,7 @@ $blog-item-header-margin-bottom: 10px !default;
 $blog-item-header-link-color: $blog-item-header-color !default;
 $blog-item-header-link-text-decoration: none !default;
 $blog-item-header-link-visited-color: #222 !default;
-$blog-item-header-link-hover-color: $body-content-link-hover-color !default;
+$blog-item-header-link-hover-color: $body-text-link-hover-color !default;
 $blog-item-header-link-hover-text-decoration: none !default;
 
 /*added*/
@@ -42,7 +42,7 @@ $item-read-more-font-size: 0.8em !default;
 $item-read-more-text-transform: uppercase !default;
 $item-read-more-link-text-decoration: none !default;
 $item-read-more-link-hover-text-decoration: none !default;
-$item-read-more-color: $body-content-link-color !default;
+$item-read-more-color: $body-text-link-color !default;
 $item-read-more-background-color: transparent !default;
-$item-read-more-hover-color: $body-content-link-hover-color !default;
+$item-read-more-hover-color: $body-text-link-hover-color !default;
 $item-read-more-hover-background-color: transparent !default;

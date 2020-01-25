@@ -1,9 +1,9 @@
-.body-content {
+.body-text {
   input, .input, textarea {
-    font-size: #{($input-font-size / $body-content-text-font-size)}em;
+    font-size: #{($input-font-size / $body-text-font-size)}em;
   }
   label {
-    font-size: #{($label-font-size / $body-content-text-font-size)}em;
+    font-size: #{($label-font-size / $body-text-font-size)}em;
   }
 }
 

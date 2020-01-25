@@ -5,7 +5,7 @@ accommodates = "2 people"
 rate = "R1600 per night for 2 people"
 gallery_path = "/images/accommodation/the-loft"
 categories = ["accommodation", "the_loft"]
-cover_image = "/images/accommodation/aloe-suite/w480/aloe-suite-04.jpg"
+cover_image = "/images/accommodation/aloe-suite/aloe-suite-04-480w.jpeg"
 +++
 
 **Aloe Loft offers an abundance of ocean views and elegant comfort. This is open plan living at its finest.**

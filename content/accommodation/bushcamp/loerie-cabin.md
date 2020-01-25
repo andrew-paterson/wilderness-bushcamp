@@ -6,9 +6,11 @@ rate = "R900 per night for 2 people (high season 2018)"
 additional_guests = "+R150 per person upto a maximum of 4"
 gallery_path = "/images/accommodation/loerie-cabin"
 categories = ["accommodation", "bushcamp"]
-cover_image = "/images/accommodation/bird-haven/w480/bird-haven-02.jpg"
+cover_image = "/images/accommodation/bird-haven/bird-haven-02-480w.jpg"
 +++
 
+One of our original cabins and still one of our favourites; Loerie Cabin is a cosy cottage with accommodation on 3 levels and a private deck that offers total privacy and uninterrupted views of the ocean. 
+ <!--more-->
 **A cosy cottage with accommodation on 3 levels and a private deck that offers total privacy and uninterrupted views of the ocean.**
 
 Wooden steps lead down to the front door of Loerie Cabin, which then leads into the kitchen with breakfast bar. Upstairs, the cosy loft has two single beds, tucked under the eaves, and porthole views of Wilderness beach. The wooden steps to this loft area are quite steep, so not suitable for small children. The main sleeping area is located on the lower level and from here you can walk out onto the private wooden deck.

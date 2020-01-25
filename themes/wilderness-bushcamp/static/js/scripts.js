@@ -95,25 +95,49 @@ mobileNavToggler.addEventListener('click', function () {
 
 $(document).ready(function () {
   var currentlyLoadingImages = false;
-  var batchSize = 4;
+  var batchSize = 20;
   var thumbnailSrcsetSizes = [480, 160];
   var thumbnailSizesAttr = '(max-width: 400px) 130px, 300px';
-  var fullSizeScrset = [1440, 768, 480];
   var files = $('.gallery-files li');
   var path = $('.gallery-files').attr('data-gallery-path');
   var galleryItems = [];
   $("[data-fancybox='gallery']").fancybox({
     idleTime: 9999999
   });
-  $.each(files, function (index, item) {
+  var fileNames = [];
+  var commonFileNames = [];
+  $.each(files, function (index, file) {
+    fileNames.push($(file).text());
+  });
+  fileNames.forEach(function (filename) {
+    var common = filename.split('-').slice(0, -1).join('-');
+    commonFileNames.push(common);
+  });
+  var uniqueFileNames = commonFileNames.filter(function (item, i, ar) {
+    return ar.indexOf(item) === i;
+  });
+  console.log(uniqueFileNames);
+  uniqueFileNames.forEach(function (uniqueFileName, index) {
+    var fullFileNames = fileNames.filter(function (filename) {
+      return filename.split('-').slice(0, -1).join('-') === uniqueFileName;
+    });
+    var sizeStrings = fullFileNames.map(function (fullFileName) {
+      var lastPart = fullFileName.split('-')[fullFileName.split('-').length - 1];
+      return {
+        size: lastPart.split('.')[0],
+        ext: lastPart.split('.')[1]
+      };
+    });
     galleryItems.push({
-      "type": "thumbnailUrl",
-      "value": $(item).text(),
-      "tags": null,
-      "index": index,
-      "class": ["thumbnail-".concat(index)]
+      type: "thumbnailUrl",
+      commonName: uniqueFileName,
+      versions: sizeStrings,
+      tags: null,
+      index: index,
+      class: ["thumbnail-".concat(index)]
     });
   });
+  console.log(galleryItems);
   $('.image-gallery').after(' <div class="load-more-images">Loading more Images</div>');
   galleryItems.forEach(function (galleryItem) {
     $('.image-gallery').append(generateGalleryElement(galleryItem));
@@ -123,13 +147,13 @@ $(document).ready(function () {
   function generateGalleryElement(galleryItem) {
     var element;
 
-    if (galleryItem.value) {
-      var fullSizeHref = "".concat(path, "/w").concat(fullSizeScrset[0], "/").concat(galleryItem.value);
-      var fullSizeSrcsetAttr = fullSizeScrset.map(function (item) {
-        return "".concat(path, "/w").concat(item, "/").concat(galleryItem.value, " ").concat(item, "w");
+    if (galleryItem.versions.length > 0) {
+      var fullSizeHref = "".concat(path, "/").concat(galleryItem.commonName, "-").concat(galleryItem.versions[0].size, ".").concat(galleryItem.versions[0].ext);
+      var fullSizeSrcsetAttr = galleryItem.versions.map(function (item) {
+        return "".concat(path, "/").concat(galleryItem.commonName, "-").concat(item.size, ".").concat(item.ext, " ").concat(item.size);
       }).join(', ');
       var additionalClasses = galleryItem.class.join(' ');
-      element = "\n      <a class=\"gallery-thumbnail ".concat(additionalClasses, "\" data-fancybox=\"gallery\" href=\"").concat(fullSizeHref, "\" data-srcset=\"").concat(fullSizeSrcsetAttr, "\" style=\"display: non;\" data-thumbnail-id=").concat(galleryItem.index, ">\n      </a>");
+      element = "\n      <a class=\"gallery-thumbnail ".concat(additionalClasses, "\" data-fancybox=\"gallery\" href=\"").concat(fullSizeHref, "\" data-srcset=\"").concat(fullSizeSrcsetAttr, "\" style=\"display: non;\" data-thumbnail-id=").concat(galleryItem.index, ">\n      <img srcset=\"").concat(fullSizeSrcsetAttr, "\" sizes=\"").concat(thumbnailSizesAttr, "\" src=\"").concat(fullSizeHref, "\">\n      </a>");
     }
 
     return element;
@@ -139,9 +163,9 @@ $(document).ready(function () {
     var element;
 
     if (galleryItem.value) {
-      var thumbnailSrc = "".concat(path, "/w").concat(thumbnailSrcsetSizes[0], "/").concat(galleryItem.value);
+      var thumbnailSrc = "".concat(path, "/").concat(galleryItem.value);
       var thumbnailSrcSetAttr = thumbnailSrcsetSizes.map(function (item) {
-        return "".concat(path, "/w").concat(item, "/").concat(galleryItem.value, " ").concat(item, "w");
+        return "".concat(path, "/").concat(galleryItem.value, " ").concat(item, "w");
       }).join(', ');
       element = "\n      <img srcset=\"".concat(thumbnailSrcSetAttr, "\" sizes=\"").concat(thumbnailSizesAttr, "\" src=\"").concat(thumbnailSrc, "\">");
     }
@@ -172,8 +196,7 @@ $(document).ready(function () {
       var thumbnailElement = $(".thumbnail-".concat(galleryItem.index));
       var thumbnailImage = thumbnailElement.find('img');
       thumbnailImage.on('load', function (responseTxt) {
-        thumbnailRequestComplete(this, galleryItem, currentBatch);
-        setThumbnailBackgroundImage(thumbnailElement);
+        thumbnailRequestComplete(this, galleryItem, currentBatch); // setThumbnailBackgroundImage(thumbnailElement);
       }).on('error', function (responseTxt) {
         thumbnailRequestComplete(this, galleryItem, currentBatch);
         $(thumbnailElement).addClass('failed');
@@ -186,11 +209,10 @@ $(document).ready(function () {
       }, 5000);
       setGalleryImageHeight(thumbnailElement);
     });
-  }
+  } // function setThumbnailBackgroundImage(thumbnailElement) {
+  //   thumbnailElement.css("background-image", "url(".concat(thumbnailElement.find('img')[0].currentSrc, ")")).css("display", "block");
+  // }
 
-  function setThumbnailBackgroundImage(thumbnailElement) {
-    thumbnailElement.css("background-image", "url(".concat(thumbnailElement.find('img')[0].currentSrc, ")")).css("display", "block");
-  }
 
   function checkLoad() {
     if (galleryItems.filter(function (item) {

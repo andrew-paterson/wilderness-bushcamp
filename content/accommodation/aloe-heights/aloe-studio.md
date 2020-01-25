@@ -5,7 +5,7 @@ accommodates = "2 people"
 rate = "R800 per night (high season 2018)"
 # gallery_path = "/images/accommodation/aloe-studio"
 categories = ["accommodation", "aloe_heights"]
-cover_image = "/images/accommodation/aloe-suite/w480/aloe-suite-03.jpg"
+cover_image = "/images/accommodation/aloe-suite/aloe-suite-03-480w.jpeg"
 +++
 
 **Wake up to the ocean, literally, in this cosy studio apartment with far reaching ocean views.**

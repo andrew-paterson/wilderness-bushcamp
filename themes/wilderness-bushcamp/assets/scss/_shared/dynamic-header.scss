@@ -9,11 +9,14 @@ header {
   .logo-container {
     flex-shrink: 0;
     padding: 5px 0;
-
-    svg {
+    a.logo {
+      display: block;
+    }
+    svg, img {
       height: $dynamic-header-short-height - 8px; // TODO IE
       width: auto;
       transition: $dynamic-header-transition;
+      margin: 0;
     }
   }
 }
@@ -22,7 +25,7 @@ header {
 .header-height-start-tall:not(.scrolled) {
   header {
     .logo-container {
-      svg {
+      svg, img {
         height: $dynamic-header-tall-height - 8px; // TODO IE
       }
     }

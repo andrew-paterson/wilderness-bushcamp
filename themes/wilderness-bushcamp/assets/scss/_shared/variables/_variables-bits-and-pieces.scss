@@ -20,34 +20,34 @@ $main-header-xl-font-size: 7em;
 /*-------------------------------------------------------------------------
 DEFAULT BODY CONTENT TEXT STYLES {CORRESPONDS TO "02-bits-and-pieces.less"}
 -------------------------------------------------------------------------*/
-$body-content-text-font-family: $main-font-family !default;
-$body-content-text-font-size: 1.6em !default;
-$body-content-text-line-height: 170% !default;
-$body-content-text-color: #666 !default;
-$body-content-text-font-weight: 400 !default;
+$body-text-font-family: $main-font-family !default;
+$body-text-font-size: 1.6em !default;
+$body-text-line-height: 170% !default;
+$body-text-color: #666 !default;
+$body-text-font-weight: 400 !default;
 
-$body-content-header-color: #666 !default;
-$body-content-header-text-transform: uppercase !default;
-$body-content-header-font-family: $body-content-text-font-family !default;
-$body-content-header-font-weight: 600 !default;
+$body-text-header-color: #666 !default;
+$body-text-header-text-transform: none !default;
+$body-text-header-font-family: $body-text-font-family !default;
+$body-text-header-font-weight: 600 !default;
 
-$body-content-header-margin-bottom: 0.5em !default;
-$body-content-header-h2-font-size: 2.4em !default;
-$body-content-header-h3-font-size: 2.2em !default;
-$body-content-header-h4-font-size: 2em !default;
+$body-text-header-margin-bottom: 0.5em !default;
+$body-text-header-h2-font-size: 2.4em !default;
+$body-text-header-h3-font-size: 2.2em !default;
+$body-text-header-h4-font-size: 2em !default;
 
-$body-content-paragraph-space-after: 1em !default;
-$main-content-body-content-paragraph-text-align: justify !default;
-$body-content-paragraph-line-height: 170% !default;
+$body-text-paragraph-space-after: 1em !default;
+$main-content-body-text-paragraph-text-align: justify !default;
+$body-text-paragraph-line-height: 170% !default;
 
-$body-content-link-color: $primary !default;
-$body-content-link-text-decoration: underline !default;
-$body-content-link-font-weight: $body-content-text-font-weight !default;
+$body-text-link-color: $primary !default;
+$body-text-link-text-decoration: underline !default;
+$body-text-link-font-weight: $body-text-font-weight !default;
 
-$body-content-link-hover-color: darken($primary, 20%) !default;
-$body-content-link-hover-text-decoration: underline !default;
-$body-content-link-visited-color: grey !default;
-$body-content-link-visited-text-decoration: underline !default;
+$body-text-link-hover-color: darken($primary, 20%) !default;
+$body-text-link-hover-text-decoration: underline !default;
+$body-text-link-visited-color: grey !default;
+$body-text-link-visited-text-decoration: underline !default;
 
 $hr-color: #ccc !default;
 $hr-thickness: 2px !default;
@@ -58,16 +58,16 @@ $large-text-font-size: 2.5em;
 DEFAULT INTERFACE ELEMENT STYLES
 ------------------------------*/
 
-$label-font-size:  $body-content-text-font-size !default;
-$label-color: $body-content-text-color !default;
+$label-font-size:  $body-text-font-size !default;
+$label-color: $body-text-color !default;
 $label-font-family: $main-font-family !default;
-$label-font-weight: $body-content-text-font-weight !default;
+$label-font-weight: $body-text-font-weight !default;
 $label-line-height: 120% !default;
 
 $input-border-width: 2px !default;
 $input-border-style: solid !default;
 $input-height: 34px !default;
-$input-font-size: $body-content-text-font-size !default;
+$input-font-size: $body-text-font-size !default;
 $input-font-family: $main-font-family !default;
 $input-side-padding: 0px !default;
 $input-top-bottom-padding: 0px !default;
@@ -138,7 +138,7 @@ $table-cell-padding-bottom: 5px !default;
 $table-cell-padding-left-right: 8px !default;
 $table-cell-text-line-height: 120% !default;
 $table-cell-background-color: #fff !default;
-$table-cell-color: $body-content-text-color !default;
+$table-cell-color: $body-text-color !default;
 $table-cell-font-family: $main-font-family !default;
 
 $select-background-color: #F9F9F9 !default;

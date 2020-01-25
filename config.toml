@@ -53,8 +53,8 @@ version = "0.0.1"
   weight = 102.0
 
   [[menu.main]]
-  url = "/accommodation/bushcamp/honeymoon-cottage"
-  name = "Honeymoon Cottage"
+  url = "/accommodation/bushcamp/hideaway-cottage"
+  name = "hideaway Cottage"
   parent = "bushcamp"
   weight = 103.0
 

@@ -14,8 +14,6 @@
 }
 
 .image-gallery {
-  // width: 100%;
-  // flex-shrink: 0;
   flex-wrap: wrap;
   display: flex;
   a.gallery-thumbnail {
@@ -27,9 +25,9 @@
     overflow: hidden;
     margin: 5px;
     img {
-      margin: 0;
-      display: none;
-      // opacity: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 }
@@ -40,7 +38,7 @@
 }
 
 .accommodation-item-card {
-  width: 50%;
+  width: 33%;
 }
 
 .accommodation-card-text {
@@ -68,20 +66,37 @@
   }
 }
 
-@media (min-width: 980px) {
-  .accommodation-item-card {
-    @include card-box-shadow($level:2);
-    padding: $spacer-lg;
-    margin: $spacer-md;
-    background: #fff;
-    width: calc(50% - 16px);
-    border-radius: 3px;
+.accommodation-list {
+  background: #eee;
+}
+
+.accommodation-item-card {
+  display: block;
+  text-decoration: none;
+  color: $body-text-color;
+  overflow: hidden;
+  &:hover {
+    text-decoration: none;
+    color: $body-text-color;
+
+  }
+  @include card-box-shadow($level:2);
+  margin: $spacer-md;
+  background: #fff;
+  border-radius: 3px;
     .accommodation-card-header-link {
       text-decoration: none;
     }
     .accommodation-card-cover-image {
-      width: 50%;
+      width: 100%;
       flex-shrink: 0;
     }
+    .accommodation-card-text {
+      padding: $spacer-lg;
+    }
+  }
+@media (min-width: 980px) {
+  .accommodation-item-card {
+    width: calc(33.3% - #{2*$spacer-lg});
   }
 }

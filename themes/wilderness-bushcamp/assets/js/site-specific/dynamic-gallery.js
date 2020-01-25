@@ -1,9 +1,8 @@
 $(document).ready(function() {
   var currentlyLoadingImages = false;
-  var batchSize = 4;
+  var batchSize = 20;
   var thumbnailSrcsetSizes = [480, 160];
   var thumbnailSizesAttr = '(max-width: 400px) 130px, 300px';
-  var fullSizeScrset = [1440, 768, 480];
   var files = $('.gallery-files li');
   var path = $('.gallery-files').attr('data-gallery-path');
 
@@ -13,15 +12,40 @@ $(document).ready(function() {
     idleTime: 9999999,
   });
 
-  $.each(files, (index, item) => {
-    galleryItems.push({
-        "type": "thumbnailUrl",
-        "value": $(item).text(),
-        "tags": null,
-        "index": index,
-        "class": [`thumbnail-${index}`]
-      });
+  var fileNames = [];
+  var commonFileNames = [];
+  $.each(files, (index, file) => {
+    fileNames.push($(file).text());
   });
+  fileNames.forEach(filename => {
+    var common = filename.split('-').slice(0, -1).join('-');
+    commonFileNames.push(common);
+  });
+  
+  let uniqueFileNames = commonFileNames.filter((item, i, ar) => ar.indexOf(item) === i);
+  console.log(uniqueFileNames);
+
+  uniqueFileNames.forEach((uniqueFileName, index) => {
+    var fullFileNames = fileNames.filter(filename => {
+      return filename.split('-').slice(0, -1).join('-') === uniqueFileName;
+    });
+    var sizeStrings = fullFileNames.map(fullFileName => {
+      var lastPart = fullFileName.split('-')[fullFileName.split('-').length - 1];
+      return {
+        size: lastPart.split('.')[0],
+        ext: lastPart.split('.')[1],
+      };
+    });
+    galleryItems.push({
+      type: "thumbnailUrl",
+      commonName: uniqueFileName,
+      versions: sizeStrings,
+      tags: null,
+      index: index,
+      class: [`thumbnail-${index}`]
+    });
+  });
+  console.log(galleryItems);
   $('.image-gallery').after(' <div class="load-more-images">Loading more Images</div>');
 
   galleryItems.forEach(galleryItem => {
@@ -32,16 +56,17 @@ $(document).ready(function() {
 
   function generateGalleryElement(galleryItem) {
     var element;
-    if (galleryItem.value) {
-      var fullSizeHref = `${path}/w${fullSizeScrset[0]}/${galleryItem.value}`;
-      var fullSizeSrcsetAttr = fullSizeScrset.map(item => {
-        return `${path}/w${item}/${galleryItem.value} ${item}w`;
+    if (galleryItem.versions.length > 0) {
+      var fullSizeHref = `${path}/${galleryItem.commonName}-${galleryItem.versions[0].size}.${galleryItem.versions[0].ext}`;
+      var fullSizeSrcsetAttr = galleryItem.versions.map(item => {
+        return `${path}/${galleryItem.commonName}-${item.size}.${item.ext} ${item.size}`;
       }).join(', ');   
 
       var additionalClasses = galleryItem.class.join(' ');
 
       element = `
       <a class="gallery-thumbnail ${additionalClasses}" data-fancybox="gallery" href="${fullSizeHref}" data-srcset="${fullSizeSrcsetAttr}" style="display: non;" data-thumbnail-id=${galleryItem.index}>
+      <img srcset="${fullSizeSrcsetAttr}" sizes="${thumbnailSizesAttr}" src="${fullSizeHref}">
       </a>`;
     }
     return element;
@@ -50,9 +75,9 @@ $(document).ready(function() {
   function generateThumbnail(galleryItem) {
     var element;
     if (galleryItem.value) {
-      var thumbnailSrc = `${path}/w${thumbnailSrcsetSizes[0]}/${galleryItem.value}`;
+      var thumbnailSrc = `${path}/${galleryItem.value}`;
       var thumbnailSrcSetAttr = thumbnailSrcsetSizes.map(item => {
-        return `${path}/w${item}/${galleryItem.value} ${item}w`;
+        return `${path}/${galleryItem.value} ${item}w`;
       }).join(', ');
 
       element = `
@@ -81,7 +106,7 @@ $(document).ready(function() {
       var thumbnailImage = thumbnailElement.find('img');
       thumbnailImage.on('load', function(responseTxt) {
         thumbnailRequestComplete(this, galleryItem, currentBatch);
-        setThumbnailBackgroundImage(thumbnailElement);
+        // setThumbnailBackgroundImage(thumbnailElement);
       }).on('error', function(responseTxt) {
         thumbnailRequestComplete(this, galleryItem, currentBatch);
         $(thumbnailElement).addClass('failed');
@@ -95,9 +120,9 @@ $(document).ready(function() {
     });
   }
 
-  function setThumbnailBackgroundImage(thumbnailElement) {
-    thumbnailElement.css("background-image", "url(".concat(thumbnailElement.find('img')[0].currentSrc, ")")).css("display", "block");
-  }
+  // function setThumbnailBackgroundImage(thumbnailElement) {
+  //   thumbnailElement.css("background-image", "url(".concat(thumbnailElement.find('img')[0].currentSrc, ")")).css("display", "block");
+  // }
 
   function checkLoad() {
     if (galleryItems.filter(item => { return !item.loaded; }).length === 0) {
