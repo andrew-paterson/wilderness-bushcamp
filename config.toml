@@ -12,7 +12,7 @@ version = "0.0.1"
   main = ["scripts.js"]
 
 [params.js.accommodation]
-  single = ["jquery-3.2.1.min.js", "jquery.fancybox.min.js", "scripts.js"]
+  single = ["jquery-3.2.1.min.js", "jquery.fancybox.min.js", "scripts.js", "gallery.js"]
 
 [menu]
 

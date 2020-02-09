@@ -66,24 +66,21 @@ nav.main ul li.active > a:hover {
 	nav.main ul li span {
 		padding-left: $desktop-main-nav-item-padding-left-right;
 		padding-right: $desktop-main-nav-item-padding-left-right;
-		height: $desktop-main-nav-level-1-item-height;
   }
   
   nav.main ul li span:hover {
     cursor: default;
   }
 
-	nav.main ul > li > a,
-	nav.main ul > li > span {
-		display: flex;
-		align-items: center;
-	}
 
 	nav.main ul.menu > li {
 		position: relative;
 	}
-	nav.main ul.menu > li > a,
-	nav.main ul.menu > li > span {
+	nav.main ul.menu.level-1 > li > a,
+	nav.main ul.menu.level-1 > li > span {
+		height: $desktop-main-nav-level-1-item-height;
+    display: flex;
+		align-items: center;
 		font-weight: $main-nav-font-weight;
 		font-size: $desktop-main-nav-level-1-item-font-size;
 		color: $desktop-main-nav-level-1-item-color;

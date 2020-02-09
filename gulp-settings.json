@@ -1,0 +1,45 @@
+{
+  "name": "wilderness-bushcamp",
+  "path": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp",
+  "browserSync": false,
+  "javascript": {
+    "watch": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/themes/wilderness-bushcamp/assets/js/",
+    "src": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/themes/wilderness-bushcamp/assets/js/scripts/",
+    "dest": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/themes/wilderness-bushcamp/static/js",
+    "minify": true,
+    "babel": {
+      "enabled": true,
+      "presets": ["@babel/preset-env"]
+    }
+  },
+  "scss": {
+    "watch": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/themes/wilderness-bushcamp/assets/scss/",
+    "src": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/themes/wilderness-bushcamp/assets/scss/stylesheets/",
+    "dest": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/themes/wilderness-bushcamp/static/css",
+    "minify": true
+  },
+  "sync": [
+    {
+      "src": "/Users/andrewpaterson/Documents/development/hugo-sites-manager/app/shared-assets/scss",
+      "dest": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/themes/wilderness-bushcamp/assets/scss/_shared"
+    },
+    {
+      "src": "/Users/andrewpaterson/Documents/development/hugo-sites-manager/app/shared-assets/js",
+      "dest": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/themes/wilderness-bushcamp/assets/js/_shared"
+    },
+    {
+      "src": "/Users/andrewpaterson/Documents/development/hugo-sites-manager/app/shared-assets/partials",
+      "dest": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/themes/wilderness-bushcamp/layouts/partials/_shared"
+    }
+  ],
+  "images": [
+    {
+      "src": "/high-res-images/accommodation",
+      "dest": "static/images/accommodation",
+      "allowedExtensions": ["jpeg", "png"],
+      "sizes": [
+        {"maxWidth": 200, "maxHeight": 900}, {"maxWidth": 480, "maxHeight": 900}, {"maxWidth": 600, "maxHeight": 900}, {"maxWidth": 768, "maxHeight": 900}, {"maxWidth": 1440, "maxHeight": 900}, {"maxWidth": 1600, "maxHeight": 900}
+      ]
+    }
+  ]
+}

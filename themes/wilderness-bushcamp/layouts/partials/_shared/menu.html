@@ -61,25 +61,3 @@
       {{ end }}
     {{ end }}
   </ul>
-  <script>
-    var menuItems = document.querySelectorAll('.custom-menu li');
-    for (i = 0; i < menuItems.length; ++i) {
-      var descendantLinks = menuItems[i].querySelectorAll('a');
-      for (j = 0; j < descendantLinks.length; ++j) {
-        var link = descendantLinks[j];
-        if (link.attributes.href.nodeValue === '#' || !link.attributes.href.nodeValue) { continue; }
-        if (`${link.origin}${link.pathname}`.replace(/\/$/, "") === `${window.location.origin}${window.location.pathname}`.replace(/\/$/, "")) {
-          menuItems[i].classList.add('active');
-        }
-      }
-    }
-
-    document.querySelectorAll('ul.level-2').forEach(childMenu => {
-      childMenu.onmouseenter = function() {
-        childMenu.parentElement.classList.add('highlighted');
-      };
-      childMenu.onmouseleave = function() {
-        childMenu.parentElement.classList.remove('highlighted');
-      };
-    })
-  </script>

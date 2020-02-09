@@ -2,7 +2,7 @@ body {
 	font-family: $main-font-family;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6, a h1, a h2, a h3, a h4, a h5, a h6 {
 	color: $body-text-header-color;
 	text-transform: $body-text-header-text-transform;
 	font-family: $body-text-header-font-family;
@@ -33,6 +33,7 @@ h4 {
 		font-size: #{$body-text-header-h4-font-size/$body-text-font-size}em;
 	}
 }
+
 
 a {
 	color: $body-text-link-color;
@@ -108,7 +109,7 @@ ul, ol {
 
 /*------------------------BODY CONTENT PARAGRAPH------------------------*/
 
-.body-text {
+.body-text, a .body-text {
 	line-height: $body-text-line-height;
 	color: $body-text-color;
 	font-family: $body-text-font-family;
@@ -230,6 +231,10 @@ a.back-to-top-button span:hover {
 }
 
 svg {
-	width: 100%;
+	width: auto;
 	height: auto;
+}
+
+button {
+  cursor: pointer;
 }

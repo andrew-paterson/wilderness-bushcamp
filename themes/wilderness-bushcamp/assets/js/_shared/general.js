@@ -1,3 +1,22 @@
+if (GetIEVersion() > 0) {
+  // IE pollyfills (Will only load in IE).
+  // add https://github.com/tonipinel/object-fit-polyfill/ for usage instructions
+  document.write('<script src="https://cdn.jsdelivr.net/npm/object-fit-polyfill@0.1.0/dist/object-fit-polyfill.min.js"><\/script>');
+  document.write(`<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script> `);
+  var svgs = document.querySelectorAll('svg');
+  var j;
+  for (j = 0; j < svgs.length; j++) {
+    var svg = svgs[j];
+    setSVGsize(svg);
+  } 
+}
+
+//https://stackoverflow.com/questions/53331180/babel-polyfill-being-included-but-foreach-still-doesnt-work-in-ie11-on-nodelis
+if (window.NodeList && !NodeList.prototype.forEach) {
+  NodeList.prototype.forEach = Array.prototype.forEach;
+}
+
+
 var links = document.querySelectorAll('a');
 var i;
 for (i = 0; i < links.length; i++) {
@@ -41,14 +60,6 @@ function setSVGsize(svg) {
   }
 }
 
-if (GetIEVersion() > 0) {
-  var svgs = document.querySelectorAll('svg');
-  var j;
-  for (j = 0; j < svgs.length; j++) {
-    var svg = svgs[j];
-    setSVGsize(svg);
-  } 
-}
 
 function adjustHeight() {
   var dimensionedElements = document.querySelectorAll('[data-dimensions]');
@@ -64,3 +75,24 @@ function adjustHeight() {
 
 adjustHeight();
 window.addEventListener("resize", adjustHeight);
+
+var menuItems = document.querySelectorAll('.custom-menu li');
+    for (i = 0; i < menuItems.length; ++i) {
+      var descendantLinks = menuItems[i].querySelectorAll('a');
+      for (j = 0; j < descendantLinks.length; ++j) {
+        var link = descendantLinks[j];
+        if (link.attributes.href.nodeValue === '#' || !link.attributes.href.nodeValue) { continue; }
+        if (`${link.origin}${link.pathname}`.replace(/\/$/, "") === `${window.location.origin}${window.location.pathname}`.replace(/\/$/, "")) {
+          menuItems[i].classList.add('active');
+        }
+      }
+    }
+
+    document.querySelectorAll('ul.level-2').forEach(childMenu => {
+      childMenu.onmouseenter = function() {
+        childMenu.parentElement.classList.add('highlighted');
+      };
+      childMenu.onmouseleave = function() {
+        childMenu.parentElement.classList.remove('highlighted');
+      };
+    })

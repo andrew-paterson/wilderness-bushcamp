@@ -1,3 +1,4 @@
+$search-box-margin: $spacer-md;
 $search-hints-font-size: 1.3em;
 $search-hints-background-color: #fff;
 $search-hint-padding-y: $spacer-md;
@@ -10,19 +11,59 @@ $search-hint-font-weight: 400;
 $search-hint-hover-font-weight: 700;
 $search-hint-highlighted-color: $primary;
 $search-hint-border: 1px solid #ccc;
+$search-input-background-color: $input-background-color;
+$search-input-border-radius: $input-border-radius;
+$search-input-border-width: $input-border-width;
+$search-input-border-color: $input-border-color;
+$search-input-icon-fill: #666;
+$search-input-hover-icon-fill: $primary;
 
 .search-box {
   position: relative;
+  margin: $search-box-margin;
+  form {
+    border: $search-input-border-width solid $search-input-border-color;
+    border-radius: $search-input-border-radius;
+    background: $search-input-background-color;
+    display: flex;
+    input, button {
+      border-width: 0;
+      border-radius: 0;
+      background: transparent;
+    }
+    button {
+      display: flex;
+      align-items: center;
+      svg {
+        height: 20px;
+        width: auto;
+        fill: $search-input-icon-fill;
+      }
+      &:hover {
+        cursor: pointer;
+        svg {
+          fill: $search-input-hover-icon-fill;
+          
+        }
+      }
+    }
+  }
   .search-hints {
+    background: $search-hints-background-color;
     position: absolute;
     max-height: $search-hints-max-height;
     max-width: $search-hints-max-width;
+    font-size: $search-hints-font-size;
     width: 100%;
     overflow-y: auto;
+    z-index: 999999;
+    @include box-shadow((bottomRight));
+    .no-results {
+      padding: $search-hint-padding-y $search-hint-padding-x;
+      border: $search-hint-border;
+    }
     ul {
       list-style: none;
-      font-size: $search-hints-font-size;
-      background: $search-hints-background-color;
       border: $search-hint-border;
       li {
         padding: $search-hint-padding-y $search-hint-padding-x;
@@ -41,4 +82,41 @@ $search-hint-border: 1px solid #ccc;
       }
     }
   }
+}
+
+.search-results {
+  &.loading {
+    display: none;
+  }
+  .highlighted {
+    // background: lighten($primary, 20%);
+    color: $primary;
+    display: inline-block;
+    font-weight: 700;
+  }
+
+  .search-result {
+    text-decoration: none;
+    padding: $spacer-lg;
+    margin: $spacer-lg 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 3px;
+    background: #fff;
+    display: block;
+    line-height: $body-text-line-height;
+	  color: $body-text-color;
+	  font-family: $body-text-font-family;
+	  font-weight: $body-text-font-weight;
+    @include card-box-shadow();
+    &:hover {
+      @include card-box-shadow($level:2);
+    }
+    .search-result-href {
+      color: $body-text-link-color;
+      text-decoration: underline;
+    }
+    
+  }
+
+  
 }
