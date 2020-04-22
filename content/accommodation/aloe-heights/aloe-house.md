@@ -4,9 +4,9 @@ url = "/accommodation/aloe-heights/aloe-house"
 accommodates = "2-6 people"
 rate = "(high season 2018) R2750 per night for 2 people" 
 additional_guests = "R250 per night. Up to a maximum of 6 people."
-# gallery_path = "/images/accommodation/aloe-house"
+gallery_path = "/images/accommodation/galleries/aloe-house"
 categories = ["accommodation", "aloe_heights"]
-cover_image = "/images/accommodation/aloe-suite/aloe-suite-02-480w.jpeg"
+cover_image = "/images/accommodation/galleries/aloe-suite/aloe-suite-02-480w.jpg"
 +++
 
 **Aloe House sits on top of a hill overlooking Wilderness beach and Wilderness lagoon**

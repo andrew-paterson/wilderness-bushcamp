@@ -41,7 +41,7 @@ version = "0.0.1"
   weight = 100.0
 
   [[menu.main]]
-  url = "/accommodation/bushcamp/sunset-ridge"
+  url = "/accommodation/bushcamp/sunrise-ridge"
   name = "Sunset Ridge"
   parent = "bushcamp"
   weight = 101.0
@@ -54,7 +54,7 @@ version = "0.0.1"
 
   [[menu.main]]
   url = "/accommodation/bushcamp/hideaway-cottage"
-  name = "hideaway Cottage"
+  name = "Hideaway Cottage"
   parent = "bushcamp"
   weight = 103.0
 

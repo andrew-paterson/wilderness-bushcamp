@@ -5,7 +5,6 @@
 // TODO position fixed if header fixed class added.
 header {
   transition: $dynamic-header-transition;
-
   .logo-container {
     flex-shrink: 0;
     padding: 5px 0;
@@ -56,7 +55,6 @@ header {
     nav.main ul.menu>li>a,
     nav.main ul.menu>li>span {
       color: $dynamic-header-light-text-color;
-
     }
 
     @media (max-width: 979px) {
@@ -68,7 +66,6 @@ header {
           background-color: rgba(0, 0, 0, 0.4);
         }
       }
-
     }
   }
 }
@@ -77,15 +74,12 @@ header {
 .header-text-start-dark:not(.scrolled) {
   header {
     color: $dynamic-header-dark-text-color;
-
     a {
       color: $dynamic-header-dark-text-color;
     }
-
     .logo-container svg .st0 {
       fill: $dynamic-header-dark-text-color;
     }
-
     nav.main ul.menu>li>a,
     nav.main ul.menu>li>span {
       color: $dynamic-header-dark-text-color;
@@ -97,18 +91,20 @@ header {
   header {
     position: fixed;
     top: 0;
+    z-index: 9999999;
   }
 
   #wrapper {
     padding-top: $dynamic-header-short-height;
-
-    .header-overlay & {
-      padding-top: 0;
-    }
-
     .header-height-tall:not(.header-overlay) &,
     .header-height-start-tall:not(.scrolled):not(.header-overlay) & {
       padding-top: $dynamic-header-tall-height;
+    }
+  }
+
+  &.header-overlay {
+    #wrapper {
+      padding-top: 0;
     }
   }
 }

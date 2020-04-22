@@ -264,6 +264,9 @@ div.main-block {
 	&.justify-center {
 		justify-content: center;
   }
+  &.justify-space-between {
+		justify-content: space-between;
+  }
   &.justify-flex-start {
 		justify-content: flex-start;
   }

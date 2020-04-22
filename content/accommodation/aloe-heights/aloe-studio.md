@@ -3,9 +3,11 @@ title = "Aloe Studio"
 url = "/accommodation/aloe-heights//aloe-studio"
 accommodates = "2 people"
 rate = "R800 per night (high season 2018)"
-# gallery_path = "/images/accommodation/aloe-studio"
 categories = ["accommodation", "aloe_heights"]
-cover_image = "/images/accommodation/aloe-suite/aloe-suite-03-480w.jpeg"
+gallery_path = "/images/accommodation/galleries/aloe-studio"
+cover_image = "/images/accommodation/galleries/aloe-studio/aloe-studio-03-480w.jpg"
+pano_page_banner = "/images/page-headers/pano/aloe-studio-1600w.jpg"
+standard_page_banner = "/images/page-headers/standard/aloe-studio-600w.jpg"
 +++
 
 **Wake up to the ocean, literally, in this cosy studio apartment with far reaching ocean views.**

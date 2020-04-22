@@ -1,11 +1,12 @@
 +++
 title = "Hideaway Cottage"
 url = "/accommodation/bushcamp/hideaway-cottage"
-Accommodate = "2-4 people"
+accommodates = "2-4 people"
 rate = "R900 per night for 2 people (high season 2018)"
-Aditional_guests = "+R150 per person upto a maximum of 4"
+additional_guests = "+R150 per person upto a maximum of 4"
 categories = ["accommodation", "bushcamp"]
-cover_image = "/images/accommodation/aloe-suite/aloe-suite-05-480w.jpeg"
+gallery_path = "/images/accommodation/galleries/hideaway-cottage"
+cover_image = "/images/accommodation/galleries/hideaway-cottage/hideaway-cottage-01-480w.jpg"
 +++
 
 Discreetly located at the end of a wooden walkway and hidden amongst dense bush, this is the perfect choice for those who don’t want to be disturbed… Many of our guests have chosen this cottage as their hideaway destination; enjoying the privacy, seclusion and beautiful ocean views.

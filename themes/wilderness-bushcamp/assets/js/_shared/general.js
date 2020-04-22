@@ -3,6 +3,7 @@ if (GetIEVersion() > 0) {
   // add https://github.com/tonipinel/object-fit-polyfill/ for usage instructions
   document.write('<script src="https://cdn.jsdelivr.net/npm/object-fit-polyfill@0.1.0/dist/object-fit-polyfill.min.js"><\/script>');
   document.write(`<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script> `);
+  
   var svgs = document.querySelectorAll('svg');
   var j;
   for (j = 0; j < svgs.length; j++) {

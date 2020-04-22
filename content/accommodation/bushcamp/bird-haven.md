@@ -4,9 +4,9 @@ url = "accommodation/bushcamp/bird-haven"
 accommodates = "2-4 people"
 rate = "R1500 per night for 2 people (high season 2018)"
 additional_guests = "+ R150 per person upto a maximum of 4"
-gallery_path = "/images/accommodation/bird-haven"
+gallery_path = "/images/accommodation/galleries/bird-haven"
 categories = ["accommodation", "bushcamp"]
-cover_image = "/images/accommodation/bird-haven/bird-haven-01-480w.jpg"
+cover_image = "/images/accommodation/galleries/bird-haven/bird-haven-01-480w.jpg"
 +++
 
 **Our newest addition to the Bushcamp is a beautifully appointed cabin on the very top of the hill.**

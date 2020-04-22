@@ -1,7 +1,11 @@
 {{ define "main" }}
-{{ if isset .Params "banner" }}
+{{ if isset .Params "pano_page_banner" }}
   <section id="panorama">
-    <img src="{{ .Params.banner }}" alt="PageBanner" />
+    <picture>
+      {{ partial "_shared/srcset-source.html" (dict "context" . "image_path" .Params.pano_page_banner "media" "(min-width: 600px)" "element" "source")}}
+      {{ partial "_shared/srcset-source.html" (dict "context" . "image_path" .Params.standard_page_banner "media" "(max-width: 599px)" "element" "source")}}
+      <img src="{{ .Params.pano_page_banner }}">
+    </picture>
   </section>
 {{end}}
 <section id="main-content" class="panel {{ if isset .Params "main_content_strip_classes" }}{{ .Params.main_content_strip_classes }}{{end}}">

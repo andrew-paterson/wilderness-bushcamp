@@ -1,10 +1,9 @@
 +++
 title = "Forest Rise"
 url = "accommodation/bushcamp/forest-rise"
-
-gallery_path = "/images/accommodation/forest-rise"
+gallery_path = "/images/accommodation/galleries/forest-rise"
 categories = ["accommodation", "bushcamp"]
-cover_image = "/images/accommodation/bird-haven/bird-haven-01-480w.jpg"
+cover_image = "/images/accommodation/galleries/forest-rise/forest-rise-01-480w.jpg"
 +++
 
 Forest Rise is the almost identical twin of Bird Haven. Built on the uppermost section of the hill, this cabin has a few extra-special tweaks, which make it the perfect choice for a young family.
