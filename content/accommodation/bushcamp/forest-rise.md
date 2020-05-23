@@ -3,10 +3,15 @@ title = "Forest Rise"
 url = "accommodation/bushcamp/forest-rise"
 gallery_path = "/images/accommodation/galleries/forest-rise"
 categories = ["accommodation", "bushcamp"]
-cover_image = "/images/accommodation/galleries/forest-rise/forest-rise-01-480w.jpg"
+cover_image = "/images/accommodation/galleries/forest-rise/forest-rise-11-480w.jpg"
+sleeps = 4  
+braai = "Yes"
+views = "Private deck with ocean views"
+tv_wifi = "Free WiFi (No TV)"
+rates = "From R1200 per night"
 +++
 
-Forest Rise is the almost identical twin of Bird Haven. Built on the uppermost section of the hill, this cabin has a few extra-special tweaks, which make it the perfect choice for a young family.
+This newly built 2-bedroom cottage is situated on the uppermost section of the hill and is perfect for families. The slide from the deck onto the garden is designed for the kids but is also fun for the young at heart. 
 <!--more-->
 Forest Rise has been carefully designed to offer rustic charm and modern comfort in a peaceful setting where the only thing likely to disturb you is the local birdlife. The private deck with stone-built braai offers views over the ocean and lagoon. It also has a slide for the children to gain easy access to the enclosed garden below. This is the perfect place to relax and play for young families.
 

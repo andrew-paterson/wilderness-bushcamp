@@ -6,9 +6,16 @@ rate = "(high season 2018) R2750 per night for 2 people"
 additional_guests = "R250 per night. Up to a maximum of 6 people."
 gallery_path = "/images/accommodation/galleries/aloe-house"
 categories = ["accommodation", "aloe_heights"]
-cover_image = "/images/accommodation/galleries/aloe-suite/aloe-suite-02-480w.jpg"
+cover_image = "/images/accommodation/galleries/aloe-house/aloe-house-02-480w.jpg"
+sleeps = 6 
+braai = "Yes"
+views = "Private decks with ocean views"
+tv_wifi = "Free WiFi and TV with DSTV"
+rates = "From R2500 per night"
 +++
 
+Aloe House is a 3-bedroom house with a range of entertaining spaces that make it the perfect place for families or a group of friends who want to enjoy an extended break away. There’s also a private swimming pool to laze by and views fro every corner of the wraparound deck. (only available for rent over December and January)
+<!--more-->
 **Aloe House sits on top of a hill overlooking Wilderness beach and Wilderness lagoon**
 
 **From this magnificent vantage point you can enjoy the sunrise, the sunset and all the glorious views in between…**

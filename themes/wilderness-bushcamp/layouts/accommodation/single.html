@@ -12,6 +12,7 @@
   <div class="container page-gutters d-flex direction-column align-center">
     {{if .Title}}<h1 class="main-header">{{ .Title }}</h1>{{end}}
     <div class="main-block body-text">
+      {{ partial "accommodation-amenities.html" . }}
       {{ .Content }}
     </div>
   </div>

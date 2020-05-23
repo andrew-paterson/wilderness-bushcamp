@@ -5,8 +5,17 @@ accommodates = "2 people"
 rate = "R1600 per night for 2 people"
 gallery_path = "/images/accommodation/galleries/the-loft"
 categories = ["accommodation", "the_loft"]
-cover_image = "/images/accommodation/galleries/the-loft/the-loft-01-480w.jpg"
+cover_image = "/images/accommodation/galleries/the-loft/the-loft-04-480w.jpg"
+sleeps = 2 
+braai = "Yes"
+views = "Private deck with ocean views"
+tv_wifi = "Free WiFi and TV with DSTV"
+rates = "From R1600 per night"
 +++
+
+The Loft is the jewel in the crown of the Bushcamp and offers open plan living at its finest.
+An abundance of ocean views combined with elegant comfort has resulted in a truly unique apartment that is fast becoming popular as a honeymoon destination or special occasion getaway…
+<!--more-->
 
 **Aloe Loft offers an abundance of ocean views and elegant comfort. This is open plan living at its finest.**
 

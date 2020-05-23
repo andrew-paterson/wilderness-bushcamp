@@ -4,6 +4,7 @@ title = "Wilderness Bushcamp"
 theme = "wilderness-bushcamp"
 metaDataFormat = "toml"
 version = "0.0.1"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params.css]
   main = ["style.css"]

@@ -5,13 +5,18 @@ accommodates = "2 people"
 rate = "R900 per night (high season 2018)"
 gallery_path = "/images/accommodation/galleries/aloe-suite"
 categories = ["accommodation", "aloe_heights"]
-cover_image = "/images/accommodation/galleries/aloe-suite/aloe-suite-01-480w.jpg"
+cover_image = "/images/accommodation/galleries/aloe-suite/aloe-suite-02-480w.jpg"
 pano_page_banner = "/images/page-headers/pano/aloe-suite-1600w.jpg"
 standard_page_banner = "/images/page-headers/standard/aloe-suite-600w.jpg"
+sleeps = 2 
+braai = "No – but easy access to lapa with braai"
+views = "Private deck with ocean views"
+tv_wifi =	"Free WiFi and TV with DSTV"
+rates =	"From R800 per night"
 +++
 
-**A private gateway leads to this spacious and comfortable self-catering suite, which is attached to the main house but enjoys total privacy.**
-
+A private gateway leads to this spacious and comfortable self-catering suite, which is attached to the main house but enjoys total privacy.
+<!--more-->
 The accommodation is laid out in an open-plan setting with queen-sized bed, kitchenette, lounge area and breakfast area. The large bathroom is the perfect place to unwind after a long day of sightseeing, with its large bath, twin washbasins and shower.
 
 The suite is fitted with American shutters so you can be lulled to sleep and gently awoken by the ocean breeze and the sound of the waves crashing on the shore, then enjoy coffee on your private patio while gazing out to sea.

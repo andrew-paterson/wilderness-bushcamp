@@ -6,12 +6,17 @@ rate = "R900 per night for 2 people (high season 2018)"
 additional_guests = "+R150 per person upto a maximum of 4"
 categories = ["accommodation", "bushcamp"]
 gallery_path = "/images/accommodation/galleries/loerie-cabin"
-cover_image = "/images/accommodation/galleries/loerie-cabin/loerie-cabin-01-480w.jpg"
+cover_image = "/images/accommodation/galleries/loerie-cabin/loerie-cabin-04-480w.jpg"
 pano_page_banner = "/images/page-headers/pano/loerie-cabin-1600w.jpg"
 standard_page_banner = "/images/page-headers/standard/loerie-cabin-600w.jpg"
+sleeps = 5  
+braai = "No – but easy access to lapa with braai"
+views = "Private deck with ocean views"
+tv_wifi = "No – just books"
+rates = "From R800 per night"
 +++
 
-One of our original cabins and still one of our favourites; Loerie Cabin is a cosy cottage with accommodation on 3 levels and a private deck that offers total privacy and uninterrupted views of the ocean. 
+This cosy log cabin welcomed its first guests in 1995 and is still one of our favourites. It offers rustic accommodation for families or groups of friends – and has a private deck with uninterrupted views of the ocean
  <!--more-->
 **A cosy cottage with accommodation on 3 levels and a private deck that offers total privacy and uninterrupted views of the ocean.**
 

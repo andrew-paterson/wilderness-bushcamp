@@ -5,6 +5,7 @@
     </div>
     <div class="padding-lg accommodation-card-text">
       <h3 class="accommodation-card-header">{{ .Page.Title }}</h3>
+      {{ partial "accommodation-amenities.html" . }}
       <div class="accommodation-card-summary">{{ .Page.Summary }}</div>
     </div>
   </div>
