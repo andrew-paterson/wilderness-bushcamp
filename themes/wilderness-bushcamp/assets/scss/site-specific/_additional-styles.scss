@@ -1,3 +1,36 @@
+.accommodation-amenties {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: $spacer-md;
+  margin-bottom: $spacer-md;
+  justify-content: space-between;
+
+}
+
+.amenity {
+  width: 46%;
+  display: flex;
+  align-items: center;
+  margin-bottom: $spacer-sm;
+  font-size: 0.8em;
+  .accommodation-item-card & {
+    font-size: 1.2em;
+  }
+  color: #999;
+}
+.amenity-icon {
+  // width: 20px;
+  
+  margin-right: $spacer-sm;
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: #999;
+    display: block;
+  }
+}
+
 .google-maps-container-outer {
   width: 100%;
 }

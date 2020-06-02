@@ -93,13 +93,13 @@ header {
     top: 0;
     z-index: 9999999;
   }
-
   #wrapper {
     padding-top: $dynamic-header-short-height;
-    .header-height-tall:not(.header-overlay) &,
-    .header-height-start-tall:not(.scrolled):not(.header-overlay) & {
-      padding-top: $dynamic-header-tall-height;
-    }
+  }
+
+  &.header-height-tall:not(.header-overlay) #wrapper,
+  &.header-height-start-tall:not(.scrolled):not(.header-overlay) #wrapper {
+    padding-top: $dynamic-header-tall-height;
   }
 
   &.header-overlay {
@@ -108,3 +108,4 @@ header {
     }
   }
 }
+

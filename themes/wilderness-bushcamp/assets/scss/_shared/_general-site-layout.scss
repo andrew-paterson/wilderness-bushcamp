@@ -59,7 +59,7 @@ section {
 	align-items: center;
 }
 	
-.container  {
+.content-max-width  {
 	max-width: $pc-content-container-max-width;
   width: 100%;
 }
@@ -305,6 +305,10 @@ div.main-block {
 
 .width-100 {
   width: 100%;
+}
+
+.width-50 {
+  width: 50%;
 }
 
 // IE Hacks

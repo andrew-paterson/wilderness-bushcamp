@@ -17,88 +17,26 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [menu]
 
-[[menu.main]]
+  [[menu.main]]
   identifier = "accommodation"
   url = "/accommodation"
   name = "Accommodation"
   weight = 1.0
 
   [[menu.main]]
-  url = "/accommodation"
-  name = "All Accommodation"
-  parent = "accommodation"
-  weight = 10.0
-
-  [[menu.main]]
-  identifier = "bushcamp"
-  name = "Bushcamp"
-  parent = "accommodation"
-  weight = 11.0
-
-  [[menu.main]]
-  url = "/accommodation/bushcamp/loerie-cabin"
-  name = "Loerie Cabin"
-  parent = "bushcamp"
-  weight = 100.0
-
-  [[menu.main]]
-  url = "/accommodation/bushcamp/sunrise-ridge"
-  name = "Sunset Ridge"
-  parent = "bushcamp"
-  weight = 101.0
-
-  [[menu.main]]
-  url = "/accommodation/bushcamp/lagoon-view"
-  name = "Lagoon View"
-  parent = "bushcamp"
-  weight = 102.0
-
-  [[menu.main]]
-  url = "/accommodation/bushcamp/hideaway-cottage"
-  name = "Hideaway Cottage"
-  parent = "bushcamp"
-  weight = 103.0
-
-  [[menu.main]]
-  url = "/accommodation/bushcamp/bird-haven"
-  name = "Bird Haven"
-  parent = "bushcamp"
-  weight = 104.0
-
-  [[menu.main]]
-  identifier = "aloe-heights"
-  name = "Aloe Heights"
-  parent = "accommodation"
-  weight = 12.0
-
-  [[menu.main]]
-  url = "/accommodation/aloe-heights/aloe-house"
-  name = "Aloe House"
-  parent = "aloe-heights"
-  weight = 100.0
-
-  [[menu.main]]
-  url = "/accommodation/aloe-heights/aloe-suite"
-  name = "Aloe Suite"
-  parent = "aloe-heights"
-  weight = 101.0
-
-  [[menu.main]]
-  url = "/accommodation/aloe-heights/aloe-studio"
-  name = "Aloe Studio"
-  parent = "aloe-heights"
-  weight = 102.0
-
-  [[menu.main]]
-  url = "/accommodation/the-loft"
-  name = "The Loft"
-  parent = "accommodation"
-  weight = 14.0
+  url = "/the-lapa"
+  name = "The Lapa"
+  weight = 2.0
 
   [[menu.main]]
   url = "/rates-and-bookings"
   name = "Rates & Bookings"
-  weight = 2.0
+  weight = 3.0
+
+  [[menu.main]]
+  url = "/things-to-do"
+  name = "Things to do"
+  weight = 4.0
 
   [[menu.main]]
   url = "/contact-us"

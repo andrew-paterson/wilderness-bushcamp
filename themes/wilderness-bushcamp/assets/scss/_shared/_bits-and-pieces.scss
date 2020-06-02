@@ -92,10 +92,26 @@ a:active {
 	}
 }
 
+figure {
+  margin: 0;
+  margin-bottom: $spacer-xl;
+  img {
+    margin: 0;
+  }
+}
+
+figcaption {
+  color: $figcaption-color;
+  font-size: $figcaption-font-size;
+  font-family: $figcaption-font-family;
+  background: $figcaption-background;
+  line-height: $figcaption-line-height;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
-	margin-bottom: 10px;
+	margin-bottom: $spacer-lg;
 }
 
 ul, ol {
