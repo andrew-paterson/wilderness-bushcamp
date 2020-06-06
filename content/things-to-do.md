@@ -25,9 +25,13 @@ If you’re looking for personal recommendations then maybe consider this very s
 
 ### My Favourite Things – by John Pfaff
 
+{{< _shared/srcset-element class="width-100" image_path="/images/blog/johns-favourite-things/johns-favourite-things-900w.jpg" alt="John's favoutite things">}}
+
 In 1972 newlyweds, John and Ann Pfaff, arrived in George looking for somewhere to settle and make a home\.
 
 John was an enthusiastic surfer and the break at Vic Bay played a big part in their decision to stay in the area\.
+
+{{< _shared/srcset-element class="width-100" image_path="/images/blog/johns-favourite-things/john-pfaff-surfing-900w.jpg" alt="John Pfaff surfing">}}
 
 For two years they lived in the Vic Bay caravan park then, in 1980, they moved to Wilderness\.
 

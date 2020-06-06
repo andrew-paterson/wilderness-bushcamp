@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section id="main-content" class="blog-layout">
+  <div class="content-max-width page-gutters d-flex direction-column align-center padding-y-xl">
+    <h1 class="main-header">{{ .Title }}</h1>
+    <div class="main-block body-text">
+      {{ range (.Paginator 20).Pages }}
+        {{ .Render "list_item" }}
+      {{ end }}
+      <div class="pagination-links">
+        {{ template "_internal/pagination.html" . }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

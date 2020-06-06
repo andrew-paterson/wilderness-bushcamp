@@ -9,32 +9,76 @@ function highlightMatches(needle, haystack) {
   });
 }
 
-function generateResults(searchIndex, phrase) {
+function getExcerpt(text, charIndex, precision) {
+  // index is the index of the word which the charIndex falls in.
+  var index = text.substring(0, charIndex).split(' ').length - 1;
+  var words = text.split(' ');
+  var result = [];
+  var startIndex, stopIndex;
 
-  // while ((match = re.exec(str)) != null) {
-  //     console.log("match found at " + match.index);
-  // }
+  startIndex = index - precision;
+  if (startIndex < 0) {
+    startIndex = 0;
+  }
+
+  stopIndex = index + precision + 1;
+  if (stopIndex > words.length) {
+    stopIndex = words.length;
+  }
+
+  result = result.concat( words.slice(startIndex, index) );
+  result = result.concat( words.slice(index, stopIndex) );
+  return result.join(' '); // join back
+}
+
+function generateResults(searchIndex, phrase) {
+  var wholeWordRegex = new RegExp(`\\b${phrase}\\b`, 'gi');
+  var startWordRegex = new RegExp(`(?!\\b${phrase}\\b)\\b${phrase}`, 'gi');
+  var midWordRegex = new RegExp(`(?!\\b${phrase}\\b)(?!\\b${phrase})${phrase}`, 'gi');
+
   if (phrase.length < 3) {
     return;
   }
-  var matches = [];
+  var searchResults = [];
   searchIndex.forEach(item => {
     if (!item) {return; }
-    var regex = new RegExp(phrase, 'gi');
-    var wholeWordRegex = new RegExp("\\b" + phrase + "\\b", 'gi');
-    var startWordRegex = new RegExp("\\b" + phrase, 'gi');
-    // console.log(regex.exec(phrase));
-    // if (item.content.match(regex)) {
-    //   console.log(item.href);
-    //   console.log(item.content.match(regex));
-    // }
-    var match;
-     while ((match = startWordRegex.exec(item.content)) != null) {
-      console.log(item.href);
-      console.log(match);
-    }
-  
+    var matchTypes = [{
+      regex: wholeWordRegex,
+      type: 'wholeWord'
+    }, {
+      regex: startWordRegex,
+      type: 'startWord'
+    }, {
+      regex: midWordRegex,
+      type: 'midWord'
+    }];
+
+    matchTypes.forEach(matchType => {
+      var match;
+      while ((match = matchType.regex.exec(item.content)) != null) {
+        var existing = searchResults.find(searchResult => {
+          return searchResult.href === item.href;
+        });
+        if (existing) {
+          existing.scores[matchType.type] += 1;
+          existing.exerpts.push(getExcerpt(match.input, match.index, 3));
+          existing.content.push(item.content);
+        } else {
+          searchResults.push({
+            href: item.href,
+            scores: {
+              wholeWord: 0,
+              startWord: 0,
+              midWord: 0
+            },
+            exerpts: [getExcerpt(match.input, match.index, 3)],
+            content: [item.content]
+          });
+        }
+      }
+    });
   });
+  console.log(searchResults);
   
   // $.ajax({
   //   url: '/search/search.php',

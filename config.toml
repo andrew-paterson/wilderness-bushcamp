@@ -33,15 +33,22 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   name = "Rates & Bookings"
   weight = 3.0
 
+  
+
   [[menu.main]]
   url = "/things-to-do"
   name = "Things to do"
-  weight = 4.0
+  weight = 5.0
+
+  [[menu.main]]
+  url = "/media"
+  name = "Media"
+  weight = 6.0
 
   [[menu.main]]
   url = "/contact-us"
-  name = "Contact Us"
-  weight = 5.0
+  name = "Contact"
+  weight = 7.0
 
   [[menu.social]]
   identifier = "facebook"

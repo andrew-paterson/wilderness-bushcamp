@@ -1,10 +1,10 @@
 +++
 title = "The Lapa"
 url = "the-lapa"
-gallery_path = "/images/accommodation/galleries/the-loft"
-cover_image = "/images/accommodation/galleries/the-loft/the-loft-04-480w.jpg"
-pano_page_banner = "/images/page-headers/pano/aloe-studio-1600w.jpg"
-standard_page_banner = "/images/page-headers/standard/aloe-studio-600w.jpg"
+gallery_path = "/images/accommodation/galleries/the-lapa"
+cover_image = "/images/accommodation/galleries/the-lapa/the-lapa-01-480w.jpg"
+pano_page_banner = "/images/page-headers/pano/the-lapa-1600w.jpg"
+standard_page_banner = "/images/page-headers/standard/the-lapa-600w.jpg"
 braai = "Yes"
 views = "Private deck with ocean views"
 +++
