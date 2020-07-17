@@ -2,7 +2,6 @@
 title = "The Loft"
 url = "accommodation/the-loft"
 accommodates = "2 people"
-rate = "R1600 per night for 2 people"
 gallery_path = "/images/accommodation/galleries/the-loft"
 categories = ["accommodation", "the_loft"]
 cover_image = "/images/accommodation/galleries/the-loft/the-loft-04-480w.jpg"
@@ -13,28 +12,31 @@ braai = "Yes"
 views = "Private deck with ocean views"
 tv_wifi = "Free WiFi and TV with DSTV"
 rates = "From R1600 per night"
+rates_low_season = "R1400 for 2 people"
+rates_high_season = "R1600 for 2 people"
 +++
 
 The Loft is the jewel in the crown of the Bushcamp and offers open plan living at its finest.
 An abundance of ocean views combined with elegant comfort has resulted in a truly unique apartment that is fast becoming popular as a honeymoon destination or special occasion getaway…
 <!--more-->
+__Quite simply, The Loft is as special as it looks…__
 
-**Aloe Loft offers an abundance of ocean views and elegant comfort. This is open plan living at its finest.**
+This unique apartment is built on an elevated vantage point on a hill overlooking Wilderness village and the Indian Ocean\. Its position combined with a wall of windows overlooking the ocean, results in a mesmerising view that can occupy you all day long\.
 
-The loft encompasses dining, living, sleeping and bathroom areas, with no walls or doors to interrupt the beautiful flow of space and light.
+The rocking chair facing the window is the perfect place to rock back and watch the waves and the whales, because this is arguably the best dolphin and whale\-watching window on the Garden Route
 
-A soak in the roll top bath can be accompanied by your favourite MNet movie or views over the Ocean.
+The apartment itself is fully open\-plan, encompassing dining, living, sleeping and bathroom areas, with no walls or doors to interrupt the flow of space and light\. Although open plan, it has many separate and distinct areas to enjoy at different times of the day
 
-This wonderful space can be enjoyed whatever the weather. There’s nothing more majestic than watching an electrical storm roll out over the ocean as you relax on the couch or lie back on the king size bed, or watch the dolphins surf from the backline and enjoy the best whale spotting window in the region.
+This wonderful space can be enjoyed whatever the weather\. Soak up the sun on the sun\-loungers as the braai sparks to life, lie back on the king size bed while watching an MNet movie or watch an electrical storm roll out over the ocean as you relax on the couch or soak in the roll top bath…
 
-## Features
+__Features__
 
-*   Fitted kitchen with fridge, built in stove, microwave, toaster and kettle
-*   Dining area
-*   Lounge area
-*   King size bed
-*   Open plan shower and toilet
-*   Roll top bath
-*   Private deck
-*   TV with DSTV
-*   Please note: there is no braai in this unit but you are welcome to make use of the lapa area which is located close to The Loft.
+- Fitted kitchen with fridge, dishwasher, built in stove, microwave, toaster, kettle
+- Dining area
+- Lounge area
+- King size bed
+- Open plan shower and toilet
+- Roll top bath
+- Private deck
+- TV with DSTV
+- Free WiFi

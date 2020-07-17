@@ -1,0 +1,23 @@
+{{ define "main" }}
+<section id="main-content" class="panel {{ if isset .Params "main_content_strip_classes" }}{{ .Params.main_content_strip_classes }}{{end}}">
+  <div class="container page-gutters">
+    {{if .Title}}<h1 class="main-header">{{ .Title }}</h1>{{end}}
+    <div class="body-text">
+      <div class="main-block centred">
+        <ul>
+        {{ range (index .Site.Taxonomies.categories "accommodation" ) }}
+          <li>
+            <h2>{{ .Page.Title }}</h2>
+            <ul>
+              <li><b>Low season</b> (1st May – 30th September 2020) - <b>{{ .Page.Params.rates_low_season}} per night</b></li>
+              <li><b>High season</b> (1st October 2020 – 30th April 2021) - <b>{{ .Page.Params.rates_high_season}} per night</b></li>
+            </ul>
+          </li>
+        {{ end }}
+        </ul>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

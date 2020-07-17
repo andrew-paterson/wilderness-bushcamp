@@ -1,12 +1,16 @@
-function beginsWith(needle, haystack){
-  return (haystack.toLowerCase().substr(0, needle.length) === needle.toLowerCase());
-}
-
 function highlightMatches(needle, haystack) {
+  // console.log(needle);
+  // console.log(haystack);
   var queryMatch = new RegExp(needle, 'gi');
   return haystack.replace(queryMatch, function(iMatch) {
     return '<span class="highlighted">' + iMatch + '</span>';
   });
+}
+
+function customInflector(value, options) {
+	var pluralised = options.plural ? options.plural : `${options.singular}s`;
+  var word = value !== 1 ? pluralised : options.singular;
+  return word;
 }
 
 function getExcerpt(text, charIndex, precision) {
@@ -31,6 +35,18 @@ function getExcerpt(text, charIndex, precision) {
   return result.join(' '); // join back
 }
 
+var scoringWeights = {
+  contentType:{
+    header: 100,
+    body: 1,
+  },  
+  wordPosition: {
+    wholeWord: 5,
+    startWord: 3,
+    midWord: 0
+  }
+};
+
 function generateResults(searchIndex, phrase) {
   var wholeWordRegex = new RegExp(`\\b${phrase}\\b`, 'gi');
   var startWordRegex = new RegExp(`(?!\\b${phrase}\\b)\\b${phrase}`, 'gi');
@@ -52,7 +68,6 @@ function generateResults(searchIndex, phrase) {
       regex: midWordRegex,
       type: 'midWord'
     }];
-
     matchTypes.forEach(matchType => {
       var match;
       while ((match = matchType.regex.exec(item.content)) != null) {
@@ -60,89 +75,49 @@ function generateResults(searchIndex, phrase) {
           return searchResult.href === item.href;
         });
         if (existing) {
-          existing.scores[matchType.type] += 1;
+          existing.matchIndexes.push({index: match.index, contentType: item.contentType, wordPosition: matchType.type});
           existing.exerpts.push(getExcerpt(match.input, match.index, 3));
           existing.content.push(item.content);
         } else {
-          searchResults.push({
+          var newItem = {
             href: item.href,
-            scores: {
-              wholeWord: 0,
-              startWord: 0,
-              midWord: 0
-            },
+            title: item.title,
+            matchIndexes: [{index: match.index, contentType: item.contentType, wordPosition: matchType.type}],
             exerpts: [getExcerpt(match.input, match.index, 3)],
             content: [item.content]
-          });
+          };
+          searchResults.push(newItem);
         }
       }
     });
   });
-  console.log(searchResults);
-  
-  // $.ajax({
-  //   url: '/search/search.php',
-  //   dataType: 'json',
-  //   type: 'post',
-  //   data: `prompts=${this.value}`,
-  //   success: response => {
-  //     var queryString = response.meta.query_string;
-  //     let uniqueMatches  = [];
-  //     response.data.forEach((object, index, array) => {
-  //       var matchObject = object.attributes;
-  //       matchObject.matches.forEach(match => {
-  //         var existing = uniqueMatches.find(uniqueMatch => {
-  //           return uniqueMatch.matchText.toLowerCase() === match.toLowerCase();
-  //         });
-  //         if (existing) {
-  //           existing.matchesCount += matchObject.matchesCount || 0;
-  //         } else {
-            
-  //           var matchesCount = matchObject.matchesCount || 0;
-  //           if (beginsWith(response.meta.query_string, match)) {
-  //             matchesCount = matchesCount*1000;
-  //           }
-  //           uniqueMatches.push({
-  //             matchText: match.toLowerCase(),
-  //             matchesCount: matchesCount,
-  //           });
-  //         }
-  //       });
-  //     });
-  //     var sortedMatches = uniqueMatches.sort(function(a, b) {
-  //       return b.matchesCount - a.matchesCount;
-  //     });
+  searchResults = searchResults.map(item => {
+    item.score = 0;
+    item.matchIndexes.forEach(matchIndex => {
 
-  //     if (sortedMatches.length) {
-  //       $('.search-hints').html(`<ul></ul>`);
-  //       sortedMatches.forEach(match => {
-  //         var element = '<li><a href="/search-results?query=' + match.matchText + '">' + highlightMatches(queryString, match.matchText) + '</a></li>';
-  //         $('.search-hints ul').append(element);
-  //       });
-  //     } else {
-  //       $('.search-hints').html(`<div class="no-results">No results.</div>`);
-  //     }
-  //   },
-  //   error: error => {
-  //     $('.search-hints').html(`<div class="no-results error">There was a server error.</div>`);
-  //   }
-  // });
+      item.score += scoringWeights.contentType[matchIndex.contentType]*scoringWeights.wordPosition[matchIndex.wordPosition];
+    });
+    return item;
+  }).sort((a, b) => {
+    return b.score - a.score;
+  });
+  return searchResults;
 }
-var searchIndex;
 
-$('#site-search input').keydown(function(event){
+var searchIndex;
+$('.search-input').keydown(function(event){
   if(event.keyCode == 13) {
     event.preventDefault();
   }
 });
 
 $('#site-search button').on('click', function(e, v) {
-  var query = $('#site-search input').val();
+  var query = $('.search-input').val();
   e.preventDefault();
   window.location.href = `/search-results?query=${query}`;
 });
 
-$('#site-search input').on('keyup', function(e, v) {
+$('.search-input').on('keyup', function(e, v) {
   var phrase = this.value;
   if (e.keyCode === 13) {
     window.location.href = `/search-results?query=${phrase}`;
@@ -152,10 +127,32 @@ $('#site-search input').on('keyup', function(e, v) {
       return result.json();
     }).then(json => {
       searchIndex = json.searchIndex;
-      generateResults(searchIndex, phrase);
+      createResultsView(generateResults(searchIndex, phrase), phrase);
     });
   } else {
-    generateResults(searchIndex, phrase);
+    createResultsView(generateResults(searchIndex, phrase), phrase);
   }
   return false;
 });
+
+function createResultsView(sortedMatches, queryString) {
+  sortedMatches =sortedMatches || [];
+  console.log(queryString)
+  queryString = queryString || '';
+  var resultsHTML = `<div><div>${sortedMatches.length} ${customInflector(sortedMatches.length, {singular:'page'})} found with matches for "${highlightMatches(queryString, queryString)}".</div>`;
+  sortedMatches.forEach(matchData => {
+    // console.log(matchData);
+    var thisMatchHTML = '<a class="search-result" href="' + matchData.href + '">';
+    thisMatchHTML += '<h3 class="search-result-title">' + highlightMatches(queryString, matchData.title) + '</h3>';
+    thisMatchHTML += '<div class="search-result-body"><div class="search-result-href">' + matchData.href + '</div>';
+    (matchData.exerpts || []).forEach(exerpt => {
+      console.log(exerpt);
+      thisMatchHTML += '<div class="search-result-snippet">' + highlightMatches(queryString, exerpt).trim() + '...</div>';
+    });
+    thisMatchHTML += '</div></a>';
+    resultsHTML += thisMatchHTML;
+  });
+  resultsHTML += '</div>';
+  document.querySelector('.search-results').innerHTML = resultsHTML;
+  document.querySelector('.search-results').classList.remove('loading');
+}

@@ -2,7 +2,6 @@
 title = "Loerie Cabin"
 url = "/accommodation/bushcamp/loerie-cabin"
 accommodates = "2-4 people"
-rate = "R900 per night for 2 people (high season 2018)"
 additional_guests = "+R150 per person upto a maximum of 4"
 categories = ["accommodation", "bushcamp"]
 gallery_path = "/images/accommodation/galleries/loerie-cabin"
@@ -14,23 +13,28 @@ braai = "No – but easy access to lapa with braai"
 views = "Private deck with ocean views"
 tv_wifi = "No – just books"
 rates = "From R800 per night"
+rates_low_season = "R850 for 2 people (+R150 per night for each additional person – max 5)"
+rates_high_season = "R950 for 2 people (+R150 per night for each additional person – max 5)"
 +++
 
 This cosy log cabin welcomed its first guests in 1995 and is still one of our favourites. It offers rustic accommodation for families or groups of friends – and has a private deck with uninterrupted views of the ocean
  <!--more-->
-**A cosy cottage with accommodation on 3 levels and a private deck that offers total privacy and uninterrupted views of the ocean.**
+__This cosy log cabin__ __is perfect for the adventure\-loving family or a group of friends looking for a break away…__
 
-Wooden steps lead down to the front door of Loerie Cabin, which then leads into the kitchen with breakfast bar. Upstairs, the cosy loft has two single beds, tucked under the eaves, and porthole views of Wilderness beach. The wooden steps to this loft area are quite steep, so not suitable for small children. The main sleeping area is located on the lower level and from here you can walk out onto the private wooden deck.
+A wooden boardwalk leads through the bush and down to the front door of Loerie Cabin, which opens onto the middle level with kitchen with breakfast bar\. A narrow set of wooden steps then leads up to the loft area with three single beds tucked under the eaves, with porthole views of Wilderness beach\. 
 
-The deck can only be accessed from the cabin, so you can enjoy total seclusion and uninterrupted views of the ocean while you relax and enjoy your evening sundowners.
+The main sleeping area is located on the lower level of the cabin with a double bed and sitting area\. From here you access the private wooden deck which is surrounded by bush, framing the ocean views\. The deck can only be accessed from the cabin, so you can enjoy total seclusion as you relax with your evening sundowners\.
 
-## Features
+Everything in Loerie Cabin is open plan, apart form the bathroom, so it’s an ideal choice for a few good friends or families with older children – as the narrow steps are hazardous for very young ones
 
-*   Kitchen with fridge, stove, toaster and kettle
-*   Bathroom with shower
-*   Open plan lounge/sleeping area with double bed
-*   Loft room with 2 single beds
-*   Television with M-Net
-*   Private deck with ocean views
-*   **Please note the braai has been removed from this unit to eliminate the risk of bush fires, but guests are welcome to make use of the newly renovated lapa area, which is just a few steps away**
-*   **The lapa has a stone-built pizza oven and braai**
+There’s no television or WiFi in the cabin, offering a real holiday away from the digital overload of day to day life…
+
+__Features__
+
+- Kitchen with fridge, stove, toaster and kettle
+- Bathroom with shower
+- Open plan lounge/sleeping area with double bed
+-  Loft room with 3 single beds
+- Private deck with ocean views
+- No TV or WiFi
+- __The braai has been removed from this unit to eliminate the risk of bush fires, but guests are welcome to make use of the lapa area, which is just a few steps away__

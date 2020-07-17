@@ -10,34 +10,15 @@ Please feel free to contact us should you have any queries, or send us an enquir
 
 Wilderness is located just off the N2, approx 15km from George.
 
-Once you turn off the N2 into Wilderness take your first left turn onto Beacon Road. The road will take you past Milkwood Village and will then wind uphill, getting gradually steeper.
+Once you turn off the N2 into Wilderness take an immediate left turn onto Beacon Road. 
 
-Keep going until you see the main house and parking area.  
-We’ve included a few pictures to help show you the way…
+Follow Beacon Road past Milkwood Village and past the Kwik Spar. The road will start to narrow and then wind uphill, getting gradually steeper. Don’t turn right into the entrance to the Bird Sanctuary. This is a private residential estate. Instead follow the road upwards.
 
-![approach](http://www.wildernessbushcamp.co.za/wp-content/uploads/2013/07/approach.png)
+The road will twist and turn for approx. 300m and gets very steep in parts, but keep going until you reach the top with the paved parking area. 
 
-Approaching Wilderness on N2 from George:
+When you see this view you have reached your destination…
 
-![caltext](http://www.wildernessbushcamp.co.za/wp-content/uploads/2013/07/caltext.png)
-
-Turn left onto Beacon Road after the Caltex garage:
-
-![milkwood](http://www.wildernessbushcamp.co.za/wp-content/uploads/2013/07/milkwood.png)
-
-Follow the road past Milkwood Village, keep going past Milkwood House on your right:
-
-![top](http://www.wildernessbushcamp.co.za/wp-content/uploads/2013/07/top.png)
-
-View from the top!Park here while you check in…(even the cars get a sea view)
-
-![checkin](http://www.wildernessbushcamp.co.za/wp-content/uploads/2013/07/checkin.png)
-
-Check in here…
-
-#### [View on Google Maps](https://maps.google.co.za/maps?q=wilderness+bush+camp&oe=utf-8&client=firefox-a&fb=1&gl=za&hq=wilderness+bush+camp&cid=0,0,1097156807851858505&t=m&z=16&iwloc=A "View on Google Maps")
-
-Wilderness Bushcamp, Wilderness, Garden Route, South Africa offers 3 STAR comfortable, affordable Self catering accommodation overlooking Wilderness beach and lagoon, centrally situated in the Garden Route within easy driving distance of Knysna, Outshoorn, Plettenberg Bay and Mossel Bay.
+{{< _shared/srcset-element class="width-100" image_path="/images/directions/top-of-the-hill-900w.jpg" alt="Top of the hill">}}
 
 ## Contact Us
 
