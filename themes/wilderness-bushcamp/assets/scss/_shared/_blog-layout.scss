@@ -40,7 +40,8 @@
 
 .blog-layout .content-list-item h2.item-title a:link {
 	color: $blog-item-header-link-color;
-	text-decoration: $blog-item-header-link-text-decoration;
+  text-decoration: $blog-item-header-link-text-decoration;
+  font-weight: inherit;
 	font-size: 1em;
 }
 

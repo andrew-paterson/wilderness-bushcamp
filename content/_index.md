@@ -3,7 +3,7 @@ pano_page_banner = "/images/page-headers/pano/aloe-studio-1600w.jpg"
 standard_page_banner = "/images/page-headers/standard/aloe-studio-600w.jpg"
 +++
 
-Wilderness Bushcamp offers self catering accommodation set in 9 hectares of indigenous bush and some of the finest views in Wilderness.
+__Wilderness Bushcamp offers self catering accommodation set in 9 hectares of indigenous bush and some of the finest views in Wilderness.__
 
 Nestled on a hilltop, overlooking the Indian Ocean, this hidden gem has been welcoming guests from all over the world for over 20 years - and there really is something for everyone…
 

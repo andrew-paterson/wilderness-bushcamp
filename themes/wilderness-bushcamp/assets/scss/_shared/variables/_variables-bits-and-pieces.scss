@@ -51,13 +51,13 @@ $body-text-link-visited-text-decoration: underline !default;
 $hr-color: #ccc !default;
 $hr-thickness: 2px !default;
 
-$large-text-font-size: 2.5em;
+$large-text-font-size: 2.5em !default;
 
-$figcaption-color: #666;
-$figcaption-font-size: 0.8em;
-$figcaption-font-family: $main-font-family;
-$figcaption-background: transparent;
-$figcaption-line-height: 110%;
+$figcaption-color: #666 !default;
+$figcaption-font-size: 0.8em !default;
+$figcaption-font-family: $main-font-family !default;
+$figcaption-background: transparent !default;
+$figcaption-line-height: 110% !default;
 
 /*------------------------------
 DEFAULT INTERFACE ELEMENT STYLES
@@ -103,7 +103,7 @@ $button-border-style: solid !default;
 $button-border-radius: 4px !default;
 $button-padding: $spacer-lg $spacer-xl !default;
 
-$button-font-family: 'Lato', sans-serif !default;
+$button-font-family: $main-font-family !default;
 $button-font-size: 1.8em !default;
 $button-font-weight: 700 !default;
 $button-text-transform: none !default;

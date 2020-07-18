@@ -5,6 +5,7 @@ theme = "wilderness-bushcamp"
 metaDataFormat = "toml"
 version = "0.0.1"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+publishDir = "docs"
 
 [params.css]
   main = ["style.css"]

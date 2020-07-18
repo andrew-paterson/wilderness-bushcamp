@@ -3,7 +3,7 @@
   <div class="content-max-width page-gutters d-flex direction-column align-center padding-y-xl">
     <h1 class="main-header">{{ .Title }}</h1>
     <div class="main-block body-text">
-      {{ range (.Paginator 20).Pages }}
+      {{ range (.Paginator 20).Pages.ByPublishDate.Reverse }}
         {{ .Render "list_item" }}
       {{ end }}
       <div class="pagination-links">
