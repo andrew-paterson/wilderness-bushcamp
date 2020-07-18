@@ -64,7 +64,7 @@
     {
       "src": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/high-res-images/blog",
       "dest": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/static/images/blog",
-      "off": true,
+      "off": false,
       "sizes": [
         {"name": "w480", "maxWidth": 480, "maxHeight": 854}, {"name": "w600", "maxWidth": 600, "maxHeight": 500}, {"name": "w600", "maxWidth": 900, "maxHeight": 600}
       ]
@@ -72,7 +72,7 @@
     {
       "src": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/high-res-images/directions",
       "dest": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/static/images/directions",
-      "off": false,
+      "off": true,
       "sizes": [
         {"name": "w480", "maxWidth": 480, "maxHeight": 854}, {"name": "w600", "maxWidth": 600, "maxHeight": 500}, {"name": "w600", "maxWidth": 900, "maxHeight": 600}
       ]

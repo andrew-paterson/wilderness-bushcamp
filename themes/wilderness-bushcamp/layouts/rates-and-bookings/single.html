@@ -8,10 +8,15 @@
         {{ range (index .Site.Taxonomies.categories "accommodation" ) }}
           <li>
             <h2>{{ .Page.Title }}</h2>
-            <ul>
-              <li><b>Low season</b> (1st May – 30th September 2020) - <b>{{ .Page.Params.rates_low_season}} per night</b></li>
-              <li><b>High season</b> (1st October 2020 – 30th April 2021) - <b>{{ .Page.Params.rates_high_season}} per night</b></li>
-            </ul>
+            {{ if .Page.Params.rates_low_season}}
+              <ul>
+                <li><b>Low season</b> (1st May – 30th September 2020) - <b>{{ .Page.Params.rates_low_season}} per night</b></li>
+                <li><b>High season</b> (1st October 2020 – 30th April 2021) - <b>{{ .Page.Params.rates_high_season}} per night</b></li>
+              </ul>
+            {{ else }}
+              !!! MISSING RATES --------------------------------
+            {{ end }}
+            
           </li>
         {{ end }}
         </ul>
