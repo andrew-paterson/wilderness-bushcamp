@@ -5,6 +5,4 @@ publish_date = "2020-05-31 00:00:00"
 date = "2020-05-31 00:00:00"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maiores aperiam blanditiis dicta illo? Minima voluptas natus debitis et saepe alias facilis unde ratione voluptates. Nobis laboriosam dolor ratione provident?
-
-
+In the midst of the lockdown we were honoured to receive a special mention from Wesgro CEO, Tim Harris, in an interview for Business Day’s Wanted Online…

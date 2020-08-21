@@ -61,7 +61,6 @@ function setSVGsize(svg) {
   }
 }
 
-
 function adjustHeight() {
   var dimensionedElements = document.querySelectorAll('[data-dimensions]');
   dimensionedElements.forEach(element => {
@@ -69,6 +68,8 @@ function adjustHeight() {
     var widthRatio = parseInt(dimensions[0]);
     var heightRatio = parseInt(dimensions[1]);
     var height = `${dimensions[1]}px`;
+    console.log(dimensions);
+    console.log(element.offsetWidth);
     var adjustedHeight = Math.ceil(element.offsetWidth/widthRatio*heightRatio);
     element.style.height = `${adjustedHeight}px`;
   });

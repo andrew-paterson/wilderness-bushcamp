@@ -6,9 +6,9 @@
     "watch": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/themes/wilderness-bushcamp/assets/js/",
     "src": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/themes/wilderness-bushcamp/assets/js/scripts/",
     "dest": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/themes/wilderness-bushcamp/static/js",
-    "minify": true,
+    "minify": false,
     "babel": {
-      "enabled": true,
+      "enabled": false,
       "presets": ["@babel/preset-env"]
     }
   },
@@ -56,7 +56,7 @@
     {
       "src": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/high-res-images/page-headers/standard",
       "dest": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/static/images/page-headers/standard",
-      "off": true,
+      "off": false,
       "sizes": [
         {"name": "w480", "maxWidth": 480, "maxHeight": 854}, {"name": "w600", "maxWidth": 600, "maxHeight": 500}
       ]
@@ -64,9 +64,17 @@
     {
       "src": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/high-res-images/blog",
       "dest": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/static/images/blog",
-      "off": false,
+      "off": true,
       "sizes": [
         {"name": "w480", "maxWidth": 480, "maxHeight": 854}, {"name": "w600", "maxWidth": 600, "maxHeight": 500}, {"name": "w600", "maxWidth": 900, "maxHeight": 600}
+      ]
+    },
+    {
+      "src": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/high-res-images/activities",
+      "dest": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/static/images/activities",
+      "off": true,
+      "sizes": [
+        {"maxWidth": 200, "maxHeight": 900}, {"maxWidth": 480, "maxHeight": 900}, {"maxWidth": 600, "maxHeight": 900}, {"maxWidth": 768, "maxHeight": 900}, {"maxWidth": 1440, "maxHeight": 900}, {"maxWidth": 1600, "maxHeight": 900}
       ]
     },
     {

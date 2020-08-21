@@ -1,6 +1,6 @@
 {{ $type := .type }}
 {{ $type_map := (index .context.Site.Params $type) }}
-{{$page_type_section_specific := (index $type_map .context.Section) }}
+{{ $page_type_section_specific := (index $type_map .context.Type) }}
 {{ $page_type_section_specific := cond (.context.Page.IsNode) $page_type_section_specific.list $page_type_section_specific.single }}
 {{ $page_type_general := cond (.context.Page.IsNode) $type_map.general.list $type_map.general.single }}
 {{ if $page_type_section_specific }}

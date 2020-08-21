@@ -13,10 +13,10 @@ tv_wifi = "Free WiFi (No TV)"
 rates = "From R1200 per night"
 rates_low_season = "R1200 for 2 people (+R150 per night for each additional person – max 4)"
 rates_high_season = "R1500 for 2 people (+R150 per night for each additional person – max 4)"
+weight = 7
+summary = "This newly built 2-bedroom cottage is situated on the uppermost section of the hill and is perfect for families. The slide from the deck onto the garden is designed for the kids but is also fun for the young at heart."
 +++
 
-This newly built 2-bedroom cottage is situated on the uppermost section of the hill and is perfect for families. The slide from the deck onto the garden is designed for the kids but is also fun for the young at heart. 
-<!--more-->
 __Forest Rise is a beautiful and comfortable cottage that feels like home from the moment you arrive\. Like its neighbour, Bird Haven, it’s nestled on the very top of the hill overlooking Wilderness village, where the only thing likely to disturb you is the morning chorus from the birdlife…__
 
 The private deck with stone\-built braai offers views over the ocean and lagoon\. It also has a slide for the children to gain easy access to the enclosed garden below\. This is the perfect place for young families to relax and enjoy the views, the solitude and the fresh sea air\.

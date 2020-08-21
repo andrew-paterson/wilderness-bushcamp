@@ -14,10 +14,10 @@ tv_wifi =	"Free WiFi and TV with DSTV"
 rates =	"From R800 per night"
 rates_low_season = "R850"
 rates_high_season = "R950"
+weight = 2
+summary = "A private gateway leads to this spacious and comfortable self-catering suite, which is attached to the main house but enjoys total privacy."
 +++
 
-A private gateway leads to this spacious and comfortable self-catering suite, which is attached to the main house but enjoys total privacy.
-<!--more-->
 __Aloe Suite is a lovely spacious apartment, laid out in an open setting with a private entrance and patio garden with ocean views\.__
 
 The apartment has a queen\-sized bed, kitchenette, lounge and breakfast area\. The large bathroom is the perfect place to unwind after a long day of walking on the forest trails, with its large bath, twin washbasins and shower\.

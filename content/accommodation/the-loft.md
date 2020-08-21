@@ -14,11 +14,10 @@ tv_wifi = "Free WiFi and TV with DSTV"
 rates = "From R1600 per night"
 rates_low_season = "R1400 for 2 people"
 rates_high_season = "R1600 for 2 people"
+weight = 9
+summary = "The Loft is the jewel in the crown of the Bushcamp and offers open plan living at its finest. An abundance of ocean views combined with elegant comfort has resulted in a truly unique apartment that is fast becoming popular as a honeymoon destination or special occasion getaway…"
 +++
 
-The Loft is the jewel in the crown of the Bushcamp and offers open plan living at its finest.
-An abundance of ocean views combined with elegant comfort has resulted in a truly unique apartment that is fast becoming popular as a honeymoon destination or special occasion getaway…
-<!--more-->
 __Quite simply, The Loft is as special as it looks…__
 
 This unique apartment is built on an elevated vantage point on a hill overlooking Wilderness village and the Indian Ocean\. Its position combined with a wall of windows overlooking the ocean, results in a mesmerising view that can occupy you all day long\.

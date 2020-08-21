@@ -1,31 +1,47 @@
 +++
 title = "Things to do"
 url = "things-to-do"
+pano_page_banner = "/images/page-headers/pano/wilderness-river-forest-and-ocean-1600w.jpg"
+standard_page_banner = "/images/page-headers/standard/wilderness-river-forest-and-ocean-600w.jpg"
+type = "things_to_do"
 +++
 
-On arrival there will be a booklet in your cabin, with suggestions of places to eat and things to do in the area\. However, if you want to plan ahead then please click on some of the following links to find out more about what’s going on in Wilderness and George and beyond… \(I STILL NEED TO FIND THESE LINKS – ONCE I’VE GOT THEM I’LL FORWARD THEM ON TO YOU\)
+*Wilderness is truly a unique place\. This garden of Eden is blessed with ocean and mountains, forest and rivers that converge to create a natural paradise that's just waiting to be explored\.*
 
-## Places to eat
+*Forest walks, riverside meanders, hiking trails, biking tracks, fishing spots, mountains to climb, rock pools to explore, world famous paragliding conditions and the endless rolling of the ocean which beckons you to kick off your shoes and set off along the pristine beaches that stretch as far as the eye can see…*
 
-Wilderness has a wide range of restaurants and cafes that cater for every taste, preference and occasion\. Please click on the following link to visit the Restaurant section of George and Wilderness Tourism\.
+*Maybe we can do a block ofd smaller images beneath the words with the banner shot att he top – as you did with the lapa tab?\)*
 
-[http://visitgeorge\.co\.za/Restaurant?search=&subtype=0](http://visitgeorge.co.za/Restaurant?search=&subtype=0)
+{{< _shared/image-gallery gallery_path="/images/activities/general" class="margin-bottom-xl">}}
+
+Just a short distance away George offers mountain peaks, botanical gardens, the Garden Route dam and the quaint Outeniqua power van … it’s also home to world famous golf courses at Fancourt and Oubaii… 
+
+{{< _shared/image-gallery gallery_path="/images/activities/hiking"  class="margin-bottom-xl">}}
 
 ## Things to do
 
-If you like to get out and about and explore the local area then there are numerous hikes, trails and scenic drives in and around Wilderness and in the surrounding towns of Knysna, Plett, Mossel Bay and Sedgefield\.
+{{< _shared/srcset-element class="width-100" image_path="/images/activities/general/kayaking-on-wilderness-lagoon-1440w.jpg" alt="Kayaking on the Wilderness lagoon">}}
 
-For many, the main attraction is the range of surf spots along this beautiful stretch of coast … but if you prefer to stay on dry land and golf’s your thing, you’ll be spoilt for choice with the world class golf courses at Fancourt, Pezula in Knysna and Ernie Els’ signature course at Oubaai
+Wilderness and George Tourism have compiled an up\-to\-date list of all the activities in the area\. 
 
-Wilderness and the Garden Route also offer some amazing opportunities to spice up your trip with a little excitement and adventure\. From abseiling in Wilderness and Knysna, to bungee jumping at Storms River, or boat based whale watching in Plettenberg Bay
+Please click on the link for more information…
 
 [http://visitgeorge\.co\.za/ThingsToDo?search=&subtype=0](http://visitgeorge.co.za/ThingsToDo?search=&subtype=0)
 
-If you’re looking for personal recommendations then maybe consider this very special list, which was written many years ago by John Pfaff, who built the Wilderness Bushcamp and Milkwood Village\. 
+## Places to eat
 
-### My Favourite Things – by John Pfaff
+*Visitors to the area are spoilt for choice with an abundance of cafes, coffee shops, restaurants, bars, biltong shops and even our very own chocolate shop\.*
+
+Please click on the following link to see what’s on the menu…
+
+[http://visitgeorge\.co\.za/Restaurant?search=&subtype=0](http://visitgeorge.co.za/Restaurant?search=&subtype=0)
+
+If you’re looking for personal recommendations then maybe consider this very special list, which was written many years ago by John Pfaff, who built the Wilderness Bushcamp and Milkwood Village\.
+
+## My Favourite Things – by John Pfaff
 
 {{< _shared/srcset-element class="width-100" image_path="/images/blog/johns-favourite-things/johns-favourite-things-900w.jpg" alt="John's favoutite things">}}
+
 
 In 1972 newlyweds, John and Ann Pfaff, arrived in George looking for somewhere to settle and make a home\.
 
@@ -41,9 +57,13 @@ In the early 80s John and Ann bought Aloe Heights; the hill where the Bushcamp i
 
 It was John’s dream to create Milkwood Village; an area that might become the heart of Wilderness and act as a meeting place for locals and visitors alike\. However, he faced a major challenge in protecting the old Milkwood trees that were at the centre of his proposed development\.
 
-Thankfully not one tree was harmed and those beautiful old Milkwood trees are now the focal point of Milkwood Village\. They’re also testament to John’s desire to see Wilderness going from strength to strength, while retaining its natural beauty and charm\.
+Thankfully not one tree was harmed and those beautiful old Milkwood trees are now the focal point of Milkwood Village\. They’re also testament to John’s desire to see Wilderness go from strength to strength, while retaining its natural beauty and charm\.
 
-Up at the Bushcamp, John built the first log cabin in 1994, and the first guests visited soon after\. Loerie Cabin was soon followed by Hideaway Cottage, Lagoon View, Sunrise Ridge and, most recently, Forest Rise and Bird Haven\. 
+{{< _shared/srcset-element class="width-100" image_path="/images/accommodation/galleries/aloe-house/aloe-house-03-1600w.jpg" alt="Alow House deck">}}
+
+high-res-images/accommodation/galleries/aloe-house/aloe-house-03.jpg
+
+Up at the Bushcamp, John built the first log cabin in 1994, and the first guests visited soon after\. Loerie Cabin was soon followed by Hideaway Cottage, Lagoon View, Sunrise Ridge and, most recently, Forest Rise and Bird Haven\.
 
 John passed away in 2010 but he will always be part of Wilderness, partly because he helped to shape the landscape of the village that you see today\.
 

@@ -15,11 +15,10 @@ tv_wifi = "Free WiFi (No TV)"
 rates = "From R1200 per night"
 rates_low_season = "R1200 for 2 people (+R150 per night for each additional person – max 4)"
 rates_high_season = "R1500 for 2 people (+R150 per night for each additional person – max 4)"
+weight = 8
+summary = "This beautifully appointed cottage sits in an area that was once the uppermost section of a bird sanctuary. The surrounding fynbos and vegetation still teems with birdlife, so bring your binoculars…"
 +++
 
-This beautifully appointed cottage sits in an area that was once the uppermost section of a bird sanctuary. The surrounding fynbos and vegetation still teems with birdlife, so bring your binoculars… 
-
-<!--more-->
 __Bird Haven is our newest cottage and has been carefully designed to offer rustic charm and modern comfort in this most tranquil of settings\. Enjoy views over indigenous forest to one side and a sweeping vista over the lakes, lagoon and ocean from the other\.__
 
 The open\-plan living area is comfortably equipped with a fully fitted kitchen, dining area and sitting area with log\-burning fireplace\. Outside, the private deck with stone\-built braai offers uninterrupted views of the whole of Wilderness\.

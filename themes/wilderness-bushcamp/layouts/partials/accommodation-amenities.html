@@ -9,6 +9,11 @@
       <div class="amenity-icon">{{ partial "svg/tree.html"}}</div>{{ .Params.views }}
     </div>
   {{ end }}
+  {{ if isset .Params "views" }}
+    <div class="amenity sleeps">
+      <div class="amenity-icon">{{ partial "svg/bed.html"}}</div>{{ .Params.sleeps }}
+    </div>
+  {{ end }}
   {{ if isset .Params "tv_wifi" }}
     <div class="amenity wifi-tv">
       <div class="amenity-icon">{{ partial "svg/tv-wifi.html"}}</div>{{ .Params.tv_wifi }}

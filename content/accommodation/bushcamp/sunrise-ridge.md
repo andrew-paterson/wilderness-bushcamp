@@ -14,10 +14,10 @@ tv_wifi = "No – just books"
 rates = "From R900 per night"
 rates_low_season = "R850"
 rates_high_season = "R950"
+weight = 4
+summary = "A wooden boardwalk leads down to this cosy wooden cabin, built for two. Step out of bed and onto your deck to enjoy the sun rise over the lagoon and the ocean"
 +++
 
-A wooden boardwalk leads down to this cosy wooden cabin, built for two. Step out of bed and onto your deck to enjoy the sun rise over the lagoon and the ocean, 
-<!--more-->
 __As the name suggests, Sunrise Ridge is perfectly positioned to watch the sun rising over the ocean and Wilderness lagoon…__
 
 The unique feature of this cabin, and the neighbouring Lagoon View, is that it is North and East facing, positioning it perfectly to enjoy the sunrise and sunset from the private deck

@@ -14,10 +14,10 @@ tv_wifi = "Free WiFi  (No TV)"
 rates = "From R700 per night"
 rates_low_season = "R750"
 rates_high_season = "R850"
+weight = 1
+summary = "This cosy studio apartment is located near the main house so is the perfect choice for someone who wants to have convenient access and be a little less “in the bush” but still be able to enjoy a private deck with far reaching ocean views."
 +++
 
-This cosy studio apartment is located near the main house so is the perfect choice for someone who wants to have convenient access and be a little less “in the bush” but still be able to enjoy a private deck with far reaching ocean views.
-<!--more-->
 __Wake up to the ocean in this cosy studio apartment where you can watch the waves without leaving your bed…__
 
 Aloe Studio is located near to the main house and has parking within a few steps of the entrance\. It’s an extremely convenient apartment with all the necessities for basic self\-catering\. It’s very popular with guests travelling through on business or guests who want to stay for an extended period and use it as a base while they explore the Garden Route\. Everything is within arm’s reach and there are views at every turn …

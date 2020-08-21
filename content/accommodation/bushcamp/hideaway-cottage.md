@@ -13,9 +13,12 @@ braai = "No – but easy access to lapa with braai"
 views = "Private deck with ocean views"
 tv_wifi = "No – just books"
 rates = "From R800 per night"
+rates_low_season = "R750 per night"
+rates_high_season = "R900 per night"
+weight = 3
+summary = "Discreetly located at the end of a wooden walkway and hidden amongst dense bush, this is the perfect choice for those who don’t want to be disturbed."
 +++
-Discreetly located at the end of a wooden walkway and hidden amongst dense bush, this is the perfect choice for those who don’t want to be disturbed. 
-<!--more-->
+
 __Hideaway Cottage welcomed its first guests over 20 years ago\. Tucked away in the heart of the Bushcamp it was originally called “Number 4” but quickly earned the rather more romantic title of “Honeymoon Cottage” when guests began to choose it as their honeymoon destination; enjoying the privacy, seclusion and ocean views that it offered\.__
 
 Now we’ve decided to ease the pressure on those guests who may not be planning a honeymoon just yet\. So we invite you to visit Hideaway Cottage, because that’s exactly what it is … hidden away, surrounded by bush at the end of a winding wooden walkway\. 
