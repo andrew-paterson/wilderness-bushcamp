@@ -1,13 +1,13 @@
-+++
-title = "The Lapa"
-url = "the-lapa"
-gallery_path = "/images/accommodation/galleries/the-lapa"
-cover_image = "/images/accommodation/galleries/the-lapa/the-lapa-01-480w.jpg"
-pano_page_banner = "/images/page-headers/pano/the-lapa-1600w.jpg"
-standard_page_banner = "/images/page-headers/standard/the-lapa-600w.jpg"
-braai = "Yes"
-views = "Private deck with ocean views"
-+++
+---
+title: The Lapas
+url: the-lapa
+gallery_path: /images/accommodation/galleries/the-lapa
+cover_image: /images/accommodation/galleries/the-lapa/the-lapa-01-480w.jpg
+pano_page_banner: /images/page-headers/pano/the-lapa-1600w.jpg
+standard_page_banner: /images/page-headers/standard/the-lapa-600w.jpg
+braai: Yes
+views: Private deck with ocean views
+---
 
 While each unit has its own private deck with outdoor dining area, not all of the units are equipped with a braai, so guests are welcome to make use of the communal area, known as the Lapa…
 
