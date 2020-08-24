@@ -1,5 +1,5 @@
 ---
-title: The Lapas
+title: The Lapa
 url: the-lapa
 gallery_path: /images/accommodation/galleries/the-lapa
 cover_image: /images/accommodation/galleries/the-lapa/the-lapa-01-480w.jpg
