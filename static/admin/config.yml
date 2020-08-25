@@ -1,0 +1,67 @@
+backend:
+  name: github
+  repo: andrew-paterson/wilderness-bushcamp
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: /static/images/activities/general
+public_folder: /images
+collections:
+  - name: 'accommodation'
+    label: 'Accommodation'
+    folder: 'content/accommodation'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'title', name: 'title', widget: 'string', required: false }
+      - { label: 'accommodates', name: 'accommodates', widget: 'string', required: false }
+      - { label: 'additional_guests', name: 'additional_guests', widget: 'string', required: false }
+      - { label: 'sleeps', name: 'sleeps', widget: 'string', required: false }
+      - { label: 'braai', name: 'braai', widget: 'string', required: false }
+      - { label: 'views', name: 'views', widget: 'string', required: false }
+      - { label: 'tv_wifi', name: 'tv_wifi', widget: 'string', required: false }
+      - { label: 'rates', name: 'rates', widget: 'string', required: false }
+      - { label: 'rates_low_season', name: 'rates_low_season', widget: 'string', required: false }
+      - { label: 'rates_high_season', name: 'rates_high_season', widget: 'string', required: false }
+      - { label: 'summary', name: 'summary', widget: 'string', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Contact"
+        name: "contact"
+        file: "/content/contact-us.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: 'Body', name: 'body', widget: 'markdown', required: false }
+      - label: "Things to Do"
+        name: "things-to-do"
+        file: "/content/things-to-do.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: 'Body', name: 'body', widget: 'markdown', required: false }
+      - label: "Home"
+        name: "home"
+        file: "/content/_index.md"
+        fields:
+          - {label: 'Body', name: 'body', widget: 'markdown', required: false }
+      - label: "Accommodation home"
+        name: "accommodation-home"
+        file: "/content/accommodation/_index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: 'Body', name: 'body', widget: 'markdown', required: false }
+  - name: 'media'
+    label: 'Media'
+    folder: 'content/media'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'title', name: 'title', widget: 'string', required: false }
+      - { label: 'link', name: 'link', widget: 'string', required: false }
+      - { label: 'cover_image', name: 'cover_image', widget: 'string', required: false }
+      - { label: 'publish_date', name: 'publish_date', widget: 'string', required: false }
+      - { label: 'date', name: 'date', widget: 'string', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+    
