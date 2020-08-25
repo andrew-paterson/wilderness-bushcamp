@@ -3,7 +3,6 @@ title: Contact Us
 maps: https://www.google.com/maps/embed/v1/place?q=place_id:ChIJeamlQFMc1h0RSVrpwk3iOQ8&key=AIzaSyA18kP2XrlRrHEN3yxB0XyCUeqUTDvBdvQ&zoom=12
 type: contact
 ---
-youtube cbP2N1BQdYc
 
 Please feel free to contact us should you have any queries, or send us an enquiry through  our [booking form](http://www.wildernessbushcamp.co.za/bookings-enquiries/ "Make a Booking") and we’ll get back to you.
 

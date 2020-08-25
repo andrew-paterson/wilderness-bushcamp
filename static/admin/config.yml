@@ -25,8 +25,21 @@ collections:
       - { label: 'rates_high_season', name: 'rates_high_season', widget: 'string', required: false }
       - { label: 'summary', name: 'summary', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
-  - name: "pages"
-    label: "Pages"
+  - name: 'media'
+    label: 'Media'
+    folder: 'content/media'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'title', name: 'title', widget: 'string', required: false }
+      - { label: 'link', name: 'link', widget: 'string', required: false }
+      - { label: 'cover_image', name: 'cover_image', widget: 'string', required: false }
+      - { label: 'publish_date', name: 'publish_date', widget: 'string', required: false }
+      - { label: 'date', name: 'date', widget: 'string', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+  - name: "single-pages"
+    label: "Single Pages"
     files:
       - label: "Contact"
         name: "contact"
@@ -51,17 +64,3 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: 'Body', name: 'body', widget: 'markdown', required: false }
-  - name: 'media'
-    label: 'Media'
-    folder: 'content/media'
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: 'title', name: 'title', widget: 'string', required: false }
-      - { label: 'link', name: 'link', widget: 'string', required: false }
-      - { label: 'cover_image', name: 'cover_image', widget: 'string', required: false }
-      - { label: 'publish_date', name: 'publish_date', widget: 'string', required: false }
-      - { label: 'date', name: 'date', widget: 'string', required: false }
-      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
-    
