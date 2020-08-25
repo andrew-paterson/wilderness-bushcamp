@@ -26,15 +26,15 @@
           name: 'alt', 
           label: 'Alternate text', 
           widget: 'string'
+        }, {
+          name: 'class', 
+          label: 'Class', 
+          widget: 'string'
         }],
         // Pattern to identify a block as being an instance of this component
         pattern: /{{< _shared\/srcset-element image_path="(.*)" alt="(.*)" class="(.*)" >}}/,
         // Function to extract data elements from the regexp match
         fromBlock: function(match) {
-          console.log(match[0]);
-          console.log(match[1]);
-          console.log(match[2]);
-          console.log('---------------------------------');
           return {
             src: match[1],
             alt: match[2],
@@ -48,7 +48,6 @@
         // Preview output for this component. Can either be a string or a React component
         // (component gives better render performance)
         toPreview: function(obj) {
-          console.log(obj)
           return (
             `<img src="${obj.src}" alt="${obj.src}" class="${obj.class}" />`
           );
