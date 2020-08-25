@@ -5,8 +5,6 @@ type: contact
 ---
 Please feel free to contact us should you have any queries, or send us an enquiry through  our [booking form](http://www.wildernessbushcamp.co.za/bookings-enquiries/ "Make a Booking") and we’ll get back to you.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cbP2N1BQdYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Directions
 
 Wilderness is located just off the N2, approx 15km from George.
