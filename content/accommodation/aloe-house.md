@@ -1,22 +1,28 @@
-+++
-title = "Aloe House"
-url = "/accommodation/aloe-heights/aloe-house"
-accommodates = "2-6 people"
-additional_guests = "R250 per night. Up to a maximum of 6 people."
-gallery_path = "/images/accommodation/galleries/aloe-house"
-categories = ["accommodation", "aloe_heights"]
-cover_image = "/images/accommodation/galleries/aloe-house/aloe-house-02-480w.jpg"
-pano_page_banner = "/images/page-headers/pano/aloe-house-1600w.jpg"
-standard_page_banner = "/images/page-headers/standard/aloe-house-600w.jpg"
-sleeps = 6 
-braai = "Yes"
-views = "Private decks with ocean views"
-tv_wifi = "Free WiFi and TV with DSTV"
-rates = "From R2500 per night"
-rates_high_season = "R4500 per night  (max 6 people)"
-weight = 10
-summary = "Aloe House is a 3-bedroom house with a range of entertaining spaces that make it the perfect place for families or a group of friends who want to enjoy an extended break away. There’s also a private swimming pool to laze by and views fro every corner of the wraparound deck. (only available for rent over December and January)"
-+++
+---
+accommodates: 2-6 peoples
+views: Private decks with ocean views
+summary: Aloe House is a 3-bedroom house with a range of entertaining spaces
+  that make it the perfect place for families or a group of friends who want to
+  enjoy an extended break away. There’s also a private swimming pool to laze by
+  and views fro every corner of the wraparound deck. (only available for rent
+  over December and January)
+url: /accommodation/aloe-heights/aloe-house
+pano_page_banner: /images/page-headers/pano/aloe-house-1600w.jpg
+gallery_path: /images/accommodation/galleries/aloe-house
+additional_guests: R250 per night. Up to a maximum of 6 people.
+sleeps: 6
+tv_wifi: Free WiFi and TV with DSTV
+cover_image: /images/accommodation/galleries/aloe-house/aloe-house-02-480w.jpg
+title: Aloe House
+braai: Yes
+rates: From R2500 per night
+rates_high_season: R4500 per night  (max 6 people)
+weight: 10
+standard_page_banner: /images/page-headers/standard/aloe-house-600w.jpg
+categories:
+  - accommodation
+  - aloe_heights
+---
 
 __Aloe House is perched on the edge of a hill overlooking the Indian Ocean and Wilderness lagoon__\. __From this magnificent vantage point you can enjoy the sunrise, the sunset and all the glorious views in between…__
 
