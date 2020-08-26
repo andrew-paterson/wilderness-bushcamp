@@ -25,10 +25,6 @@ categories:
 ---
 **Aloe House is perched on the edge of a hill overlooking the Indian Ocean and Wilderness lagoon**. **From this magnificent vantage point you can enjoy the sunrise, the sunset and all the glorious views in between…**
 
-
-
-**test**
-
 The wraparound deck is the standout feature of the house. You’ll be spoilt for choice with views of Wilderness lagoon, Wilderness beach, Kaaimans River and Vic Bay. There’s also a swimming pool and patio area with uninterrupted views over Wilderness beach and a perfect vantage point for whale and dolphin watching.
 
 Indoors, the large open-plan kitchen and dining area is tailor-made for entertaining, with an abundance of space to prepare food and a large dining table where meals can be enjoyed.
