@@ -13,7 +13,7 @@ additional_guests: R250 per night. Up to a maximum of 6 people.
 sleeps: 6
 tv_wifi: Free WiFi and TV with DSTV
 cover_image: /images/accommodation/galleries/aloe-house/aloe-house-02-480w.jpg
-title: Aloe House
+title: Aloe Houses
 braai: Yes
 rates: From R2500 per night
 rates_high_season: R4500 per night  (max 6 people)
