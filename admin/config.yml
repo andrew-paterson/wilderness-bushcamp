@@ -1,9 +1,10 @@
 backend:
   name: github
   repo: andrew-paterson/wilderness-bushcamp
-  base_url: https://3qqa7anve6.execute-api.eu-west-1.amazonaws.com/prod
-  auth_endpoint: /oauth/auth
+  base_url: https://9s9ttkn75e.execute-api.eu-west-1.amazonaws.com/prod
+  auth_endpoint: /auth
   branch: master # Branch to update (optional; defaults to master)
+site_id: www.wb.ajp-sandbox.co.za
 media_folder: /static/images/activities/general
 public_folder: /images
 collections:
