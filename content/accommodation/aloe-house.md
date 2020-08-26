@@ -1,5 +1,5 @@
 ---
-accommodates: 2-6 peoples
+accommodates: 2-6 people
 views: Private decks with ocean views
 summary: Aloe House is a 3-bedroom house with a range of entertaining spaces
   that make it the perfect place for families or a group of friends who want to
@@ -23,39 +23,41 @@ categories:
   - accommodation
   - aloe_heights
 ---
+**Aloe House is perched on the edge of a hill overlooking the Indian Ocean and Wilderness lagoon**. **From this magnificent vantage point you can enjoy the sunrise, the sunset and all the glorious views in between…**
 
-__Aloe House is perched on the edge of a hill overlooking the Indian Ocean and Wilderness lagoon__\. __From this magnificent vantage point you can enjoy the sunrise, the sunset and all the glorious views in between…__
 
 
-The wraparound deck is the standout feature of the house\. You’ll be spoilt for choice with views of Wilderness lagoon, Wilderness beach, Kaaimans River and Vic Bay\. There’s also a swimming pool and patio area with uninterrupted views over Wilderness beach and a perfect vantage point for whale and dolphin watching\.
+**test**
 
-Indoors, the large open\-plan kitchen and dining area is tailor\-made for entertaining, with an abundance of space to prepare food and a large dining table where meals can be enjoyed\.
+The wraparound deck is the standout feature of the house. You’ll be spoilt for choice with views of Wilderness lagoon, Wilderness beach, Kaaimans River and Vic Bay. There’s also a swimming pool and patio area with uninterrupted views over Wilderness beach and a perfect vantage point for whale and dolphin watching.
 
-Beyond the kitchen is a cosy lounge with sofas and an indoor fireplace\. Adjacent to this is a games room laid out for lounging and watching the ocean\. This is a popular room with children, who love to draw and read and play in this relaxed space\.
+Indoors, the large open-plan kitchen and dining area is tailor-made for entertaining, with an abundance of space to prepare food and a large dining table where meals can be enjoyed.
 
-The house has three bedrooms, two have en\-suite facilities while the third has a large private bathroom across the corridor\. Each room faces onto the pool and patio area with views over the ocean\.
+Beyond the kitchen is a cosy lounge with sofas and an indoor fireplace. Adjacent to this is a games room laid out for lounging and watching the ocean. This is a popular room with children, who love to draw and read and play in this relaxed space.
 
-__Aloe House is available for rent during December and January only\.__
+The house has three bedrooms, two have en-suite facilities while the third has a large private bathroom across the corridor. Each room faces onto the pool and patio area with views over the ocean.
+
+**Aloe House is available for rent during December and January only.**
 
 ## Features
 
-- Double room – en\-suite bathroom with shower\.
-- Double room – en\-suite bathroom with shower\.
-- Twin room – private bathroom with bath and shower\.
-- Laundry room – with washing machine
-- Large kitchen and dining area – with dishwasher\.
-- Bar area
-- Lounge area – TV with DSTV
-- Indoor fireplace
-- Games room / play room
-- Wraparound deck with outdoor dining areas and views of ocean and lagoon\.
-- Patio area with outdoor table and ocean views\.
-- Swimming pool 
+* Double room – en-suite bathroom with shower.
+* Double room – en-suite bathroom with shower.
+* Twin room – private bathroom with bath and shower.
+* Laundry room – with washing machine
+* Large kitchen and dining area – with dishwasher.
+* Bar area
+* Lounge area – TV with DSTV
+* Indoor fireplace
+* Games room / play room
+* Wraparound deck with outdoor dining areas and views of ocean and lagoon.
+* Patio area with outdoor table and ocean views.
+* Swimming pool 
 
-__For Your Safety:__
+**For Your Safety:**
 
-*There is a net cover on the pool, but children must still be supervised at all times\.*
+*There is a net cover on the pool, but children must still be supervised at all times.*
 
-*The pool is built on a protruding rock, so the bottom is uneven\. No diving\!*
+*The pool is built on a protruding rock, so the bottom is uneven. No diving!*
 
-*The house is built on the very edge of the hilltop and there are some steep drops\.*
+*The house is built on the very edge of the hilltop and there are some steep drops.*
