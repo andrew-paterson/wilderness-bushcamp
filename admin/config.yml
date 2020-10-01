@@ -16,18 +16,15 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'title', name: 'title', widget: 'string', required: false }
-      - { label: 'accommodates', name: 'accommodates', widget: 'string', required: false }
-      - { label: 'additional_guests', name: 'additional_guests', widget: 'string', required: false }
-      - { label: 'sleeps', name: 'sleeps', widget: 'string', required: false }
-      - { label: 'braai', name: 'braai', widget: 'string', required: false }
-      - { label: 'views', name: 'views', widget: 'string', required: false }
-      - { label: 'tv_wifi', name: 'tv_wifi', widget: 'string', required: false }
-      - { label: 'rates', name: 'rates', widget: 'string', required: false }
-      - { label: 'rates_low_season', name: 'rates_low_season', widget: 'string', required: false }
-      - { label: 'rates_high_season', name: 'rates_high_season', widget: 'string', required: false }
-      - { label: 'summary', name: 'summary', widget: 'string', required: false }
-      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+      - { label: 'title', name: 'title', widget: 'string', required: true }
+      - { label: 'additional_guests', name: 'additional_guests', widget: 'string', required: true }
+      - { label: 'sleeps', name: 'sleeps', widget: 'string', required: true }
+      - { label: 'braai', name: 'braai', widget: 'string', required: true }
+      - { label: 'views', name: 'views', widget: 'string', required: true }
+      - { label: 'tv_wifi', name: 'tv_wifi', widget: 'string', required: true }
+      - { label: 'rates', name: 'rates', widget: 'string', required: true }
+      - { label: 'summary', name: 'summary', widget: 'string', required: true }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: true }
   - name: 'media'
     label: 'Media'
     folder: 'content/media'
