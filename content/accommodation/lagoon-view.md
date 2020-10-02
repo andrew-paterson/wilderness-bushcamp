@@ -7,7 +7,7 @@ summary: This is one of our most popular cabins, with a private deck that offers
 url: /accommodation/bushcamp/lagoon-view
 pano_page_banner: /images/page-headers/pano/lagoon-view-1600w.jpg
 gallery_path: /images/accommodation/galleries/lagoon-view
-additional_guests: +150 per person upto a maximum of 4
+additional_guests: +R150 per person upto a maximum of 4
 tv_wifi: No – just books
 cover_image: /images/accommodation/galleries/lagoon-view/lagoon-view-02-480w.jpg
 rates: From R1100 per night
