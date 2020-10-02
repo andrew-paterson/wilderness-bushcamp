@@ -1,21 +1,26 @@
-+++
-title = "Forest Rise"
-url = "accommodation/bushcamp/forest-rise"
-gallery_path = "/images/accommodation/galleries/forest-rise"
-categories = ["accommodation", "bushcamp"]
-cover_image = "/images/accommodation/galleries/forest-rise/forest-rise-11-480w.jpg"
-pano_page_banner = "/images/page-headers/pano/forest-rise-1600w.jpg"
-standard_page_banner = "/images/page-headers/standard/forest-rise-600w.jpg"
-sleeps = 4  
-braai = "Yes"
-views = "Private deck with ocean views"
-tv_wifi = "Free WiFi (No TV)"
-rates = "From R1200 per night"
-rates_low_season = "R1200 for 2 people (+R150 per night for each additional person – max 4)"
-rates_high_season = "R1500 for 2 people (+R150 per night for each additional person – max 4)"
-weight = 7
-summary = "This newly built 2-bedroom cottage is situated on the uppermost section of the hill and is perfect for families. The slide from the deck onto the garden is designed for the kids but is also fun for the young at heart."
-+++
+---
+views: Private deck with ocean views
+summary: This newly built 2-bedroom cottage is situated on the uppermost section
+  of the hill and is perfect for families. The slide from the deck onto the
+  garden is designed for the kids but is also fun for the young at heart.
+url: accommodation/bushcamp/forest-rise
+pano_page_banner: /images/page-headers/pano/forest-rise-1600w.jpg
+gallery_path: /images/accommodation/galleries/forest-rise
+title: Forest Rise
+additional_guests: +R150 per person upto a maximum of 4
+sleeps: 4
+tv_wifi: Free WiFi (No TV)
+cover_image: /images/accommodation/galleries/forest-rise/forest-rise-11-480w.jpg
+braai: Yes
+rates: From R1250 per night
+rates_high_season: R1500 for 2 people (+R150 per night for each additional person – max 4)
+weight: 7
+standard_page_banner: /images/page-headers/standard/forest-rise-600w.jpg
+rates_low_season: R1200 for 2 people (+R150 per night for each additional person – max 4)
+categories:
+  - accommodation
+  - bushcamp
+---
 
 __Forest Rise is a beautiful and comfortable cottage that feels like home from the moment you arrive\. Like its neighbour, Bird Haven, it’s nestled on the very top of the hill overlooking Wilderness village, where the only thing likely to disturb you is the morning chorus from the birdlife…__
 
