@@ -4,14 +4,14 @@ summary: "0"
 url: the-lapa
 pano_page_banner: /images/page-headers/pano/the-lapa-1600w.jpg
 gallery_path: /images/accommodation/galleries/the-lapa
-additional_guests: " 0"
-sleeps: " 0"
+additional_guests: " "
 tv_wifi: " 0"
 cover_image: /images/accommodation/galleries/the-lapa/the-lapa-01-480w.jpg
 title: The Lapa
 braai: Yes
 rates: " 0"
 standard_page_banner: /images/page-headers/standard/the-lapa-600w.jpg
+sleeps: " 0"
 ---
 Each unit has its own private deck with outdoor dining area but not all of the units are equipped with a braai, so guests are welcome to make use of the communal lapa area…
 
