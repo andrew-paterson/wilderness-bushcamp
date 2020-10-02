@@ -1,23 +1,27 @@
-+++
-title = "Bird Haven"
-url = "accommodation/bushcamp/bird-haven"
-accommodates = "2-4 people"
-additional_guests = "+ R150 per person upto a maximum of 4"
-gallery_path = "/images/accommodation/galleries/bird-haven"
-categories = ["accommodation", "bushcamp"]
-cover_image = "/images/accommodation/galleries/bird-haven/bird-haven-12-480w.jpg"
-pano_page_banner = "/images/page-headers/pano/bird-haven-1600w.jpg"
-standard_page_banner = "/images/page-headers/standard/bird-haven-600w.jpg"
-sleeps = 4  
-braai = "Yes"
-views = "Private deck with ocean views"
-tv_wifi = "Free WiFi (No TV)"
-rates = "From R1200 per night"
-rates_low_season = "R1200 for 2 people (+R150 per night for each additional person – max 4)"
-rates_high_season = "R1500 for 2 people (+R150 per night for each additional person – max 4)"
-weight = 8
-summary = "This beautifully appointed cottage sits in an area that was once the uppermost section of a bird sanctuary. The surrounding fynbos and vegetation still teems with birdlife, so bring your binoculars…"
-+++
+---
+accommodates: 2-4 people
+views: Private deck with ocean views
+summary: This beautifully appointed cottage sits in an area that was once the
+  uppermost section of a bird sanctuary. The surrounding fynbos and vegetation
+  still teems with birdlife, so bring your binoculars…
+url: accommodation/bushcamp/bird-haven
+pano_page_banner: /images/page-headers/pano/bird-haven-1600w.jpg
+gallery_path: /images/accommodation/galleries/bird-haven
+additional_guests: + R150 per person upto a maximum of 4
+tv_wifi: Free WiFi (No TV)
+cover_image: /images/accommodation/galleries/bird-haven/bird-haven-12-480w.jpg
+rates: From R1250 per night
+rates_high_season: R1500 for 2 people (+R150 per night for each additional person – max 4)
+title: Bird Haven
+weight: 8
+braai: Yes
+standard_page_banner: /images/page-headers/standard/bird-haven-600w.jpg
+rates_low_season: R1200 for 2 people (+R150 per night for each additional person – max 4)
+sleeps: 4
+categories:
+  - accommodation
+  - bushcamp
+---
 
 __Bird Haven is our newest cottage and has been carefully designed to offer rustic charm and modern comfort in this most tranquil of settings\. Enjoy views over indigenous forest to one side and a sweeping vista over the lakes, lagoon and ocean from the other\.__
 
