@@ -29,7 +29,7 @@ The wraparound deck is the standout feature of the house. You’ll be spoilt for
 
 Indoors, the large open-plan kitchen and dining area is tailor-made for entertaining, with an abundance of space to prepare food and a large dining table where meals can be enjoyed together.
 
-Beyond the kitchen is a cosy lounge with sofas and an indoor fireplace. Adjacent to this is a games room laid out for lounging and watching the ocean. This is a popular room with children, who love to draw, read and play in this relaxed space.
+Beyond the kitchen is a cosy lounge with sofas and an indoor fireplace. Adjacent to this is a games room laid out for lounging and watching the ocean. This is a popular room with children who love to draw, read and play in this relaxed space.
 
 The house has three bedrooms, two with en-suite bathrooms while the third has a large private bathroom across the corridor. Each bedroom faces onto the pool and patio area with views over the ocean.
 
