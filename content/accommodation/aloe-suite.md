@@ -1,22 +1,26 @@
-+++
-title = "Aloe Suite"
-url = "/accommodation/aloe-heights/aloe-suite"
-accommodates = "2 people"
-gallery_path = "/images/accommodation/galleries/aloe-suite"
-categories = ["accommodation", "aloe_heights"]
-cover_image = "/images/accommodation/galleries/aloe-suite/aloe-suite-02-480w.jpg"
-pano_page_banner = "/images/page-headers/pano/aloe-suite-1600w.jpg"
-standard_page_banner = "/images/page-headers/standard/aloe-suite-600w.jpg"
-sleeps = 2 
-braai = "No – but easy access to lapa with braai"
-views = "Private deck with ocean views"
-tv_wifi =	"Free WiFi and TV with DSTV"
-rates =	"From R800 per night"
-rates_low_season = "R850"
-rates_high_season = "R950"
-weight = 2
-summary = "A private gateway leads to this spacious and comfortable self-catering suite, which is attached to the main house but enjoys total privacy."
-+++
+---
+accommodates: 2 people
+views: Private deck with ocean views
+summary: A private gateway leads to this spacious and comfortable self-catering
+  suite, which is attached to the main house but enjoys total privacy.
+url: /accommodation/aloe-heights/aloe-suite
+pano_page_banner: /images/page-headers/pano/aloe-suite-1600w.jpg
+gallery_path: /images/accommodation/galleries/aloe-suite
+additional_guests: "0"
+tv_wifi: Free WiFi and TV with DSTV
+cover_image: /images/accommodation/galleries/aloe-suite/aloe-suite-02-480w.jpg
+rates: From R850 per night
+rates_high_season: R950
+title: Aloe Suite
+weight: 2
+braai: No – but easy access to lapa with braai
+standard_page_banner: /images/page-headers/standard/aloe-suite-600w.jpg
+rates_low_season: R850
+sleeps: 2
+categories:
+  - accommodation
+  - aloe_heights
+---
 
 __Aloe Suite is a lovely spacious apartment, laid out in an open setting with a private entrance and patio garden with ocean views\.__
 
