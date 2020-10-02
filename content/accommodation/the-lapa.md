@@ -1,29 +1,29 @@
 ---
-title: The Lapa
+views: Communal deck with ocean views
+summary: "0"
 url: the-lapa
-gallery_path: /images/accommodation/galleries/the-lapa
-cover_image: /images/accommodation/galleries/the-lapa/the-lapa-01-480w.jpg
 pano_page_banner: /images/page-headers/pano/the-lapa-1600w.jpg
-standard_page_banner: /images/page-headers/standard/the-lapa-600w.jpg
+gallery_path: /images/accommodation/galleries/the-lapa
+additional_guests: " 0"
+sleeps: " 0"
+tv_wifi: " 0"
+cover_image: /images/accommodation/galleries/the-lapa/the-lapa-01-480w.jpg
+title: The Lapa
 braai: Yes
-views: Private deck with ocean views
+rates: " 0"
+standard_page_banner: /images/page-headers/standard/the-lapa-600w.jpg
 ---
+Each unit has its own private deck with outdoor dining area but not all of the units are equipped with a braai, so guests are welcome to make use of the communal lapa area…
 
-While each unit has its own private deck with outdoor dining area, not all of the units are equipped with a braai, so guests are welcome to make use of the communal area, known as the Lapa…
+The Lapa is situated in close proximity to Loerie Cabin, Hideaway Cottage and Aloe Studio, but is available for all guests to use and enjoy.
 
-The Lapa is situated in close proximity to Loerie Cabin, Hideaway Cottage and Aloe Studio, but is available for all guests to use and enjoy\.
+If guests are interested in booking out the whole Bushcamp for a group of people then it’s possible to secure exclusive use of The Lapa so that guests can gather there to enjoy meals together. 
 
-If guests are interested in booking out the whole Bushcamp for a group of people then it’s possible to secure exclusive use of the Lapa so that guests can gather there to enjoy meals together\. It can accommodate up to 30 guests comfortably\. There is a braai and pizza oven as well as a small, fully equipped kitchen with serving counter and an undercover eating area\. 
+It can accommodate up to 30 guests comfortably in the outside and indoor eating areas. There's a braai and pizza oven as well as a small, fully equipped kitchen with serving counter. 
 
-The Lapa looks out over the ocean and can be enjoyed at any time of the day\. It’s the perfect place to sit and watch the dolphins by day, but it’s perhaps best suited for evening braais\.
+The Lapa looks out over the ocean and is the perfect place to sit and watch the dolphins by day, but it’s probably best suited for late afternoon braais when you can enjoy the last few rays of sun while cooking up a potjie or a pizza with friends...
 
-## BUSH FIRES
-
-Over the last 20 years there have been 3 serious bush fires in the Wilderness area\. 
-
-This is the reason we have removed individual braais from the cottages that are situated in denser bush \(Loerie Cabin, Hideaway Cottage and Aloe Studio\) However, these are all a short walk from the Lapa, so guests can enjoy the convenience of this braai area with pizza oven\.
-
-Out of consideration for fellow guests please be aware of the Lapa Rules:
+## LAPA RULES: 
 
 Please don’t leave fires unattended
 
@@ -31,4 +31,12 @@ No music or noise after 10pm
 
 Please clean up after yourselves so that others can also enjoy the shared space
 
-Please pack away or throw away unwanted bits of food and don’t leave food in the Lapa overnight\. 
+Please pack away or throw away unwanted bits of food and don’t leave food in The Lapa overnight 
+
+**BUSH FIRES:**
+
+Over the last 20 years there have been 3 serious bush fires in the Wilderness area. 
+
+To reduce the risk of bush fire we decided to remove the individual braais from the cabins located in denser bush (Loerie Cabin and Hideaway Cottage) However, these two cabins are just a few steps away from The Lapa so guests don't have to walk far to braai and can even take their food back to their cabins to enjoy on the deck
+
+Please remember not to leave fires unattended, even to pop back to your cabin
