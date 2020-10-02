@@ -3,35 +3,35 @@ accommodates: 2-6 people
 views: Private decks with ocean views
 summary: Aloe House is a 3-bedroom house with a range of entertaining spaces
   that make it the perfect place for families or a group of friends who want to
-  enjoy an extended break away. There’s also a private swimming pool to laze by
-  and views fro every corner of the wraparound deck. (only available for rent
-  over December and January)
+  enjoy an extended break away. There’s also a private swimming pool and views
+  from every corner of the wraparound deck. (only available for rent over
+  December and January)
 url: /accommodation/aloe-heights/aloe-house
 pano_page_banner: /images/page-headers/pano/aloe-house-1600w.jpg
 gallery_path: /images/accommodation/galleries/aloe-house
 additional_guests: R250 per night. Up to a maximum of 6 people.
+sleeps: 6
 tv_wifi: Free WiFi and TV with DSTV
 cover_image: /images/accommodation/galleries/aloe-house/aloe-house-02-480w.jpg
-title: Aloe House
-rates: From R2500 per night
+rates: From R3500 per night
 rates_high_season: R4500 per night  (max 6 people)
+title: Aloe House
 weight: 10
 braai: Yes
 standard_page_banner: /images/page-headers/standard/aloe-house-600w.jpg
-sleeps: 6
 categories:
   - accommodation
   - aloe_heights
 ---
-**Aloe House is perched on the edge of a hill overlooking the Indian Ocean and Wilderness lagoon**. **From this magnificent vantage point you can enjoy the sunrise, the sunset and all the glorious views in between…**
+**Aloe House is perched on the edge of a hill overlooking the Indian Ocean and Wilderness lagoon**. **From this unique vantage point you can enjoy the sunrise, the sunset and all the glorious views in between…**
 
-The wraparound deck is the standout feature of the house. You’ll be spoilt for choice with views of Wilderness lagoon, Wilderness beach, Kaaimans River and Vic Bay. There’s also a swimming pool and patio area with uninterrupted views over Wilderness beach and a perfect vantage point for whale and dolphin watching.
+The wraparound deck is the standout feature of the house. You’ll be spoilt for choice with views of Wilderness lagoon, Wilderness beach, Kaaimans River and Vic Bay. There’s also a swimming pool and patio area with uninterrupted views over Wilderness beach; the prefect place for whale and dolphin watching.
 
-Indoors, the large open-plan kitchen and dining area is tailor-made for entertaining, with an abundance of space to prepare food and a large dining table where meals can be enjoyed.
+Indoors, the large open-plan kitchen and dining area is tailor-made for entertaining, with an abundance of space to prepare food and a large dining table where meals can be enjoyed together.
 
-Beyond the kitchen is a cosy lounge with sofas and an indoor fireplace. Adjacent to this is a games room laid out for lounging and watching the ocean. This is a popular room with children, who love to draw and read and play in this relaxed space.
+Beyond the kitchen is a cosy lounge with sofas and an indoor fireplace. Adjacent to this is a games room laid out for lounging and watching the ocean. This is a popular room with children, who love to draw, read and play in this relaxed space.
 
-The house has three bedrooms, two have en-suite facilities while the third has a large private bathroom across the corridor. Each room faces onto the pool and patio area with views over the ocean.
+The house has three bedrooms, two with en-suite bathrooms while the third has a large private bathroom across the corridor. Each bedroom faces onto the pool and patio area with views over the ocean.
 
 **Aloe House is available for rent during December and January only.**
 
