@@ -8,7 +8,7 @@ summary: The Loft is the jewel in the crown of the Bushcamp and offers open plan
 url: accommodation/the-loft
 pano_page_banner: /images/page-headers/pano/the-loft-1600w.jpg
 gallery_path: /images/accommodation/galleries/the-loft
-additional_guests: "0"
+additional_guests: ""
 tv_wifi: Free WiFi and TV with DSTV
 cover_image: /images/accommodation/galleries/the-loft/the-loft-04-480w.jpg
 rates: From R1600 per night
@@ -23,7 +23,7 @@ categories:
   - accommodation
   - the_loft
 ---
-**The Loft is as special as it looks…**
+**The Loft really is as special as it looks…**
 
 This unique apartment is built on an elevated vantage point on a hill overlooking Wilderness village and the Indian Ocean. This position, combined with an expanse of ocean-facing windows, results in a mesmerising view that can occupy you all day long.
 
