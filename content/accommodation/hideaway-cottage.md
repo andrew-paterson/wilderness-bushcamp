@@ -7,7 +7,7 @@ summary: Discreetly located at the end of a wooden walkway and hidden amongst
 url: /accommodation/bushcamp/hideaway-cottage
 pano_page_banner: /images/page-headers/pano/hideaway-cottage-1600w.jpg
 gallery_path: /images/accommodation/galleries/hideaway-cottage
-additional_guests: "0"
+additional_guests: ""
 tv_wifi: No – just books
 cover_image: /images/accommodation/galleries/hideaway-cottage/hideaway-cottage-03-480w.jpg
 rates: From R850 per night
