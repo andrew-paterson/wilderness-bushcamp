@@ -37,6 +37,6 @@ Please pack or throw away unwanted bits of food and don't leave food in The Lapa
 
 Over the last 20 years there have been 3 serious bush fires in the Wilderness area. 
 
-This is the reason that we removed the individual braais from the cabins located in denser bush (Loerie Cabin and Hideaway Cottage) However, these cabins are just a few steps away from The Lapa, so guests don't have to walk far to braai and can even take their food back to their cabins to enjoy on the deck
+This is the reason that we removed the individual braais from the cabins located in denser bush (Loerie Cabin and Hideaway Cottage) These cabins are just a few steps away from The Lapa so guests don't have to walk far to braai and can even take their food back to their cabins to enjoy on the deck
 
 Please just remember not to leave fires unattended, even to pop back to your cabin
