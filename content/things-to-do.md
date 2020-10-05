@@ -15,25 +15,23 @@ Just a short distance away in George there are mountain peaks, botanical gardens
 
 {{< _shared/image-gallery gallery_path="/images/activities/hiking"  class="margin-bottom-xl">}}
 
-
-
 {{< _shared/srcset-element class="width-100" image_path="/images/activities/general/kayaking-on-wilderness-lagoon-1440w.jpg" alt="Kayaking on the Wilderness lagoon">}}
 
-**Things To Do**
 
-There's too much to mention here, so please click on this link to see the full list of Things To Do, compiled by George and Wilderness Tourism
+
+***Things To Do:***
+
+*There's too much to mention here, so please click on this link to see the full list of Things To Do, compiled by George and Wilderness Tourism*
 
 <http://visitgeorge.co.za/ThingsToDo?search=&subtype=0>
 
-## Places to eat
+***Places to eat:***
 
-*Visitors to the area are spoilt for choice with an abundance of cafes, coffee shops, restaurants, bars, biltong shops and even our very own chocolate shop*
-
-Please click on the following link to see what’s on the menu…
+*Visitors to the area are spoilt for choice with an abundance of cafes, coffee shops, restaurants, bars, biltong shops and even our very own chocolate shop. Just* *click on the following link to see what’s on the menu in Wilderness and George …*
 
 <http://visitgeorge.co.za/Restaurant?search=&subtype=0>
 
-If you’re looking for personal recommendations then maybe consider this very special list, which was written many years ago by John Pfaff, who built the Wilderness Bushcamp and Milkwood Village
+*If you’re looking for personal recommendations then maybe consider this very special list, which was written many years ago by John Pfaff, who built the Wilderness Bushcamp and Milkwood Village*
 
 ## My Favourite Things – by John Pfaff
 
