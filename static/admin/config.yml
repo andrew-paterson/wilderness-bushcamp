@@ -64,3 +64,9 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: 'Body', name: 'body', widget: 'markdown', required: false }
+      - label: "COVID-19"
+        name: "covid-19"
+        file: "/content/covid-19.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: 'Body', name: 'body', widget: 'markdown', required: false }

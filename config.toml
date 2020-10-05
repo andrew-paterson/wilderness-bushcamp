@@ -33,7 +33,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   [[menu.main]]
   url = "/rates-and-bookings"
-  name = "Rates & Bookings"
+  name = "Rates"
   weight = 3.0
 
   
@@ -52,6 +52,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   url = "/contact-us"
   name = "Contact"
   weight = 7.0
+
+  [[menu.main]]
+  url = "/covid-19"
+  name = "COVID-19"
+  weight = 8.0
 
   [[menu.social]]
   identifier = "facebook"
@@ -83,5 +88,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   identifier = "mobile"
   name = "078 419 2021"
   weight = 3.0
+
+  [[menu.footer]]
+  url = "/covid-19"
+  name = "COVID-19"
+  weight = 4.0
 
  
