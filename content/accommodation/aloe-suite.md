@@ -6,7 +6,7 @@ summary: A private gateway leads to this spacious and comfortable self-catering
 url: /accommodation/aloe-heights/aloe-suite
 pano_page_banner: /images/page-headers/pano/aloe-suite-1600w.jpg
 gallery_path: /images/accommodation/galleries/aloe-suite
-additional_guests: "0"
+additional_guests: ""
 tv_wifi: Free WiFi and TV with DSTV
 cover_image: /images/accommodation/galleries/aloe-suite/aloe-suite-02-480w.jpg
 rates: From R850 per night
