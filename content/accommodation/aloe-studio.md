@@ -8,7 +8,7 @@ summary: This cosy studio apartment is located near the main house so is the
 url: /accommodation/aloe-heights//aloe-studio
 pano_page_banner: /images/page-headers/pano/aloe-studio-1600w.jpg
 gallery_path: /images/accommodation/galleries/aloe-studio
-additional_guests: "0"
+additional_guests: ""
 tv_wifi: Free WiFi  (No TV)
 cover_image: /images/accommodation/galleries/aloe-studio/aloe-studio-01-480w.jpg
 rates: From R800 per night
