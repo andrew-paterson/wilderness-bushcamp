@@ -9,7 +9,7 @@ summary: Aloe House is a 3-bedroom house with a range of entertaining spaces
 url: /accommodation/aloe-heights/aloe-house
 pano_page_banner: /images/page-headers/pano/aloe-house-1600w.jpg
 gallery_path: /images/accommodation/galleries/aloe-house
-additional_guests: R250 per night. Up to a maximum of 6 people.
+additional_guests: R500 per night. Up to a maximum of 6 people.
 sleeps: 6
 tv_wifi: Free WiFi and TV with DSTV
 cover_image: /images/accommodation/galleries/aloe-house/aloe-house-02-480w.jpg
