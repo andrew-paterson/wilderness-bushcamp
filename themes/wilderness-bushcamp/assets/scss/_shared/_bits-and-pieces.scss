@@ -41,7 +41,18 @@ a {
 	font-weight: $body-text-link-font-weight;
 	.dark-bg & {
 		color: #fff;
-	}
+  }
+  h1 &, h2 &, h3 &, h4 &, h5 &, h6 & {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: inherit;
+    &:after {
+      content: $external-link-icon;
+      width: 16px;
+      display: inline-block;
+      margin-left: 8px;
+    }
+  }
 }
 
 a:hover {
@@ -49,13 +60,15 @@ a:hover {
 	text-decoration: $body-text-link-hover-text-decoration;
 	.dark-bg & {
 		color: #bbb;
-	}
+  }
 }
 
 a:active {
 	color: $body-text-link-color;
 	text-decoration: $body-text-link-text-decoration;
 }
+
+
 
 .main-header {
 	color: $main-header-color;
@@ -160,7 +173,7 @@ hr {
 }
 
 .text-align-left {
-	text-align: center;
+	text-align: left;
 }
 
 .text-align-center {
@@ -168,10 +181,6 @@ hr {
 }
 
 .text-align-right {
-	text-align: center;
-}
-
-.text-align-left {
 	text-align: center;
 }
 

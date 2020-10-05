@@ -1,8 +1,6 @@
 nav.main {
 	font-family: $desktop-main-nav-font-family;
 	font-size: 1em;
-	// position: relative;
-	// z-index: 99999;
 }
 
 nav.main ul {
@@ -35,18 +33,6 @@ nav.main ul li.active > a:hover {
 	cursor: default;
 }
 
-
-
-// nav.main ul ul.menu.level-2 {
-// 	position: absolute;
-// 	display: none;
-// 	min-width: 200px;
-// }
-
-// nav.main ul.menu.level-1 li:hover ul.menu.level-2 {
-// 	display: block;
-// }
-
 @media (min-width: 980px) {
 	.mobile-nav-toggler {
 		display: none;
@@ -55,7 +41,11 @@ nav.main ul li.active > a:hover {
 	nav.main {
 		display: flex;
 		justify-content: flex-end;
-		margin-right: $spacer-xl - $desktop-main-nav-item-padding-left-right;
+    margin-right: $spacer-xl - $desktop-main-nav-item-padding-left-right;
+    .nav-ul-container {
+      height: auto !important;
+    }
+    
 	}
 
 	nav.main ul.menu {
@@ -210,9 +200,12 @@ nav.main ul li.active > a:hover {
 	.mobile-nav-toggler span.icon-bar + span.icon-bar {
 		margin-top: 4px;
 	}
-
-	nav.main {
-		width: 100%;
+  nav.main {
+    width: 100%;
+  }
+  
+	nav.main .nav-ul-container {
+		// width: 100%;
 		height: 0;
 		overflow: hidden;
 		position: relative;

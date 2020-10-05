@@ -4,21 +4,21 @@
     {{if .Title}}<h1 class="main-header">{{ .Title }}</h1>{{end}}
     <div class="body-text">
       <div class="main-block centred">
-        <ul>
+        <h2>Rates</h2>
         {{ range (index .Site.Taxonomies.categories "accommodation" ) }}
-          <li>
-            <h2><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></h2>
-            <ul>
-              {{ if .Page.Params.rates_low_season}}
-              <li><b>Low season</b> (1st May – 30th September 2020) - <b>{{ .Page.Params.rates_low_season}} per night</b></li>
-              {{ end }}
-              {{ if .Page.Params.rates_high_season}}
-              <li><b>High season</b> (1st October 2020 – 30th April 2021) - <b>{{ .Page.Params.rates_high_season}} per night</b></li>
-              {{ end }}
-            </ul>
-          </li>
+          <h3><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></h3>
+          <ul>
+            {{ if .Page.Params.rates_low_season}}
+            <li><b>Low season</b> (1st May – 30th September 2020) - <b>{{ .Page.Params.rates_low_season}} per night</b></li>
+            {{ end }}
+            {{ if .Page.Params.rates_high_season}}
+            <li><b>High season</b> (1st October 2020 – 30th April 2021) - <b>{{ .Page.Params.rates_high_season}} per night</b></li>
+            {{ end }}
+          </ul>
         {{ end }}
-        </ul>
+        <h2>Booking Enquiries</h2>
+        Please feel free to <a href="/contact-us">contact us</a> should you have any queries, or send us an enquiry through this booking form and we’ll get back to you as soon as possible.
+        {{ partial "booking-form.html"}}
         {{ .Content }}
       </div>
     </div>

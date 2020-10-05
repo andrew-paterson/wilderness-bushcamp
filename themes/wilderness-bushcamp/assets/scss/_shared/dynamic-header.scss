@@ -92,7 +92,25 @@ header {
     position: fixed;
     top: 0;
     z-index: 9999999;
+    @media (max-width: 979px) {
+      nav {
+        position: fixed;
+        overflow-y: auto;
+        top: $dynamic-header-short-height;
+        max-height: calc(100vh - #{$dynamic-header-short-height});
+      }
+    }
   }
+  &.header-height-tall,
+  &.header-height-start-tall:not(.scrolled) {
+    @media (max-width: 979px) {
+      nav {
+        top: $dynamic-header-tall-height;
+        max-height: calc(100vh - #{$dynamic-header-tall-height});
+      }
+    }
+  }
+
   #wrapper {
     padding-top: $dynamic-header-short-height;
   }

@@ -12,7 +12,7 @@
 }
 
 .blog-layout div.item-date {
-	font-size: $item-date-created-font-size/$body-text-font-size;
+	font-size: $item-date-created-font-size;
 	color: $item-date-created-color;
 	margin-bottom: $item-date-created-margin-bottom;
 	line-height: $item-date-created-line-height;
@@ -27,7 +27,7 @@
 	padding-bottom: $blog-item-padding-bottom;
 }
 
-.blog-layout .content-list-item h2.item-title {
+.blog-layout .content-list-item .item-title {
 	font-size: $blog-item-header-font-size/$body-text-font-size;
 	font-family:$blog-item-header-font-family;
 	font-weight: $blog-item-header-font-weight;
@@ -38,19 +38,19 @@
 	line-height: 150%;
 }
 
-.blog-layout .content-list-item h2.item-title a:link {
+.blog-layout .content-list-item .item-title a:link {
 	color: $blog-item-header-link-color;
   text-decoration: $blog-item-header-link-text-decoration;
   font-weight: inherit;
 	font-size: 1em;
 }
 
-.blog-layout .content-list-item h2.item-title a:visited {
+.blog-layout .content-list-item .item-title a:visited {
 	color: $blog-item-header-link-visited-color;
 	text-decoration: $blog-item-header-link-text-decoration;
 }
 
-.blog-layout .content-list-item h2.item-title a:hover {
+.blog-layout .content-list-item .item-title a:hover {
 	color: $blog-item-header-link-hover-color;
 	text-decoration: $blog-item-header-link-hover-text-decoration;
 }
