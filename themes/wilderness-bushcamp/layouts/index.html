@@ -12,7 +12,12 @@
   <div class="container page-gutters">
     <div class="text">
       {{ if .Title }}<h2 class="main-header main-header-xl">{{ .Title }}</h2>{{ end }}
-      <div class="body-text text-align-center large-text byline">{{ .Content }}</div>
+      <div class="text-align-center home-intro body-text">
+        <div class="byline text-align-center margin-bottom-lg">
+          {{ .Params.intro_text }}
+        </div>
+        {{ .Content }}
+      </div>
     </div>
   </div>
 </section>
