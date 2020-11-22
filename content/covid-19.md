@@ -1,15 +1,14 @@
-+++
-title = "COVID-19"
-+++
-
+---
+title: COVID-19
+---
 Wilderness Bushcamp will be following strict health and safety protocol to ensure the safety of guests and staff during all levels of the Covid19 lockdown:
 
 * Mandatory face masks for staff at all times and for guests in public areas
 * Contactless check-in and check-out
-* 24-hour minimum vacancy between guests
+* 24-hour vacancy between guests
 * Keys will be disinfected prior to being handed over or left in the key safe
 * Hand sanitiser is available on arrival and departure and in public areas
-* The office will be “open” from 08:00 – 16:00 but we will step outside onto the porch to greet you and assist, if necessary 
+* The office will be “open” from 08:00 – 16:00 but we will step outside onto the porch to greet and assist, if necessary 
 * We have marked out areas that are 1.5m apart so that guests and staff are able to maintain a safe distance. Alternatively, please communicate by phone on 0784192021
 * Floors are marked for effective social distancing
 * Only essential staff on site 
@@ -37,4 +36,4 @@ Wilderness Bushcamp will be following strict health and safety protocol to ensur
 
 Please adhere to government guidelines and wear face masks when not eating / drinking
 
-Please see [https://sacoronavirus.co.za/](https://sacoronavirus.co.za/) for more information on COVID-19 regulations in South Africa.
+Please see <https://sacoronavirus.co.za/> for more information on COVID-19 regulations in South Africa.
