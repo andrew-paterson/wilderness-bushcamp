@@ -5,9 +5,9 @@ pano_page_banner: /images/page-headers/pano/wilderness-river-forest-and-ocean-16
 standard_page_banner: /images/page-headers/standard/wilderness-river-forest-and-ocean-600w.jpg
 type: things_to_do
 ---
-*Wilderness is truly a unique place. This garden of Eden is blessed with ocean, mountains, forests and rivers that converge to create a natural paradise just waiting to be explored;*
+Wilderness is truly a unique place. This garden of Eden is blessed with ocean, mountains, forests and rivers that converge to create a natural paradise just waiting to be explored;
 
-*Forest walks, riverside meanders, hiking trails, biking tracks, fishing spots, mountains to climb, rock pools to explore, world famous paragliding conditions and the endless rolling of the ocean, which beckons you to kick off your shoes and set off along the pristine beaches that stretch as far as the eye can see…*
+There are forest walks, riverside meanders, hiking trails, biking tracks, fishing spots, mountains to climb, rock pools to explore, world famous paragliding conditions and the endless rolling of the ocean, which beckons you to kick off your shoes and set off along the pristine beaches that stretch as far as the eye can see…
 
 {{< _shared/image-gallery gallery_path="/images/activities/general" class="margin-bottom-xl">}}
 
@@ -17,27 +17,25 @@ Just a short distance away in George there are mountain peaks, botanical gardens
 
 {{< _shared/srcset-element class="width-100" image_path="/images/activities/general/kayaking-on-wilderness-lagoon-1440w.jpg" alt="Kayaking on the Wilderness lagoon">}}
 
-
-
 ***Things To Do:***
 
-*There's too much to mention here, so please click on this link to see the full list of Things To Do, compiled by George and Wilderness Tourism*
+Please click on this link to see the full list of Things To Do, compiled by George and Wilderness Tourism
 
 <http://visitgeorge.co.za/ThingsToDo?search=&subtype=0>
 
 ***Places to eat:***
 
-*Visitors to the area are spoilt for choice with an abundance of cafes, coffee shops, restaurants, bars, biltong shops and even our very own chocolate shop. Just* *click on the following link to see what’s on the menu in Wilderness and George …*
+Visitors to the area are spoilt for choice with an abundance of cafes, coffee shops, restaurants and bars. Please click on the following link to see what’s on the menu in Wilderness and George …
 
 <http://visitgeorge.co.za/Restaurant?search=&subtype=0>
 
-*If you’re looking for personal recommendations then maybe consider this very special list, which was written many years ago by John Pfaff, who built the Wilderness Bushcamp and Milkwood Village*
+If you’re looking for personal recommendations then maybe consider this very special list, which was written many years ago by John Pfaff, who built the Wilderness Bushcamp and Milkwood Village
 
 ## My Favourite Things – by John Pfaff
 
 {{< _shared/srcset-element class="width-100" image_path="/images/blog/johns-favourite-things/johns-favourite-things-900w.jpg" alt="John's favoutite things">}}
 
-In 1972 newlyweds John and Ann Pfaff arrived in George looking for somewhere to settle and make a home.
+In 1972 John and Ann Pfaff arrived in George looking for somewhere to settle and make a home.
 
 John was an enthusiastic surfer and the break at Vic Bay played a big part in their decision to stay in the area.
 
@@ -45,7 +43,7 @@ John was an enthusiastic surfer and the break at Vic Bay played a big part in th
 
 For two years they lived in the Vic Bay caravan park then, in 1980, they moved to Wilderness.
 
-They lived and worked in the village when it was little more than a handful of buildings and a few small businesses. The old Wilderness Hotel was the focal point of village life and the Milkwood Village didn’t exist.
+They lived and worked in the village when it was little more than a handful of buildings and a few small businesses. The old Wilderness Hotel was the focal point of village life and Milkwood Village didn’t exist.
 
 In the early 80s John and Ann bought Aloe Heights; the hill where the Bushcamp is now located. They made a road to the top and then set about building a home for their family. They moved into Aloe House with their two children and it's been the family home ever since.
 
