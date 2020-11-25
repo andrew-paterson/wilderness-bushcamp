@@ -17,7 +17,7 @@ sleeps: 2
 rates_low_season: R1600 for 2 people
 rates_high_season: R1600 for 2 people
 weight: 9
-braai: Yes
+braai: "Yes"
 standard_page_banner: /images/page-headers/standard/the-loft-600w.jpg
 categories:
   - accommodation

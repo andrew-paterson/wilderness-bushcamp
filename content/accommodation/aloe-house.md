@@ -18,7 +18,7 @@ title: Aloe House
 rates_high_season: R3500 per night for 2 people (+R500 per night for each
   additional person – max 6)
 weight: 10
-braai: Yes
+braai: "Yes"
 standard_page_banner: /images/page-headers/standard/aloe-house-600w.jpg
 categories:
   - accommodation

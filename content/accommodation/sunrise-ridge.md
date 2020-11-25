@@ -16,7 +16,7 @@ sleeps: 2
 rates_low_season: R950
 rates_high_season: R1050
 weight: 4
-braai: Yes
+braai: "Yes"
 standard_page_banner: /images/page-headers/standard/sunrise-ridge-600w.jpg
 categories:
   - accommodation

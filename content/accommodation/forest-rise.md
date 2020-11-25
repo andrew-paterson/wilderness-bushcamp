@@ -14,7 +14,7 @@ cover_image: /images/accommodation/galleries/forest-rise/forest-rise-11-480w.jpg
 rates: From R1250 per night
 rates_high_season: R1500 for 2 people (+R150 per night for each additional person – max 4)
 weight: 7
-braai: Yes
+braai: "Yes"
 standard_page_banner: /images/page-headers/standard/forest-rise-600w.jpg
 rates_low_season: R1250 for 2 people (+R150 per night for each additional person – max 4)
 categories:
