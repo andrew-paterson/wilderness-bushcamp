@@ -5,7 +5,7 @@ pano_page_banner: /images/page-headers/pano/wilderness-river-forest-and-ocean-16
 standard_page_banner: /images/page-headers/standard/wilderness-river-forest-and-ocean-600w.jpg
 type: things_to_do
 ---
-Wilderness is truly a unique place. This garden of Eden is blessed with ocean, mountains, forests and rivers that converge to create a natural paradise just waiting to be explored;
+Wilderness is a truly unique place. This garden of Eden is blessed with ocean, mountains, forests and rivers that converge to create a natural paradise just waiting to be explored.
 
 There are forest walks, riverside meanders, hiking trails, biking tracks, fishing spots, mountains to climb, rock pools to explore, world famous paragliding conditions and the endless rolling of the ocean, which beckons you to kick off your shoes and set off along the pristine beaches that stretch as far as the eye can see…
 
@@ -43,7 +43,7 @@ For two years they lived in the Vic Bay caravan park then, in 1980, they moved t
 
 They lived and worked in the village when it was little more than a handful of buildings and a few small businesses. The old Wilderness Hotel was the focal point of village life and Milkwood Village didn’t exist.
 
-In the early 80s John and Ann bought Aloe Heights; the hill where the Bushcamp is now located. They made a road to the top and then set about building a home for their family. They moved into Aloe House with their two children and it's been the family home ever since.
+In the early 80s John and Ann bought Aloe Heights; the hill where the Bushcamp is now located. They made a road to the top and built a home for their family. 
 
 It was John’s dream to create Milkwood Village, an area that he hoped would become the heart of Wilderness and act as a meeting place for locals and visitors alike. However, he faced a major challenge in protecting the old Milkwood trees that were at the centre of his proposed development.
 
