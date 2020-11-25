@@ -11,13 +11,13 @@ additional_guests: +R150 per person upto a maximum of 4
 tv_wifi: No – just books
 cover_image: /images/accommodation/galleries/lagoon-view/lagoon-view-02-480w.jpg
 rates: From R1100 per night
-rates_high_season: R1100 for 2 people (+R150 per night for each additional person – max 4)
 title: Lagoon View
-weight: 6
-braai: "Yes"
-standard_page_banner: /images/page-headers/standard/lagoon-view-600w.jpg
-rates_low_season: R1000 for 2 people (+R150 per night for each additional person – max 4)
 sleeps: 4
+rates_low_season: R1100 for 2 people (+R150 per night for each additional person – max 4)
+rates_high_season: R1250 for 2 people (+R150 per night for each additional person – max 4)
+weight: 6
+braai: Yes
+standard_page_banner: /images/page-headers/standard/lagoon-view-600w.jpg
 categories:
   - accommodation
   - bushcamp
