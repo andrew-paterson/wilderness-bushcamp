@@ -11,12 +11,12 @@ additional_guests: +R150 per person upto a maximum of 4
 sleeps: 4
 tv_wifi: Free WiFi (No TV)
 cover_image: /images/accommodation/galleries/forest-rise/forest-rise-11-480w.jpg
-braai: "Yes"
 rates: From R1250 per night
 rates_high_season: R1500 for 2 people (+R150 per night for each additional person – max 4)
 weight: 7
+braai: Yes
 standard_page_banner: /images/page-headers/standard/forest-rise-600w.jpg
-rates_low_season: R1200 for 2 people (+R150 per night for each additional person – max 4)
+rates_low_season: R1250 for 2 people (+R150 per night for each additional person – max 4)
 categories:
   - accommodation
   - bushcamp
