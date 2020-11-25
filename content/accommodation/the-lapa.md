@@ -8,12 +8,12 @@ additional_guests: " "
 sleeps: " "
 tv_wifi: " "
 cover_image: /images/accommodation/galleries/the-lapa/the-lapa-01-480w.jpg
-title: The Lapa
-braai: "Yes"
 rates: " "
+title: The Lapa
+braai: Yes
 standard_page_banner: /images/page-headers/standard/the-lapa-600w.jpg
 ---
-Each unit has its own private deck with outdoor dining area but not all units are equipped with a braai, so guests are welcome to make use of the communal lapa area during their stay…
+Each unit has its own private deck with outdoor dining area, but not all units are equipped with a braai, so guests are welcome to make use of the communal lapa area during their stay…
 
 The Lapa is close to Loerie Cabin, Hideaway Cottage and Aloe Studio, but is available for all guests to use and enjoy.
 
