@@ -11,13 +11,13 @@ additional_guests: ""
 tv_wifi: No – just books
 cover_image: /images/accommodation/galleries/sunrise-ridge/sunrise-ridge-02-480w.jpg
 rates: From R950 per night
-rates_high_season: R950
 title: Sunrise Ridge
-weight: 4
-braai: "Yes"
-standard_page_banner: /images/page-headers/standard/sunrise-ridge-600w.jpg
-rates_low_season: R850
 sleeps: 2
+rates_low_season: R950
+rates_high_season: R1050
+weight: 4
+braai: Yes
+standard_page_banner: /images/page-headers/standard/sunrise-ridge-600w.jpg
 categories:
   - accommodation
   - bushcamp
