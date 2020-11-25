@@ -15,7 +15,7 @@ rates: From R1600 per night
 rates_high_season: R1600 for 2 people
 title: The Loft
 weight: 9
-braai: Yes
+braai: "Yes"
 standard_page_banner: /images/page-headers/standard/the-loft-600w.jpg
 rates_low_season: R1400 for 2 people
 sleeps: 2

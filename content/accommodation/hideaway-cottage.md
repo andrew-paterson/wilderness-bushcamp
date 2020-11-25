@@ -14,7 +14,7 @@ rates: From R850 per night
 rates_high_season: R900 per night
 title: Hideaway Cottage
 weight: 3
-braai: No – but easy access to lapa with braai
+braai: "No – but easy access to lapa with braai"
 standard_page_banner: /images/page-headers/standard/hideaway-cottage-600w.jpg
 rates_low_season: R750 per night
 sleeps: 2

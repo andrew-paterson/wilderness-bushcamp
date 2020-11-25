@@ -13,7 +13,7 @@ rates: From R850 per night
 rates_high_season: R950
 title: Aloe Suite
 weight: 2
-braai: No – but easy access to lapa with braai
+braai: "No – but easy access to lapa with braai"
 standard_page_banner: /images/page-headers/standard/aloe-suite-600w.jpg
 rates_low_season: R850
 sleeps: 2

@@ -14,7 +14,7 @@ rates: From R900 per night
 rates_high_season: R950 for 2 people (+R150 per night for each additional person – max 5)
 title: Loerie Cabin
 weight: 5
-braai: No – but easy access to lapa with braai
+braai: "No – but easy access to lapa with braai"
 standard_page_banner: /images/page-headers/standard/loerie-cabin-600w.jpg
 rates_low_season: R850 for 2 people (+R150 per night for each additional person – max 5)
 sleeps: 5

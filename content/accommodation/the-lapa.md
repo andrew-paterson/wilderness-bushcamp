@@ -9,7 +9,7 @@ sleeps: " "
 tv_wifi: " "
 cover_image: /images/accommodation/galleries/the-lapa/the-lapa-01-480w.jpg
 title: The Lapa
-braai: Yes
+braai: "Yes"
 rates: " "
 standard_page_banner: /images/page-headers/standard/the-lapa-600w.jpg
 ---

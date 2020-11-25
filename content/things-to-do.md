@@ -15,8 +15,6 @@ Just a short distance away in George there are mountain peaks, botanical gardens
 
 {{< _shared/image-gallery gallery_path="/images/activities/hiking"  class="margin-bottom-xl">}}
 
-{{< _shared/srcset-element class="width-100" image_path="/images/activities/general/kayaking-on-wilderness-lagoon-1440w.jpg" alt="Kayaking on the Wilderness lagoon">}}
-
 ***Things To Do:***
 
 Please click on this link to see the full list of Things To Do, compiled by George and Wilderness Tourism

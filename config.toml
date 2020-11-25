@@ -10,7 +10,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   main = ["style.css"]
 
 [params.js]
-  main = ["scripts.js"]
+  main = ["jquery-3.2.1.min.js", "jquery.fancybox.min.js", "scripts.js", "gallery.js"]
 
 [params.js.accommodation]
   single = ["jquery-3.2.1.min.js", "jquery.fancybox.min.js", "scripts.js", "gallery.js"]

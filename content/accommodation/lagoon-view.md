@@ -14,7 +14,7 @@ rates: From R1100 per night
 rates_high_season: R1100 for 2 people (+R150 per night for each additional person – max 4)
 title: Lagoon View
 weight: 6
-braai: Yes
+braai: "Yes"
 standard_page_banner: /images/page-headers/standard/lagoon-view-600w.jpg
 rates_low_season: R1000 for 2 people (+R150 per night for each additional person – max 4)
 sleeps: 4

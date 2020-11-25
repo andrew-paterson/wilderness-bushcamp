@@ -19,17 +19,7 @@
 </section>
 {{ if  .Params.gallery_path }}
   <section id="gallery" class="padding-bottom-xl">
-    <div class="image-gallery" data-thumbnail-dimensions="4:3">
-      {{ $full_path := printf "%s%s" "static" .Params.gallery_path }}
-      {{ $.Scratch.Set "scratched_path" $full_path }}
-      {{ $scratched_path := $.Scratch.Get "scratched_path"}}
-      {{ $files := readDir $scratched_path }}
-      <ul class="gallery-files" data-gallery-path="{{ .Params.gallery_path }}" style="display: none">
-        {{ range $files}}
-          <li>{{ .Name }}</li>
-        {{ end }}
-      </ul>
-    </div>
+    {{ partial "_shared/image-gallery" (dict "context" . "gallery_path" .Params.gallery_path)}}
   </section>
 {{ end }}
 {{ end }}

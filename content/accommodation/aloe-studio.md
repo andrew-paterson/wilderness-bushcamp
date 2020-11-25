@@ -15,7 +15,7 @@ rates: From R800 per night
 rates_high_season: R850
 title: Aloe Studio
 weight: 1
-braai: No – but easy access to lapa with braai
+braai: "No – but easy access to lapa with braai"
 standard_page_banner: /images/page-headers/standard/aloe-studio-600w.jpg
 rates_low_season: R750
 sleeps: 2

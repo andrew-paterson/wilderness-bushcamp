@@ -14,7 +14,7 @@ rates: From R950 per night
 rates_high_season: R950
 title: Sunrise Ridge
 weight: 4
-braai: Yes
+braai: "Yes"
 standard_page_banner: /images/page-headers/standard/sunrise-ridge-600w.jpg
 rates_low_season: R850
 sleeps: 2

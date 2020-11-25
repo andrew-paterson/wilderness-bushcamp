@@ -17,7 +17,7 @@ rates: From R3500 per night
 rates_high_season: R4500 per night  (max 6 people)
 title: Aloe House
 weight: 10
-braai: Yes
+braai: "Yes"
 standard_page_banner: /images/page-headers/standard/aloe-house-600w.jpg
 categories:
   - accommodation

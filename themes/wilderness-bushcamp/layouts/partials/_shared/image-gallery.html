@@ -1,0 +1,9 @@
+<div class="image-gallery" data-thumbnail-dimensions="4:3">
+  {{ $full_path := printf "%s%s" "static" .gallery_path }}
+  {{ $files := readDir $full_path }}
+  <ul class="gallery-files" data-gallery-path="{{ .gallery_path }}" style="display: none">
+    {{ range $files}}
+      <li>{{ .Name }}</li>
+    {{ end }}
+  </ul>
+</div>

@@ -2,9 +2,7 @@
 {{ $class := (.Get "class") }}
 <div class="image-gallery {{ $class }}" data-thumbnail-dimensions="4:3">
   {{ $full_path := printf "%s%s" "static" $gallery_path }}
-  {{ $.Scratch.Set "scratched_path" $full_path }}
-  {{ $scratched_path := $.Scratch.Get "scratched_path"}}
-  {{ $files := readDir $scratched_path }}
+  {{ $files := readDir $full_path }}
   <ul class="gallery-files" data-gallery-path="{{ .Params.gallery_path }}" style="display: none">
     {{ range $files}}
       <li>{{ .Name }}</li>
