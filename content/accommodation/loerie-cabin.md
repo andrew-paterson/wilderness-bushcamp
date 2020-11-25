@@ -11,13 +11,13 @@ additional_guests: +R150 per person upto a maximum of 5
 tv_wifi: No – just books
 cover_image: /images/accommodation/galleries/loerie-cabin/loerie-cabin-04-480w.jpg
 rates: From R900 per night
-rates_high_season: R950 for 2 people (+R150 per night for each additional person – max 5)
 title: Loerie Cabin
-weight: 5
-braai: "No – but easy access to lapa with braai"
-standard_page_banner: /images/page-headers/standard/loerie-cabin-600w.jpg
-rates_low_season: R850 for 2 people (+R150 per night for each additional person – max 5)
 sleeps: 5
+rates_low_season: R850 for 2 people (+R150 per night for each additional person – max 5)
+rates_high_season: R1000 for 2 people (+R150 per night for each additional person – max 5)
+weight: 5
+braai: No – but easy access to lapa with braai
+standard_page_banner: /images/page-headers/standard/loerie-cabin-600w.jpg
 categories:
   - accommodation
   - bushcamp
