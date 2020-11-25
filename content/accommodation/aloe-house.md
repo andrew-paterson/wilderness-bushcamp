@@ -14,10 +14,10 @@ sleeps: 6
 tv_wifi: Free WiFi and TV with DSTV
 cover_image: /images/accommodation/galleries/aloe-house/aloe-house-02-480w.jpg
 rates: From R3500 per night
-rates_high_season: R4500 per night  (max 6 people)
 title: Aloe House
+rates_high_season: R3500 per night  
 weight: 10
-braai: "Yes"
+braai: Yes
 standard_page_banner: /images/page-headers/standard/aloe-house-600w.jpg
 categories:
   - accommodation
