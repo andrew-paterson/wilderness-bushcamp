@@ -12,13 +12,13 @@ additional_guests: ""
 tv_wifi: Free WiFi and TV with DSTV
 cover_image: /images/accommodation/galleries/the-loft/the-loft-04-480w.jpg
 rates: From R1600 per night
-rates_high_season: R1600 for 2 people
 title: The Loft
-weight: 9
-braai: "Yes"
-standard_page_banner: /images/page-headers/standard/the-loft-600w.jpg
-rates_low_season: R1400 for 2 people
 sleeps: 2
+rates_low_season: R1600 for 2 people
+rates_high_season: R1600 for 2 people
+weight: 9
+braai: Yes
+standard_page_banner: /images/page-headers/standard/the-loft-600w.jpg
 categories:
   - accommodation
   - the_loft
