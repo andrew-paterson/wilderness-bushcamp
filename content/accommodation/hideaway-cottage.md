@@ -11,13 +11,13 @@ additional_guests: ""
 tv_wifi: No – just books
 cover_image: /images/accommodation/galleries/hideaway-cottage/hideaway-cottage-03-480w.jpg
 rates: From R850 per night
-rates_high_season: R900 per night
 title: Hideaway Cottage
-weight: 3
-braai: "No – but easy access to lapa with braai"
-standard_page_banner: /images/page-headers/standard/hideaway-cottage-600w.jpg
-rates_low_season: R750 per night
 sleeps: 2
+rates_low_season: R800 per night
+rates_high_season: R950 per night
+weight: 3
+braai: No – but easy access to lapa with braai
+standard_page_banner: /images/page-headers/standard/hideaway-cottage-600w.jpg
 categories:
   - accommodation
   - bushcamp
