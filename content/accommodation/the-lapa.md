@@ -5,7 +5,7 @@ pano_page_banner: /images/page-headers/pano/the-lapa-1600w.jpg
 gallery_path: /images/accommodation/galleries/the-lapa
 cover_image: /images/accommodation/galleries/the-lapa/the-lapa-01-480w.jpg
 title: The Lapa
-braai: "Yes"
+braai: Yes
 standard_page_banner: /images/page-headers/standard/the-lapa-600w.jpg
 ---
 Each unit has its own private deck with outdoor dining area, but not all units are equipped with a braai, so guests are welcome to make use of the communal lapa area during their stay…
@@ -32,6 +32,6 @@ Please pack or throw away unwanted bits of food and don't leave food in The Lapa
 
 Over the last 20 years there have been 3 serious bush fires in the Wilderness area. 
 
-This is the reason that we removed the individual braais from the cabins located in denser bush (Loerie Cabin and Hideaway Cottage) These cabins are just a few steps away from The Lapa so guests don't have to walk far to braai and can even take their food back to their cabins to enjoy on the deck
+This is the reason that we removed the individual braais from the cabins located in denser bush (Loerie Cabin and Hideaway Cottage) These cabins are just a few steps away from The Lapa so guests don't have to walk far to braai and can even take their food back to their cabins to enjoy on the deck.
 
-Please just remember not to leave fires unattended, even to pop back to your cabin
+Please just remember not to leave fires unattended, even to pop back to your cabin.
