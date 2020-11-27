@@ -7,11 +7,11 @@ type: things_to_do
 ---
 Wilderness is a truly unique place. This garden of Eden is blessed with ocean, mountains, forests and rivers that converge to create a natural paradise just waiting to be explored.
 
-There are forest walks, riverside meanders, hiking trails, biking tracks, fishing spots, mountains to climb, rock pools to explore, world famous paragliding conditions and the endless rolling of the ocean, which beckons you to kick off your shoes and set off along the pristine beaches that stretch as far as the eye can see…
+There are hiking trails and biking tracks, forest walks and riverside meanders, fishing spots, mountains to climb, rock pools to explore, world famous paragliding conditions and the endless rolling of the ocean, which beckons you to kick off your shoes and set off along the pristine beaches that stretch as far as the eye can see…
 
 {{< _shared/image-gallery gallery_path="/images/activities/general" class="margin-bottom-xl">}}
 
-Just a short distance away in George there are mountain peaks, botanical gardens, the glorious Garden Route dam, the quaint Outeniqua power van and world famous golf courses at Fancourt and Oubaii… 
+Just a short distance away in George explore the mountain peaks, botanical gardens and the glorious Garden Route dam. Hop on board the quaint Outeniqua Power Van or tee off on the world famous golf courses at Fancourt and Oubaii… 
 
 {{< _shared/image-gallery gallery_path="/images/activities/hiking"  class="margin-bottom-xl">}}
 
@@ -23,7 +23,7 @@ Please click on this link to see the full list of Things To Do, compiled by Geor
 
 ***Places to eat:***
 
-Visitors to the area are spoilt for choice with an abundance of cafes, coffee shops, restaurants and bars. Please click on the following link to see what’s on the menu in Wilderness and George …
+Visitors to the area are spoilt for choice with an abundance of cafes, coffee shops, restaurants and bars. Please click on the following link to see what’s on the menu in Wilderness and George
 
 <http://visitgeorge.co.za/Restaurant?search=&subtype=0>
 
@@ -65,19 +65,19 @@ We hope that it inspires you …
 
 * Be loving to your partner
 * Have a braai
-* Visit the Wild Oats market in Sedgefield on a Saturday morning (or you can now visit the George market, also on a Saturday morning)
+* Visit the Wild Oats market in Sedgefield on a Saturday morning (or you can now visit the Outeniqua Family Market in George, also on a Saturday morning)
 * Visit Knysna, take the John Benn for a cruise and lunch on board, or eat oysters at the waterfront
 * Drive to Oudtshoorn and visit the crocodile farm and ostrich farm. Eat ostrich steak and visit the Cango Caves
-* Do the walk from Swartvlei to Gericke’s Point at low tide. Have a swim and a picnic
+* Do the walk from Swartvlei to Gericke’s Point at low tide. Have a swim and a picnic and snorkel in the rock pools
 * Take a canoe ride at Ebb and Flow, or do the Serpentine in canoes
 * Go for a walk on Wilderness beach before sunset
 * Go surfing at Vic Bay
-* Milkwood Friday night market
+* Milkwood Village market (now on a Sunday from 10am - 3pm)
 * Lunch at the Point in Mossel Bay, where you can enjoy delicious fresh fish
 * Drive from George to Prince Albert along the Swartberg Pass
 * Walk to Vic Bay (not for those scared of heights!)
 * Visit Millwood Gold mine
-* Go see the Big Tree
+* Go see the Big Tree in Hoekwol
 * Have a steak at Montecello
 * Walk to the Waterfall and have a swim (Giant Kingfisher Trail)
 * Go abseiling or tandem hang-gliding
