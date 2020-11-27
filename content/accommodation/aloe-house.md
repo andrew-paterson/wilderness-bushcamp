@@ -7,7 +7,6 @@ summary: Aloe House is a 3-bedroom house with a range of entertaining spaces
   from every corner of the wraparound deck. (only available for rent over
   December and January)
 url: /accommodation/aloe-heights/aloe-house
-pano_page_banner: /images/page-headers/pano/aloe-house-1600w.jpg
 gallery_path: /images/accommodation/galleries/aloe-house
 additional_guests: R500 per night. Up to a maximum of 6 people.
 sleeps: 6
@@ -19,7 +18,6 @@ rates_high_season: R3500 per night for 2 people (+R500 per night for each
   additional person – max 6)
 weight: 10
 braai: "Yes"
-standard_page_banner: /images/page-headers/standard/aloe-house-600w.jpg
 categories:
   - accommodation
   - aloe_heights

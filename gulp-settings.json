@@ -40,7 +40,7 @@
     {
       "src": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/high-res-images/accommodation/galleries",
       "dest": "/Users/andrewpaterson/Documents/development/wilderness-bushcamp/static/images/accommodation/galleries",
-      "off": true,
+      "off": false,
       "sizes": [
         {"maxWidth": 200, "maxHeight": 900}, {"maxWidth": 480, "maxHeight": 900}, {"maxWidth": 600, "maxHeight": 900}, {"maxWidth": 768, "maxHeight": 900}, {"maxWidth": 1440, "maxHeight": 900}, {"maxWidth": 1600, "maxHeight": 900}
       ]
