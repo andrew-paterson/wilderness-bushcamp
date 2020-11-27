@@ -1,7 +1,12 @@
 <div class="accommodation-amenties">
   {{ if isset .Params "braai" }}
     <div class="amenity braai">
-      <div class="amenity-icon">{{ partial "svg/braai.html"}}</div>{{ .Params.braai }}
+      <div class="amenity-icon">{{ partial "svg/braai.html"}}</div>
+      {{ if eq .Params.braai true }}
+        Yes
+      {{else}}
+        {{ .Params.braai }}
+      {{ end }}
     </div>
   {{ end }}
   {{ if isset .Params "views" }}
