@@ -10,13 +10,15 @@ standard_page_banner: /images/page-headers/standard/the-lapa-600w.jpg
 ---
 Each unit has its own private deck with outdoor dining area, but not all units are equipped with a braai, so guests are welcome to make use of the communal lapa area during their stay…
 
-The Lapa is close to Loerie Cabin, Hideaway Cottage and Aloe Studio, but is available for all guests to use and enjoy.
+The Lapa is close to Loerie Cabin, Hideaway Cottage and Aloe Studio, but is available for all guests to use and enjoy * 
 
 If a group is interested in booking out the whole Bushcamp then it’s possible to secure exclusive use of The Lapa so that they can gather there to enjoy meals together. Non-residents are not permitted to use this area. 
 
 The Lapa can accommodate up to 30 guests comfortably in the outside and indoor eating areas. There's a braai and pizza oven as well as a small, fully equipped kitchen with serving counter. 
 
 The Lapa looks out over the ocean and is the perfect place to sit and watch the dolphins by day, but it’s probably best suited for late afternoon braais when you can enjoy the last few rays of sun while cooking up a potjie or a pizza with friends...
+
+(**\****Access to the Lapa will be restricted during the Covid19 lockdown*)
 
 ## LAPA RULES:
 
