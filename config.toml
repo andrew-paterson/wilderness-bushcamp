@@ -1,4 +1,4 @@
-baseurl = "http://www.wildernessbushcamp.co.za"
+baseurl = "https://wildernessbushcamp.co.za"
 languageCode = "en-gb"
 title = "Wilderness Bushcamp"
 theme = "wilderness-bushcamp"
@@ -11,12 +11,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params.js]
   main = ["jquery-3.2.1.min.js", "jquery.fancybox.min.js", "scripts.js", "gallery.js"]
-
-[params.js.accommodation]
-  single = ["jquery-3.2.1.min.js", "jquery.fancybox.min.js", "scripts.js", "gallery.js"]
-
-[params.js.things_to_do]
-  single = ["jquery-3.2.1.min.js", "jquery.fancybox.min.js", "scripts.js", "gallery.js"]
 
 [menu]
 

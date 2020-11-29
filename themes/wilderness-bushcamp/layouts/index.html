@@ -16,6 +16,9 @@
         <div class="byline text-align-center margin-bottom-lg">
           {{ .Params.intro_text }}
         </div>
+        <div class="sm-links d-flex justify-center">
+          {{partial "_shared/menu" (dict "context" . "menu" .Site.Menus.social)}}
+        </div>
         {{ .Content }}
       </div>
     </div>
