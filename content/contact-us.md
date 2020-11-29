@@ -13,11 +13,11 @@ Once you turn off the N2 into Wilderness Village please take an immediate left t
 
 Follow Beacon Road past the Milkwood Village and past the Kwik Spar. The road will start to narrow and then wind uphill, getting gradually steeper. 
 
-Don’t turn right into the entrance to the Bird Sanctuary, this is a private residential estate. Instead follow the road upwards.
+Please don’t turn into the entrance to the Bird Sanctuary, this is a private residential estate. Instead follow the road upwards.
 
-The road will twist and turn for approx. 300m and will get very steep in parts, but keep going until you reach the top with the paved parking area. 
+The road will twist and turn for approx. 300m and will get very steep in parts, but keep going until you reach the paved parking area at the top. 
 
-When you see this view you have reached your destination…
+When you see this view you've reached your destination…
 
 {{< _shared/srcset-element image_path="/images/directions/top-of-the-hill-900w.jpg" alt="Top of the hill" class="width-100" >}}
 

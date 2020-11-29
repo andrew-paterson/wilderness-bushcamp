@@ -7,12 +7,12 @@ summary: This cosy log cabin welcomed its first guests in 1995 and is still one
 url: /accommodation/bushcamp/loerie-cabin
 pano_page_banner: /images/page-headers/pano/loerie-cabin-1600w.jpg
 gallery_path: /images/accommodation/galleries/loerie-cabin
-additional_guests: +R150 per person upto a maximum of 5
-tv_wifi: No – just books
-cover_image: /images/accommodation/galleries/loerie-cabin/loerie-cabin-04-480w.jpg
-rates: From R900 per night
 title: Loerie Cabin
 sleeps: 5
+tv_wifi: No – just books
+rates: From R900 per night
+additional_guests: +R150 per person upto a maximum of 5
+cover_image: /images/accommodation/galleries/loerie-cabin/loerie-cabin-04-480w.jpg
 rates_low_season: R850 for 2 people (+R150 per night for each additional person – max 5)
 rates_high_season: R1000 for 2 people (+R150 per night for each additional person – max 5)
 weight: 5
@@ -24,7 +24,7 @@ categories:
 ---
 **This cosy log cabin** **is perfect for the adventure-loving family or a group of friends looking for a break away…**
 
-A wooden boardwalk leads through the bush and down to the front door of Loerie Cabin, which opens onto the middle level with kitchen with breakfast bar. A narrow set of wooden steps then leads up to the loft area with three single beds tucked under the eaves, with porthole views of Wilderness beach. 
+A wooden boardwalk leads through the bush and down to the front door of Loerie Cabin, which opens onto the kitchen area and breakfast bar. From here a narrow set of wooden steps leads up to the loft area where three single beds are tucked under the eaves, beneath porthole views of Wilderness beach. 
 
 The main sleeping area is located on the lower level of the cabin with a double bed and sitting area. From here you access the private wooden deck which is surrounded by bush, framing the ocean views. The deck can only be accessed from the cabin, so you can enjoy total seclusion as you relax with your evening sundowners.
 
