@@ -1,0 +1,96 @@
+{
+  "name": "wilderness-bushcamp",
+  "path": "/home/paddy/ubuntu-files/development/wilderness-bushcamp",
+  "browserSync": false,
+  "javascript": {
+    "watch": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/themes/wilderness-bushcamp/assets/js/",
+    "src": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/themes/wilderness-bushcamp/assets/js/scripts/",
+    "dest": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/themes/wilderness-bushcamp/static/js",
+    "minify": false,
+    "babel": {
+      "enabled": false,
+      "presets": ["@babel/preset-env"]
+    }
+  },
+  "scss": {
+    "watch": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/themes/wilderness-bushcamp/assets/scss/",
+    "src": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/themes/wilderness-bushcamp/assets/scss/stylesheets/",
+    "dest": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/themes/wilderness-bushcamp/static/css",
+    "minify": true
+  },
+  "sync": [
+    {
+      "src": "/home/paddy/ubuntu-files/development/hugo-sites-manager/app/shared-assets/scss",
+      "dest": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/themes/wilderness-bushcamp/assets/scss/_shared"
+    },
+    {
+      "src": "/home/paddy/ubuntu-files/development/hugo-sites-manager/app/shared-assets/js",
+      "dest": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/themes/wilderness-bushcamp/assets/js/_shared"
+    },
+    {
+      "src": "/home/paddy/ubuntu-files/development/hugo-sites-manager/app/shared-assets/partials",
+      "dest": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/themes/wilderness-bushcamp/layouts/partials/_shared"
+    },
+    {
+      "src": "/home/paddy/ubuntu-files/development/hugo-sites-manager/app/shared-assets/shortcodes",
+      "dest": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/themes/wilderness-bushcamp/layouts/shortcodes/_shared"
+    }
+  ],
+  "images": [
+    {
+      "src": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/high-res-images/accommodation/galleries",
+      "dest": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/static/images/accommodation/galleries",
+      "off": true,
+      "sizes": [
+        {"maxWidth": 200, "maxHeight": 900}, {"maxWidth": 480, "maxHeight": 900}, {"maxWidth": 600, "maxHeight": 900}, {"maxWidth": 768, "maxHeight": 900}, {"maxWidth": 1440, "maxHeight": 900}, {"maxWidth": 1600, "maxHeight": 900}
+      ]
+    },{
+      "src": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/high-res-images/home/galleries",
+      "dest": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/static/images/home/galleries",
+      "off": true,
+      "sizes": [
+        {"maxWidth": 200, "maxHeight": 900}, {"maxWidth": 480, "maxHeight": 900}, {"maxWidth": 600, "maxHeight": 900}, {"maxWidth": 768, "maxHeight": 900}, {"maxWidth": 1440, "maxHeight": 900}, {"maxWidth": 1600, "maxHeight": 900}
+      ]
+    },
+    {
+      "src": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/high-res-images/page-headers/pano",
+      "dest": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/static/images/page-headers/pano",
+      "off": false,
+      "sizes": [
+        {"name": "w768", "maxWidth": 768, "maxHeight": 1024}, {"name": "w1440", "maxWidth": 1440, "maxHeight": 900}, {"name": "w1600", "maxWidth": 1600, "maxHeight": 1200}
+      ]
+    },
+    {
+      "src": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/high-res-images/page-headers/standard",
+      "dest": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/static/images/page-headers/standard",
+      "off": false,
+      "sizes": [
+        {"name": "w480", "maxWidth": 480, "maxHeight": 854}, {"name": "w600", "maxWidth": 600, "maxHeight": 500}
+      ]
+    },
+    {
+      "src": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/high-res-images/blog",
+      "dest": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/static/images/blog",
+      "off": true,
+      "sizes": [
+        {"name": "w480", "maxWidth": 480, "maxHeight": 854}, {"name": "w600", "maxWidth": 600, "maxHeight": 500}, {"name": "w600", "maxWidth": 900, "maxHeight": 600}
+      ]
+    },
+    {
+      "src": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/high-res-images/activities",
+      "dest": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/static/images/activities",
+      "off": true,
+      "sizes": [
+        {"maxWidth": 200, "maxHeight": 900}, {"maxWidth": 480, "maxHeight": 900}, {"maxWidth": 600, "maxHeight": 900}, {"maxWidth": 768, "maxHeight": 900}, {"maxWidth": 1440, "maxHeight": 900}, {"maxWidth": 1600, "maxHeight": 900}
+      ]
+    },
+    {
+      "src": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/high-res-images/directions",
+      "dest": "/home/paddy/ubuntu-files/development/wilderness-bushcamp/static/images/directions",
+      "off": true,
+      "sizes": [
+        {"name": "w480", "maxWidth": 480, "maxHeight": 854}, {"name": "w600", "maxWidth": 600, "maxHeight": 500}, {"name": "w600", "maxWidth": 900, "maxHeight": 600}
+      ]
+    }
+  ]
+}

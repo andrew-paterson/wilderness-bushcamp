@@ -12,7 +12,6 @@ function highlightMatches(needle, haystack) {
 function customInflector(value, options) {
 	var pluralised = options.plural ? options.plural : `${options.singular}s`;
   var word = value !== 1 ? pluralised : options.singular;
-  console.log(word);
   return word;
 }
 

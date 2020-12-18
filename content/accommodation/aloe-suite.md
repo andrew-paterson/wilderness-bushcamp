@@ -8,7 +8,7 @@ pano_page_banner: /images/page-headers/pano/aloe-suite-1600w.jpg
 gallery_path: /images/accommodation/galleries/aloe-suite
 additional_guests: ""
 tv_wifi: Free WiFi and TV with DSTV
-cover_image: /images/accommodation/galleries/aloe-suite/aloe-suite-02-480w.jpg
+cover_image: 1
 rates: From R850 per night
 rates_high_season: R950
 title: Aloe Suite

@@ -1,6 +1,4 @@
 function highlightMatches(needle, haystack) {
-  // console.log(needle);
-  // console.log(haystack);
   var queryMatch = new RegExp(needle, 'gi');
   return haystack.replace(queryMatch, function(iMatch) {
     return '<span class="highlighted">' + iMatch + '</span>';
@@ -137,16 +135,13 @@ $('.search-input').on('keyup', function(e, v) {
 
 function createResultsView(sortedMatches, queryString) {
   sortedMatches =sortedMatches || [];
-  console.log(queryString)
   queryString = queryString || '';
   var resultsHTML = `<div><div>${sortedMatches.length} ${customInflector(sortedMatches.length, {singular:'page'})} found with matches for "${highlightMatches(queryString, queryString)}".</div>`;
   sortedMatches.forEach(matchData => {
-    // console.log(matchData);
     var thisMatchHTML = '<a class="search-result" href="' + matchData.href + '">';
     thisMatchHTML += '<h3 class="search-result-title">' + highlightMatches(queryString, matchData.title) + '</h3>';
     thisMatchHTML += '<div class="search-result-body"><div class="search-result-href">' + matchData.href + '</div>';
     (matchData.exerpts || []).forEach(exerpt => {
-      console.log(exerpt);
       thisMatchHTML += '<div class="search-result-snippet">' + highlightMatches(queryString, exerpt).trim() + '...</div>';
     });
     thisMatchHTML += '</div></a>';

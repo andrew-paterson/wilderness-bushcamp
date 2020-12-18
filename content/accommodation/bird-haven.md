@@ -9,7 +9,7 @@ pano_page_banner: /images/page-headers/pano/bird-haven-1600w.jpg
 gallery_path: /images/accommodation/galleries/bird-haven
 additional_guests: + R150 per person upto a maximum of 4
 tv_wifi: Free WiFi (No TV)
-cover_image: /images/accommodation/galleries/bird-haven/bird-haven-12-480w.jpg
+cover_image: 12
 rates: From R1250 per night
 title: Bird Haven
 sleeps: 4

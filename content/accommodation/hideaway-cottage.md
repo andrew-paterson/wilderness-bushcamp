@@ -9,7 +9,7 @@ pano_page_banner: /images/page-headers/pano/hideaway-cottage-1600w.jpg
 gallery_path: /images/accommodation/galleries/hideaway-cottage
 additional_guests: ""
 tv_wifi: No – just books
-cover_image: /images/accommodation/galleries/hideaway-cottage/hideaway-cottage-03-480w.jpg
+cover_image: 2
 rates: From R850 per night
 title: Hideaway Cottage
 sleeps: 2

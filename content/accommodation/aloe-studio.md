@@ -10,7 +10,7 @@ pano_page_banner: /images/page-headers/pano/aloe-studio-1600w.jpg
 gallery_path: /images/accommodation/galleries/aloe-studio
 additional_guests: ""
 tv_wifi: Free WiFi  (No TV)
-cover_image: /images/accommodation/galleries/aloe-studio/aloe-studio-01-480w.jpg
+cover_image: 1
 rates: From R800 per night
 title: Aloe Studio
 sleeps: 2

@@ -9,7 +9,7 @@ pano_page_banner: /images/page-headers/pano/lagoon-view-1600w.jpg
 gallery_path: /images/accommodation/galleries/lagoon-view
 additional_guests: +R150 per person upto a maximum of 4
 tv_wifi: No – just books
-cover_image: /images/accommodation/galleries/lagoon-view/lagoon-view-02-480w.jpg
+cover_image: 2
 rates: From R1100 per night
 title: Lagoon View
 sleeps: 4

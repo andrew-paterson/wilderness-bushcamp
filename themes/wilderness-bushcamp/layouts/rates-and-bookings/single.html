@@ -5,7 +5,8 @@
     <div class="body-text">
       <div class="main-block centred">
         <h2>Rates</h2>
-        {{ range (index .Site.Taxonomies.categories "accommodation" ) }}
+        {{ $entries := where .Site.RegularPages ".Params.categories" "intersect" (slice "accommodation") }}
+        {{ range  $entries }}
           <h3><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></h3>
           <ul>
             {{ if .Page.Params.rates_low_season}}

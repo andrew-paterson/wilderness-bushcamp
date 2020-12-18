@@ -1,7 +1,8 @@
 <div class="accommodation-category padding-x-md {{ .class }}">
   {{ if .header }}<h2 class="main-header">{{ .header }}</h2>{{ end }}
   <div class="d-flex accommodation-category">
-    {{ range (index .context.Site.Taxonomies.categories .type ) }}
+    {{ $entries := where .context.Site.RegularPages ".Params.categories" "intersect" (slice .type) }}
+    {{ range $entries }}
       {{ partial "accommodation-card.html" . }}
     {{ end }}
   </div>

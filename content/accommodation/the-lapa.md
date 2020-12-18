@@ -3,7 +3,7 @@ views: Communal deck area with ocean views
 url: the-lapa
 pano_page_banner: /images/page-headers/pano/the-lapa-1600w.jpg
 gallery_path: /images/accommodation/galleries/the-lapa
-cover_image: /images/accommodation/galleries/the-lapa/the-lapa-01-480w.jpg
+cover_image: 1
 title: The Lapa
 braai: Yes
 standard_page_banner: /images/page-headers/standard/the-lapa-600w.jpg
