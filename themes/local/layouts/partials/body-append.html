@@ -1,0 +1,14 @@
+{{ partial "hugo-sundries/script-bundle.html" (dict "context" . "output_path" "js/theme.js" "source_files" (slice "js/general.js|babel" "js/mobile-nav-toggler.js|babel" "js/scroll-detection.js|babel" "js/hugo-sundries/image-dimensions.js|babel" "js/site-specific.js|babel" )) }}
+
+{{ partial "hugo-sundries/script-bundle.html" (dict "context" . "output_path" "js/gallery.js" "source_files" (slice "js/fancybox-4.js" "js/hugo-sundries/image-infinity-loader.js|babel")) }}
+<script>
+  Fancybox.bind('[data-fancybox="gallery"]', {
+    Thumbs: false,
+    closeButton: "top",
+  });
+  
+  initLazyLoad({
+    scrollElementSelector: '#wrapper',
+    batchSize: 12,
+  });
+</script>

@@ -53,3 +53,4 @@ menu:
  
 params:
   image_dir: /media/images
+  body_classes: header-fixed

@@ -9,7 +9,7 @@ page_banner_for_large_screens: /media/images/page-headers/pano/sunrise-ridge.jpg
 gallery_path: /media/images/accommodation/galleries/sunrise-ridge
 additional_guests: ""
 tv_wifi: No – just books
-cover_image: 2
+cover_image: /media/images/accommodation/galleries/sunrise-ridge/sunrise-ridge-02.jpg
 rates: From R950 per night
 title: Sunrise Ridge
 sleeps: 2

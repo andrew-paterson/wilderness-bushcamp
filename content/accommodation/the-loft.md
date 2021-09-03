@@ -10,7 +10,7 @@ page_banner_for_large_screens: /media/images/page-headers/pano/the-loft.jpg
 gallery_path: /media/images/accommodation/galleries/the-loft
 additional_guests: ""
 tv_wifi: Free WiFi and TV with DSTV
-cover_image: 4
+cover_image: /media/images/accommodation/galleries/the-loft/the-loft-04.jpg
 rates: From R1600 per night
 title: The Loft
 sleeps: 2

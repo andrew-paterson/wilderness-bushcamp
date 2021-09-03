@@ -9,15 +9,10 @@
     </div>
   </div>
 </section>
-{{ if  .Params.gallery_path }}
+{{ if .Params.gallery_path }}
   <section id="gallery" class="padding-bottom-xl">
-    {{ partial "hugo-sundries/image-gallery" (dict "context" . "gallery_path" "/media/images/posts" "thumbnail_sizes_attr" "(max-width: 400px) 130px, 300px" "thumbnail_aspect_ratio" "4:3")}}
-    <script>
-      var infinityImageLoaderDefaults = {
-        scrollElementSelector: '#wrapper',
-      }
-    </script>
-    {{ partial "hugo-sundries/script-bundle.html" (dict "context" . "output_path" "js/gallery.js" "source_files" (slice "js/hugo-sundries/image-gallery/jquery-3.2.1.min.js" "js/hugo-sundries/image-gallery/jquery.fancybox.min.js|babel" "js/hugo-sundries/image-infinity-loader.js|babel")) }}
+    {{ partial "hugo-sundries/image-gallery" (dict "context" . "gallery_path" .Params.gallery_path "thumbnail_sizes_attr" "(max-width: 400px) 130px, 300px" "thumbnail_aspect_ratio" "4:3")}}
+    
   </section>
 {{ end }}
 {{ end }}

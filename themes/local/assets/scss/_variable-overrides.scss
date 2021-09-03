@@ -11,6 +11,9 @@ $main-font-family: 'Raleway', sans-serif;
 $main-header-font-family: 'Amatic SC', serif;
 $main-header-font-weight: 600;
 
+$dynamic-header-height: 50px;
+$dynamic-header-initial-height: 76px;
+
 $large-text-font-size: 2em;
 
 $desktop-main-nav-level-2-text-transform: none;
@@ -34,3 +37,6 @@ $button-color: $primary !default;
 $button-hover-color: #fff !default;
 
 $blog-item-image-block-max-width: 100%;
+
+$desktop-main-nav-level-1-text-transform: uppercase;
+$mobile-main-nav-text-transform: uppercase;

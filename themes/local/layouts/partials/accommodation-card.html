@@ -1,22 +1,8 @@
 <a href="{{ .Page.RelPermalink }}" class="accommodation-item-card">
   <div>
-    <div >
-      {{ $gallery_path := .Page.Params.gallery_path }}
-      {{ $static_gallery_path := printf "%s%s" "static" $gallery_path }}
-      {{ if fileExists $static_gallery_path }}
-        {{ if .Page.Params.cover_image}}
-          {{ $image_index := (sub .Page.Params.cover_image 1)}}
-          {{ .Scratch.Set "image_index" (sub .Page.Params.cover_image 1) }}
-        {{ else }}
-          {{ .Scratch.Set "image_index" 0 }}
-        {{ end }}
-        {{ $image_index := .Scratch.Get "image_index"}}
-        {{ $image_file := (index (readDir $static_gallery_path) $image_index) }}
-        {{ $image_path := printf "%s%s%s" $gallery_path "/" $image_file.Name }}
-
-        {{ $sizes := (partial "hugo-sundries/fallback-srcset-sizes.html" (dict "context" . "type" "list_item" ))}}
-        {{ partial "pandago/content-item/cover-image.html" (dict "context" . "image_link" .RelPermalink "image_link_class" "thumbnail-link" "sizes" $sizes) }}
-      {{ end }}
+    <div>
+      {{ $sizes := (partial "hugo-sundries/fallback-srcset-sizes.html" (dict "context" . "type" "list_item" ))}}
+      {{ partial "pandago/content-item/cover-image.html" (dict "context" . "image_link_class" "thumbnail-link" "sizes" $sizes "data_dimensions" "4:3" "data_object_fit" "cover") }}
     </div>
     <div class="padding-lg accommodation-card-text">
       <h3 class="accommodation-card-header">{{ .Page.Title }}</h3>

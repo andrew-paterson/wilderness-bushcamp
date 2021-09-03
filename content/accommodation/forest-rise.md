@@ -10,7 +10,7 @@ title: Forest Rise
 additional_guests: +R150 per person upto a maximum of 4
 sleeps: 4
 tv_wifi: Free WiFi (No TV)
-cover_image: 11
+cover_image: /media/images/accommodation/galleries/forest-rise/forest-rise-11.jpg
 rates: From R1250 per night
 rates_high_season: R1500 for 2 people (+R150 per night for each additional person – max 4)
 weight: 7

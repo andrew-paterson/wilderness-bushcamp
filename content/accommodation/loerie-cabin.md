@@ -12,7 +12,7 @@ sleeps: 5
 tv_wifi: No – just books
 rates: From R900 per night
 additional_guests: +R150 per person upto a maximum of 5
-cover_image: 5
+cover_image: /media/images/accommodation/galleries/loerie-cabin/loerie-cabin-05.jpg
 rates_low_season: R850 for 2 people (+R150 per night for each additional person – max 5)
 rates_high_season: R1000 for 2 people (+R150 per night for each additional person – max 5)
 weight: 5
