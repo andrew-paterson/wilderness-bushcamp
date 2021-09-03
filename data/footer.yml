@@ -1,0 +1,11 @@
+copyright:
+  text: Wilderness Bushcamp
+items:
+- text: 044 877 1168
+  type: phone
+- text: info@wildernessbushcamp.co.za
+  type: email
+- text: 078 419 2021
+  type: phone
+- text: COVID-19
+  link: /covid-19

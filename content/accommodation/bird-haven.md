@@ -5,8 +5,8 @@ summary: This beautifully appointed cottage sits in an area that was once the
   uppermost section of a bird sanctuary. The surrounding fynbos and vegetation
   still teems with birdlife, so bring your binoculars…
 url: accommodation/bushcamp/bird-haven
-pano_page_banner: /images/page-headers/pano/bird-haven-1600w.jpg
-gallery_path: /images/accommodation/galleries/bird-haven
+page_banner_for_large_screens: /media/images/page-headers/pano/bird-haven.jpg
+gallery_path: /media/images/accommodation/galleries/bird-haven
 additional_guests: + R150 per person upto a maximum of 4
 tv_wifi: Free WiFi (No TV)
 cover_image: 12
@@ -17,7 +17,7 @@ rates_low_season: R1250 for 2 people (+R150 per night for each additional person
 rates_high_season: R1500 for 2 people (+R150 per night for each additional person – max 4)
 weight: 8
 braai: "Yes"
-standard_page_banner: /images/page-headers/standard/bird-haven-600w.jpg
+page_banner_for_small_screens: /media/images/page-headers/standard/bird-haven.jpg
 categories:
   - accommodation
   - bushcamp

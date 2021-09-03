@@ -5,8 +5,8 @@ summary: Discreetly located at the end of a wooden walkway and hidden amongst
   dense bush, this is the perfect choice for those who don’t want to be
   disturbed.
 url: /accommodation/bushcamp/hideaway-cottage
-pano_page_banner: /images/page-headers/pano/hideaway-cottage-1600w.jpg
-gallery_path: /images/accommodation/galleries/hideaway-cottage
+page_banner_for_large_screens: /media/images/page-headers/pano/hideaway-cottage.jpg
+gallery_path: /media/images/accommodation/galleries/hideaway-cottage
 additional_guests: ""
 tv_wifi: No – just books
 cover_image: 2
@@ -17,7 +17,7 @@ rates_low_season: R800 per night
 rates_high_season: R950 per night
 weight: 3
 braai: No – but easy access to lapa with braai
-standard_page_banner: /images/page-headers/standard/hideaway-cottage-600w.jpg
+page_banner_for_small_screens: /media/images/page-headers/standard/hideaway-cottage.jpg
 categories:
   - accommodation
   - bushcamp

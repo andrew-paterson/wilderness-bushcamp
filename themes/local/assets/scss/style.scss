@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import './functions';
+@import './_variable-overrides.scss';
+@import './pandago/all-variables';
+
+@import './_text';
+@import './_dynamic-header';
+@import './_functions';
+@import './_general-site-layout';
+@import './_main-nav';
+@import './_media-elements';
+@import './_misc';
+@import './_padding-margin';
+@import './_blog-layout';
+// @import './_search-box';
+@import './_sm-links';
+
+@import './hugo-sundries/image-gallery';
+@import './fancybox-4';
+@import './hugo-sundries/addons/_responsive-image';
+@import './additional-styles';
+.fancybox__slide {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.fancybox__image {
+  margin: 0;
+}
+
+.fancybox__backdrop {
+  opacity: 1 !important;
+  background: #111;
+}

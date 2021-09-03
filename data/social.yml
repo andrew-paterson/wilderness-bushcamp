@@ -1,0 +1,9 @@
+- platform: facebook
+  icon: facebook
+  url: 'https://www.facebook.com/therealwildernessbushcamp'
+- platform: instagram
+  icon: instagram
+  url: 'https://www.instagram.com/wildernessbushcamp'
+- platform: tripadvisor
+  icon: tripadvisor
+  url: http://www.tripadvisor.com/hotel_Review-g312610-d1161107-Reviews-Wilderness_Bushcamp-Wilderness_Western_Cape.html

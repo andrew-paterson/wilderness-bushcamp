@@ -1,0 +1,25 @@
+
+
+{{ define "main" }}
+{{ partial "pandago/content-item/page-banner.html" . }}
+<section id="home" class="panel">
+  <div class="container page-gutters">
+    <div class="text">
+      {{ if .Title }}<h2 class="main-header main-header-xl">{{ .Title }}</h2>{{ end }}
+      <div class="text-align-center home-intro body-text">
+        <div class="byline text-align-center margin-bottom-lg">
+          {{ .Params.intro_text }}
+        </div>
+        <div class="d-flex sm-links align-center">
+          {{ partial "pandago/social-media-links.html" . }}
+        </div>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+<section id="accommodation" class="panel">
+  <h2 class="main-header">Accommodation</h2>
+  {{ partial "all-accommodation.html" . }}
+</section>
+{{ end }}

@@ -1,0 +1,32 @@
+<div class="accommodation-amenties">
+  {{ if isset .Params "braai" }}
+    <div class="amenity braai">
+      <div class="amenity-icon">{{ partial "svg/braai.html"}}</div>
+      {{ if eq .Params.braai true }}
+        Yes
+      {{else}}
+        {{ .Params.braai }}
+      {{ end }}
+    </div>
+  {{ end }}
+  {{ if isset .Params "views" }}
+    <div class="amenity views">
+      <div class="amenity-icon">{{ partial "svg/tree.html"}}</div>{{ .Params.views }}
+    </div>
+  {{ end }}
+  {{ if isset .Params "sleeps" }}
+    <div class="amenity sleeps">
+      <div class="amenity-icon">{{ partial "svg/bed.html"}}</div>{{ .Params.sleeps }}
+    </div>
+  {{ end }}
+  {{ if isset .Params "tv_wifi" }}
+    <div class="amenity wifi-tv">
+      <div class="amenity-icon">{{ partial "svg/tv-wifi.html"}}</div>{{ .Params.tv_wifi }}
+    </div>
+  {{ end }}
+  {{ if isset .Params "rates" }}
+    <div class="amenity rates">
+      <div class="amenity-icon">{{ partial "svg/money.html"}}</div>{{ .Params.rates }}
+    </div>
+  {{ end }}
+</div>

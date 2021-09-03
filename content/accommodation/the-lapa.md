@@ -1,12 +1,12 @@
 ---
 views: Communal deck area with ocean views
 url: the-lapa
-pano_page_banner: /images/page-headers/pano/the-lapa-1600w.jpg
-gallery_path: /images/accommodation/galleries/the-lapa
+page_banner_for_large_screens: /media/images/page-headers/pano/the-lapa.jpg
+gallery_path: /media/images/accommodation/galleries/the-lapa
 cover_image: 1
 title: The Lapa
 braai: Yes
-standard_page_banner: /images/page-headers/standard/the-lapa-600w.jpg
+page_banner_for_small_screens: /media/images/page-headers/standard/the-lapa.jpg
 ---
 Each unit has its own private deck with outdoor dining area, but not all units are equipped with a braai, so guests are welcome to make use of the communal lapa area during their stay…
 

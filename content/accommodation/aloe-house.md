@@ -7,15 +7,15 @@ views: Private decks with ocean views
 tv_wifi: Free WiFi and TV with DSTV
 rates: From R3500 per night
 additional_guests: R500 per night. Up to a maximum of 6 people.
-standard_page_banner: /images/page-headers/standard/aloe-house-600w.jpg
-pano_page_banner: /images/page-headers/pano/aloe-house-1600w.jpg
+page_banner_for_small_screens: /media/images/page-headers/standard/aloe-house.jpg
+page_banner_for_large_screens: /media/images/page-headers/pano/aloe-house.jpg
 summary: Aloe House is a 3-bedroom house with a range of entertaining spaces
   that make it the perfect place for families or a group of friends who want to
   enjoy an extended break away. There’s also a private swimming pool and views
   from every corner of the wraparound deck. (only available for rent over
   December and January)
 url: /accommodation/aloe-heights/aloe-house
-gallery_path: /images/accommodation/galleries/aloe-house
+gallery_path: /media/images/accommodation/galleries/aloe-house
 cover_image: 2
 rates_high_season: R3500 for 2 people (+R500 per night for each additional person – max 6)
 weight: 10

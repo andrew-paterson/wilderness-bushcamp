@@ -19,7 +19,7 @@ The road will twist and turn for approx. 300m and will get very steep in parts, 
 
 When you see this view you've reached your destination…
 
-{{< _shared/srcset-element image_path="/images/directions/top-of-the-hill-900w.jpg" alt="Top of the hill" class="width-100" >}}
+{{< shortcodes/responsive-image image_path="/media/images/directions/top-of-the-hill.jpg" alt="Top of the hill" class="width-100" >}}
 
 ## Contact Us
 

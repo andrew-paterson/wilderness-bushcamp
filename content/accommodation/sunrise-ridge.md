@@ -5,8 +5,8 @@ summary: A wooden boardwalk leads down to this cosy wooden cabin, built for two.
   Step out of bed and onto your deck to watch the sun rise over the lagoon and
   the ocean
 url: /accommodation/bushcamp/sunrise-ridge
-pano_page_banner: /images/page-headers/pano/sunrise-ridge-1600w.jpg
-gallery_path: /images/accommodation/galleries/sunrise-ridge
+page_banner_for_large_screens: /media/images/page-headers/pano/sunrise-ridge.jpg
+gallery_path: /media/images/accommodation/galleries/sunrise-ridge
 additional_guests: ""
 tv_wifi: No – just books
 cover_image: 2
@@ -17,7 +17,7 @@ rates_low_season: R950
 rates_high_season: R1050
 weight: 4
 braai: "Yes"
-standard_page_banner: /images/page-headers/standard/sunrise-ridge-600w.jpg
+page_banner_for_small_screens: /media/images/page-headers/standard/sunrise-ridge.jpg
 categories:
   - accommodation
   - bushcamp

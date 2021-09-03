@@ -1,0 +1,36 @@
+$spacer-sm: 4px;
+$spacer-md: 8px;
+$spacer-lg: 16px;
+$spacer-xl: 32px;
+
+$logo-colour-1: #7FB145;
+$logo-colour-2: #444;
+
+$primary: $logo-colour-1;
+$main-font-family: 'Raleway', sans-serif;
+$main-header-font-family: 'Amatic SC', serif;
+$main-header-font-weight: 600;
+
+$large-text-font-size: 2em;
+
+$desktop-main-nav-level-2-text-transform: none;
+
+$body-content-header-color: #444;
+$body-content-header-text-transform: none;
+$body-content-header-font-family: inherit;
+$body-content-header-font-weight: 600 !default;
+
+$body-content-header-margin-bottom: 0.5em !default;
+$body-content-header-h2-font-size: 2.4em !default;
+$body-content-header-h3-font-size: 2.2em !default;
+$body-content-header-h4-font-size: 2em !default;
+
+$button-padding: $spacer-sm $spacer-lg;
+$button-background-color: #fff;
+$button-hover-background-color: $primary !default;
+$button-border-color: $primary !default;
+$button-hover-border-color: $button-hover-background-color !default;
+$button-color: $primary !default;
+$button-hover-color: #fff !default;
+
+$blog-item-image-block-max-width: 100%;

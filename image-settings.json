@@ -1,0 +1,30 @@
+{
+  "src": "./static/media/images",
+  "dest": "./static/responsive-images",
+  "sizes": [
+    {
+      "maxWidth": 200,
+      "maxHeight": 900
+    },
+    {
+      "maxWidth": 480,
+      "maxHeight": 900
+    },
+    {
+      "maxWidth": 600,
+      "maxHeight": 900
+    },
+    {
+      "maxWidth": 768,
+      "maxHeight": 900
+    },
+    {
+      "maxWidth": 1440,
+      "maxHeight": 900
+    },
+    {
+      "maxWidth": 1600,
+      "maxHeight": 900
+    }
+  ]
+}

@@ -1,19 +1,19 @@
 ---
 title: Things to do
 url: things-to-do
-pano_page_banner: /images/page-headers/pano/wilderness-river-forest-and-ocean-1600w.jpg
-standard_page_banner: /images/page-headers/standard/wilderness-river-forest-and-ocean-600w.jpg
+page_banner_for_large_screens: /media/images/page-headers/pano/wilderness-river-forest-and-ocean.jpg
+page_banner_for_small_screens: /media/images/page-headers/standard/wilderness-river-forest-and-ocean.jpg
 type: things_to_do
 ---
 Wilderness is a truly unique place. This garden of Eden is blessed with ocean, mountains, forests and rivers that converge to create a natural paradise just waiting to be explored.
 
 There are hiking trails and biking tracks, forest walks and riverside meanders, fishing spots, mountains to climb, rock pools to explore, world famous paragliding conditions and the endless rolling of the ocean, which beckons you to kick off your shoes and set off along the pristine beaches that stretch as far as the eye can see…
 
-{{< _shared/image-gallery gallery_path="/images/activities/general" class="margin-bottom-xl">}}
+{{< shortcodes/image-gallery gallery_path="/media/images/activities/general" class="margin-bottom-xl">}}
 
 Just a short distance away in George explore the mountain peaks, botanical gardens and the glorious Garden Route dam. Hop on board the quaint Outeniqua Power Van or tee off on the world famous golf courses at Fancourt and Oubaii… 
 
-{{< _shared/image-gallery gallery_path="/images/activities/hiking"  class="margin-bottom-xl">}}
+{{< shortcodes/image-gallery gallery_path="/media/images/activities/hiking"  class="margin-bottom-xl">}}
 
 ***Things To Do:***
 
@@ -31,13 +31,13 @@ If you’re looking for personal recommendations then maybe consider this very s
 
 ## My Favourite Things – by John Pfaff
 
-{{< _shared/srcset-element class="width-100" image_path="/images/blog/johns-favourite-things/johns-favourite-things-900w.jpg" alt="John's favoutite things">}}
+{{< shortcodes/responsive-image class="width-100" image_path="/media/images/blog/johns-favourite-things/johns-favourite-things.jpg" alt="John's favoutite things">}}
 
 In 1972 John and Ann Pfaff arrived in George looking for somewhere to settle and make a home.
 
 John was an enthusiastic surfer and the break at Vic Bay played a big part in their decision to stay in the area.
 
-{{< _shared/srcset-element class="width-100" image_path="/images/blog/johns-favourite-things/john-pfaff-surfing-900w.jpg" alt="John Pfaff surfing">}}
+{{< shortcodes/responsive-image class="width-100" image_path="/media/images/blog/johns-favourite-things/john-pfaff-surfing.jpg" alt="John Pfaff surfing">}}
 
 For two years they lived in the Vic Bay caravan park then, in 1980, they moved to Wilderness.
 
@@ -49,7 +49,7 @@ It was John’s dream to create Milkwood Village, an area that he hoped would b
 
 Thankfully not one tree was harmed and those beautiful old Milkwood trees are now the focal point of Milkwood Village. They’re also testament to John’s desire to see Wilderness go from strength to strength while retaining its natural beauty and charm.
 
-{{< _shared/srcset-element class="width-100" image_path="/images/accommodation/galleries/aloe-house/aloe-house-03-1600w.jpg" alt="Alow House deck">}}
+{{< shortcodes/responsive-image class="width-100" image_path="/media/images/accommodation/galleries/aloe-house/aloe-house-03.jpg" alt="Alow House deck">}}
 
 high-res-images/accommodation/galleries/aloe-house/aloe-house-03.jpg
 

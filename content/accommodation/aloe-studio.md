@@ -6,8 +6,8 @@ summary: This cosy studio apartment is located near the main house so is the
   less “in the bush” but still be able to enjoy a private deck with far reaching
   ocean views.
 url: /accommodation/aloe-heights//aloe-studio
-pano_page_banner: /images/page-headers/pano/aloe-studio-1600w.jpg
-gallery_path: /images/accommodation/galleries/aloe-studio
+page_banner_for_large_screens: /media/images/page-headers/pano/aloe-studio.jpg
+gallery_path: /media/images/accommodation/galleries/aloe-studio
 additional_guests: ""
 tv_wifi: Free WiFi  (No TV)
 cover_image: 1
@@ -18,7 +18,7 @@ rates_low_season: R800
 rates_high_season: R850
 weight: 1
 braai: No – but easy access to lapa with braai
-standard_page_banner: /images/page-headers/standard/aloe-studio-600w.jpg
+page_banner_for_small_screens: /media/images/page-headers/standard/aloe-studio.jpg
 categories:
   - accommodation
   - aloe_heights

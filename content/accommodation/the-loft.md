@@ -6,8 +6,8 @@ summary: The Loft is the jewel in the crown of the Bushcamp and offers open plan
   comfort has resulted in a truly unique apartment that is fast becoming popular
   as a honeymoon destination or special occasion getaway…
 url: accommodation/the-loft
-pano_page_banner: /images/page-headers/pano/the-loft-1600w.jpg
-gallery_path: /images/accommodation/galleries/the-loft
+page_banner_for_large_screens: /media/images/page-headers/pano/the-loft.jpg
+gallery_path: /media/images/accommodation/galleries/the-loft
 additional_guests: ""
 tv_wifi: Free WiFi and TV with DSTV
 cover_image: 4
@@ -18,7 +18,7 @@ rates_low_season: R1600 for 2 people
 rates_high_season: R1600 for 2 people
 weight: 9
 braai: "Yes"
-standard_page_banner: /images/page-headers/standard/the-loft-600w.jpg
+page_banner_for_small_screens: /media/images/page-headers/standard/the-loft.jpg
 categories:
   - accommodation
   - the_loft
