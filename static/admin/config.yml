@@ -29,6 +29,7 @@ collections:
       - { label: 'rates_low_season', name: 'rates_low_season', widget: 'string', required: false }
       - { label: 'rates_high_season', name: 'rates_high_season', widget: 'string', required: false }
       - { label: 'summary', name: 'summary', widget: 'string', required: false }
+      - { label: 'Featured image', name: 'cover_image', widget: 'image', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
   - name: 'media'
     label: 'Media'
