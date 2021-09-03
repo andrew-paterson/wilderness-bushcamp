@@ -1,6 +1,6 @@
 <div class="accommodation-item-card">
   <div>
-    <div>
+    <div class="cover-image">
       {{ $sizes := (partial "hugo-sundries/fallback-srcset-sizes.html" (dict "context" . "type" "list_item" ))}}
       {{ partial "pandago/content-item/cover-image.html" (dict "context" . "image_link_class" "thumbnail-link" "image_link" .Page.RelPermalink "sizes" $sizes "data_dimensions" "4:3" "data_object_fit" "cover") }}
     </div>

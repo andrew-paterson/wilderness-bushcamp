@@ -124,6 +124,9 @@
     color: $body-text-color;
 
   }
+  .cover-image img {
+    width: 100%; // TODO set width-100 class on image in html (cover-image partial needs to support it)
+  }
   .accommodation-card-header a:hover {
     text-decoration: none;
   }
