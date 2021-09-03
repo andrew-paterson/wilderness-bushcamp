@@ -156,3 +156,8 @@
     width: calc(50% - #{2*$spacer-lg});
   }
 }
+
+.btn.btn-sm {
+  padding: 0 $spacer-md;
+  font-size: 0.8em;
+}

@@ -7,7 +7,12 @@
         <h2>Rates</h2>
         {{ $entries := where .Site.RegularPages ".Params.categories" "intersect" (slice "accommodation") }}
         {{ range  $entries }}
-          <h3><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></h3>
+          <h3>
+            <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+            {{ if .Params.nightsbridge }}
+              <a href="{{ .Params.nightsbridge }}" class="btn btn-sm">Book</a>
+            {{ end }}
+          </h3>
           <ul>
             {{ if .Page.Params.rates_low_season}}
             <li><b>Low season</b> (1st May – 30th September) - <b>{{ .Page.Params.rates_low_season}} per night</b></li>
@@ -15,7 +20,9 @@
             {{ if .Page.Params.rates_high_season}}
             <li><b>High season</b> (1st October – 30th April) - <b>{{ .Page.Params.rates_high_season}} per night</b></li>
             {{ end }}
+            
           </ul>
+          
         {{ end }}
         <h2>Booking Enquiries</h2>
         Please feel free to <a href="/contact-us">contact us</a> should you have any queries, or send us an enquiry through this booking form and we’ll get back to you as soon as possible.

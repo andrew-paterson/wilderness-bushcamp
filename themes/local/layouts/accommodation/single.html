@@ -6,6 +6,11 @@
     <div class="main-block body-text">
       {{ partial "accommodation-amenities.html" . }}
       {{ .Content }}
+      {{ if .Params.nightsbridge }}
+        <div class="margin-top-lg">
+          <a href="{{ .Params.nightsbridge }}" class="btn">Book {{ .Title }}</a>
+        </div>
+      {{ end }}
     </div>
   </div>
 </section>

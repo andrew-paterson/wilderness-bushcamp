@@ -10,7 +10,7 @@
       <div class="accommodation-card-summary">{{ .Page.Summary }}</div>
       {{ if .Params.nightsbridge }}
         <div class="margin-top-lg">
-          <a href="{{ .Params.nightsbridge }}" class="btn">Book now</a>
+          <a href="{{ .Params.nightsbridge }}" class="btn">Book {{ .Title }}</a>
         </div>
       {{ end }}
     </div>
