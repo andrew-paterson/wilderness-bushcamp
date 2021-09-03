@@ -1,13 +1,18 @@
-<a href="{{ .Page.RelPermalink }}" class="accommodation-item-card">
+<div class="accommodation-item-card">
   <div>
     <div>
       {{ $sizes := (partial "hugo-sundries/fallback-srcset-sizes.html" (dict "context" . "type" "list_item" ))}}
-      {{ partial "pandago/content-item/cover-image.html" (dict "context" . "image_link_class" "thumbnail-link" "sizes" $sizes "data_dimensions" "4:3" "data_object_fit" "cover") }}
+      {{ partial "pandago/content-item/cover-image.html" (dict "context" . "image_link_class" "thumbnail-link" "image_link" .Page.RelPermalink "sizes" $sizes "data_dimensions" "4:3" "data_object_fit" "cover") }}
     </div>
     <div class="padding-lg accommodation-card-text">
-      <h3 class="accommodation-card-header">{{ .Page.Title }}</h3>
+      <h3 class="accommodation-card-header"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
       {{ partial "accommodation-amenities.html" . }}
       <div class="accommodation-card-summary">{{ .Page.Summary }}</div>
+      {{ if .Params.nightsbridge }}
+        <div class="margin-top-lg">
+          <a href="{{ .Params.nightsbridge }}" class="btn">Book now</a>
+        </div>
+      {{ end }}
     </div>
   </div>
-</a>
+</div>

@@ -124,6 +124,9 @@
     color: $body-text-color;
 
   }
+  .accommodation-card-header a:hover {
+    text-decoration: none;
+  }
   @include card-box-shadow($level:2);
   margin: $spacer-md;
   background: #fff;

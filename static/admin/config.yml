@@ -4,9 +4,11 @@ backend:
   base_url: https://9s9ttkn75e.execute-api.eu-west-1.amazonaws.com
   auth_endpoint: /prod/auth
   branch: master # Branch to update (optional; defaults to master)
-site_id: www.wb.ajp-sandbox.co.za
-media_folder: /static/images/activities/general
-public_folder: /images
+site_id: www.wildernessbushcamp.co.za
+media_folder: /static/media/images
+public_folder: /media/images
+editor:
+  preview: false
 collections:
   - name: 'accommodation'
     label: 'Accommodation'
@@ -21,6 +23,7 @@ collections:
       - { label: 'braai', name: 'braai', widget: 'string', required: false }
       - { label: 'views', name: 'views', widget: 'string', required: false }
       - { label: 'tv_wifi', name: 'tv_wifi', widget: 'string', required: false }
+      - { label: 'Nightsbridge link', name: 'nightsbridge', widget: 'string', required: false }
       - { label: 'rates_summary', name: 'rates', widget: 'string', required: false }
       - { label: 'additional_guests', name: 'additional_guests', widget: 'string', required: false }
       - { label: 'rates_low_season', name: 'rates_low_season', widget: 'string', required: false }

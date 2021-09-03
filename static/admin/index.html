@@ -3,133 +3,121 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Content Manager</title>
+    <title>Wilderness Bushcamp admin area</title>
     <!-- Include the script that enables Netlify Identity on this page. -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-    <script>
+    <script src="./netlify-cms.js"></script>
+    <!-- <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script> -->
+    <script>    
+     CMS.registerEditorComponent({
+        id: "youtube",
+        label: "Youtube video",
+        fields: [{
+          name: 'youtube_url', 
+          label: 'Enter Youtube URL', 
+          widget: 'string',
+        }, {
+          name: 'caption', 
+          label: 'Video caption', 
+          widget: 'string'
+        }],
+
+        pattern: /^(?=.*\bshortcodes\/youtube\b)(?=(?:.*youtube_url="([^"]+)")?)(?=(?:.*caption="([^"]+)")?).*$/,
+        fromBlock: function(match) {
+          return {
+            youtube_url: match[1],
+            caption: match[2]
+          };
+        },
+        toBlock: function(obj) {
+          const youtube_url = obj.youtube_url ? `youtube_url="${obj.youtube_url}"` : '';
+          const caption = obj.caption ? `caption="${obj.caption}"` : '';
+          return `{{< shortcodes\/youtube ${youtube_url} ${caption} >}}`
+        },
+        toPreview: function(obj) {
+          const qps = (obj.youtube_url || '').split('?')[1] || '';
+          const id = Object.fromEntries(new URLSearchParams(qps)).v;
+          const caption = obj.caption ? `<figcaption>${obj.caption}</figcaption>` : '';
+          const markup = `<figure><div class="embedded-video"><iframe src="https://www.youtube.com/embed/${id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>${caption}</figure>`;
+          return (markup);
+        }
+      });
+
+      CMS.registerEditorComponent({
+        id: "divider",
+        label: "Divider",
+        pattern: '{{< shortcodes/clearing-div >}}',
+
+        toBlock: function(obj) {
+          return `{{< shortcodes\/clearing-div >}}`
+        },
+        toPreview: function(obj) {
+          const markup = `<div style="clear:both"></div>`;
+          return (markup);
+        }
+      });
       
       CMS.registerEditorComponent({
-        // Internal id of the component
-        id: "responsive-image",
-        // Visible label
-        label: "Responsive",
-        // Fields the user need to fill out when adding an instance of the component
+        id: "image",
+        label: "Image",
         fields: [{
           name: 'src', 
-          label: 'Main image source', 
+          label: 'Select image', 
+          widget: 'image',
+        }, { 
+          label: 'Image width',
+          name: 'max_width',
+          widget: 'select',
+          default: ['100%'],
+          options: ['25%', '33%', '50%', '100%']
+         }, { 
+          label: 'Align image',
+          name: 'align',
+          widget: 'select',
+          options: ['center', 'right']
+         }, {
+          name: 'caption', 
+          label: 'Image caption', 
           widget: 'string'
         }, {
           name: 'alt', 
-          label: 'Alternate text', 
-          widget: 'string'
-        }, {
-          name: 'class', 
-          label: 'Class', 
-          widget: 'string'
+          label: 'Description of the image for visually impaired users', 
+          widget: 'string',
         }],
-        // Pattern to identify a block as being an instance of this component
-        pattern: /{{< _shared\/srcset-element image_path="(.*)" alt="(.*)" class="(.*)" >}}/,
-        // Function to extract data elements from the regexp match
+
+        pattern: /^(?=.*\bshortcodes\/responsive-image\b)(?=(?:.*image_path="([^"]+)")?)(?=(?:.*caption="([^"]+)")?)(?=(?:.*alt="([^"]+)")?)(?=(?:.*max_width="([^"]+)")?)(?=(?:.*align="([^"]+)")?).*$/,
         fromBlock: function(match) {
           return {
             src: match[1],
-            alt: match[2],
-            class: match[3]
+            caption: match[2],
+            alt: match[3],
+            max_width: match[4],
+            align: match[5]
           };
         },
-        // Function to create a text block from an instance of this component
         toBlock: function(obj) {
-          return `{{< _shared/srcset-element image_path="${obj.src}" alt="${obj.alt}" class="${obj.class}" >}}`
+          const classes = [];
+          const caption = obj.caption ? `caption="${obj.caption}"` : '';
+          const alt = obj.alt ? `alt="${obj.alt}"` : '';
+          const src = obj.src ? `image_path="${obj.src}"` : '';
+          const max_width = obj.max_width ? `max_width="${obj.max_width}"` : '';
+          const align = obj.align ? `align="${obj.align}"` : '';
+          return `{{< shortcodes\/responsive-image ${src} ${alt} ${caption} ${max_width} ${align}>}}`
         },
-        // Preview output for this component. Can either be a string or a React component
-        // (component gives better render performance)
         toPreview: function(obj) {
-          return (
-            `<img src="${obj.src}" alt="${obj.src}" class="${obj.class}" />`
-          );
+          let markup;
+          console.log(obj);
+          if (obj.caption) {
+            markup = `<figure><img src="${obj.src}" alt="${obj.alt}"><figcaption>${obj.caption}</figcaption></figure>`;
+          } else {
+            markup =  `<img src="${obj.src}" alt="${obj.src}" />`;
+          }
+          return (markup);
         }
       });
-
-      // CMS.registerEditorComponent({
-      //   // Internal id of the component
-      //   id: "srcset",
-      //   // Visible label
-      //   label: "Responsive",
-      //   // Fields the user need to fill out when adding an instance of the component
-      //   fields: [{
-      //     name: 'src', 
-      //     label: 'Main image src', 
-      //     widget: 'string'
-      //   }, {
-      //     name: 'alt', 
-      //     label: 'Alt text', 
-      //     widget: 'string'
-      //   }],
-      //   // Pattern to identify a block as being an instance of this component
-      //   pattern: /^srcset (\S+)$/,
-      //   // Function to extract data elements from the regexp match
-      //   fromBlock: function(match) {
-      //     return {
-      //       id: 'srcset'
-      //     };
-      //   },
-      //   // Function to create a text block from an instance of this component
-      //   toBlock: function(obj) {
-      //     console.log(obj);
-      //     return 'youtube ' + obj.src;
-      //   },
-      //   // Preview output for this component. Can either be a string or a React component
-      //   // (component gives better render performance)
-      //   toPreview: function(obj) {
-      //     return (
-      //       '<img src="http://img.youtube.com/vi/' + obj.src + '/maxresdefault.jpg" alt="Youtube Video"/>'
-      //     );
-      //   }
-      // });
-
-      
-
-      var CategoriesControl = createClass({
-        handleChange: function(e) {
-          const separator = this.props.field.get('separator', ', ')
-          this.props.onChange(e.target.value.split(separator).map((e) => e.trim()));
-        },
-
-        render: function() {
-          const separator = this.props.field.get('separator', ', ');
-          var value = this.props.value;
-          return h('input', {
-            id: this.props.forID,
-            className: this.props.classNameWrapper,
-            type: 'text',
-            value: value ? value.join(separator) : '',
-            onChange: this.handleChange,
-          });
-        },
-      });
-
-      var CategoriesPreview = createClass({
-        render: function() {
-          return h('ul', {},
-            this.props.value.map(function(val, index) {
-              return h('li', {key: index}, val);
-            })
-          );
-        }
-      });
-
-      var schema = {
-        properties: {
-          separator: { type: 'string' },
-        },
-      }
-
-      CMS.registerWidget('categories', CategoriesControl, CategoriesPreview, schema);
-
     </script>
   </body>
 </html>

@@ -11,6 +11,7 @@ github.com/andrew-paterson/hugo-sundries v1.0.27 h1:Y8bIqSE7+Ibu8du0+232nU7Z9nCe
 github.com/andrew-paterson/hugo-sundries v1.0.27/go.mod h1:II4VIEM/4zh+SAQcvKKNTEB0iSUwhGEU1sbG1yCX6Fc=
 github.com/andrew-paterson/hugo-sundries v1.0.28/go.mod h1:II4VIEM/4zh+SAQcvKKNTEB0iSUwhGEU1sbG1yCX6Fc=
 github.com/andrew-paterson/hugo-sundries v1.0.29/go.mod h1:II4VIEM/4zh+SAQcvKKNTEB0iSUwhGEU1sbG1yCX6Fc=
+github.com/andrew-paterson/hugo-sundries v1.0.32/go.mod h1:II4VIEM/4zh+SAQcvKKNTEB0iSUwhGEU1sbG1yCX6Fc=
 github.com/andrew-paterson/pandago v1.0.0/go.mod h1:ItDtI4AIJefHuic6EFcBFfy+hBN6EHN58IjoxR1keVY=
 github.com/andrew-paterson/pandago v1.0.1/go.mod h1:Q6cBbsZ/XtIdKN+f6uRZ/Pt62kRvGgh4Qsw9+oaXhqs=
 github.com/andrew-paterson/pandago v1.0.2/go.mod h1:IXIkNSkvOvGoIMacZ9Ruo6RmxcFoCfyrcZ7LhKtLsfs=
@@ -28,3 +29,4 @@ github.com/andrew-paterson/pandago v1.0.35 h1:1LiJpucPRaYyZj1YnelE2pRvITwnSM/Bd9
 github.com/andrew-paterson/pandago v1.0.35/go.mod h1:BLhVLz0jZTc7r3oYADhENfmurpG2PTegQu+hXE951uw=
 github.com/andrew-paterson/pandago v1.0.36/go.mod h1:0oohJpbnI3Qa1FpucJ/M2nEYC0NVbssOnR4l86Rr6mA=
 github.com/andrew-paterson/pandago v1.0.37/go.mod h1:6pZPKLJAaNdn5czfNVaWDEUcp2jFLEonzmn4Q3GIclQ=
+github.com/andrew-paterson/pandago v1.0.40/go.mod h1:2oorXjks4nsQnkbMwxF/34iHpB2HlJKoY/DzsAxRVhk=
