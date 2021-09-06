@@ -2,7 +2,7 @@
   <div>
     <div class="cover-image">
       {{ $sizes := (partial "hugo-sundries/fallback-srcset-sizes.html" (dict "context" . "type" "list_item" ))}}
-      {{ partial "pandago/content-item/cover-image.html" (dict "context" . "image_link_class" "thumbnail-link" "image_link" .Page.RelPermalink "sizes" $sizes "data_dimensions" "4:3" "data_object_fit" "cover") }}
+      {{ partial "pandago/content-item/cover-image.html" (dict "context" . "image_link_class" "thumbnail-link" "image_link" .Page.RelPermalink "sizes" "400px" "data_dimensions" "4:3" "data_object_fit" "cover") }}
     </div>
     <div class="padding-lg accommodation-card-text">
       <h3 class="accommodation-card-header"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
