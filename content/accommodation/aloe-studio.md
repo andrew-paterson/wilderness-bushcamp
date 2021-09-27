@@ -1,24 +1,24 @@
 ---
 accommodates: 2 people
-views: Private deck with ocean views
+title: Aloe Studio
+sleeps: 2
 summary: This cosy studio apartment is located near the main house so is the
   perfect choice for someone who wants to have convenient access and be a little
   less “in the bush” but still be able to enjoy a private deck with far reaching
   ocean views.
-url: /accommodation/aloe-heights//aloe-studio
 page_banner_for_large_screens: /media/images/page-headers/pano/aloe-studio.jpg
+views: Private deck with ocean views
+url: /accommodation/aloe-heights//aloe-studio
 gallery_path: /media/images/accommodation/galleries/aloe-studio
-additional_guests: ""
-tv_wifi: Free WiFi  (No TV)
-cover_image: /media/images/accommodation/galleries/aloe-studio/aloe-studio-01.jpg
-rates: From R800 per night
-title: Aloe Studio
-sleeps: 2
-rates_low_season: R800
-rates_high_season: R850
-weight: 1
 braai: No – but easy access to lapa with braai
+tv_wifi: Free WiFi  (No TV)
+rates: From R900 per night
+additional_guests: ""
+rates_low_season: R900
+rates_high_season: R950
+cover_image: /media/images/accommodation/galleries/aloe-studio/aloe-studio-01.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/aloe-studio.jpg
+weight: 1
 categories:
   - accommodation
   - aloe_heights
