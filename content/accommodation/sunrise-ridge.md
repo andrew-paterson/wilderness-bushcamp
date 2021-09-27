@@ -1,23 +1,23 @@
 ---
 accommodates: 2 people
-views: Private deck with ocean views
+title: Sunrise Ridge
+sleeps: 2
 summary: A wooden boardwalk leads down to this cosy wooden cabin, built for two.
   Step out of bed and onto your deck to watch the sun rise over the lagoon and
   the ocean
-url: /accommodation/bushcamp/sunrise-ridge
 page_banner_for_large_screens: /media/images/page-headers/pano/sunrise-ridge.jpg
+views: Private deck with ocean views
+url: /accommodation/bushcamp/sunrise-ridge
 gallery_path: /media/images/accommodation/galleries/sunrise-ridge
-additional_guests: ""
+braai: Yes
 tv_wifi: No – just books
+rates: FROM R1000 per night
+additional_guests: ""
+rates_low_season: R1000
+rates_high_season: R1100
 cover_image: /media/images/accommodation/galleries/sunrise-ridge/sunrise-ridge-02.jpg
-rates: From R950 per night
-title: Sunrise Ridge
-sleeps: 2
-rates_low_season: R950
-rates_high_season: R1050
-weight: 4
-braai: "Yes"
 page_banner_for_small_screens: /media/images/page-headers/standard/sunrise-ridge.jpg
+weight: 4
 categories:
   - accommodation
   - bushcamp
