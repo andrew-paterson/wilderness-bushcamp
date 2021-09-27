@@ -1,23 +1,23 @@
 ---
 accommodates: 2-4 people
-views: Private deck with ocean views
+title: Hideaway Cottage
+sleeps: 2
 summary: Discreetly located at the end of a wooden walkway and hidden amongst
   dense bush, this is the perfect choice for those who don’t want to be
   disturbed.
-url: /accommodation/bushcamp/hideaway-cottage
 page_banner_for_large_screens: /media/images/page-headers/pano/hideaway-cottage.jpg
+views: Private deck with ocean views
+url: /accommodation/bushcamp/hideaway-cottage
 gallery_path: /media/images/accommodation/galleries/hideaway-cottage
-additional_guests: ""
-tv_wifi: No – just books
-cover_image: /media/images/accommodation/galleries/hideaway-cottage/hideaway-cottage-02.jpg
-rates: From R850 per night
-title: Hideaway Cottage
-sleeps: 2
-rates_low_season: R800 per night
-rates_high_season: R950 per night
-weight: 3
 braai: No – but easy access to lapa with braai
+tv_wifi: No – just books
+rates: From R900 per night
+additional_guests: ""
+rates_low_season: R900 per night
+rates_high_season: R1000 per night
+cover_image: /media/images/accommodation/galleries/hideaway-cottage/hideaway-cottage-02.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/hideaway-cottage.jpg
+weight: 3
 categories:
   - accommodation
   - bushcamp
