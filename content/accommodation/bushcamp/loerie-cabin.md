@@ -12,9 +12,9 @@ sleeps = 5
 braai = "No – but easy access to lapa with braai"
 views = "Private deck with ocean views"
 tv_wifi = "No – just books"
-rates = "From R800 per night"
-rates_low_season = "R850 for 2 people (+R150 per night for each additional person – max 5)"
-rates_high_season = "R950 for 2 people (+R150 per night for each additional person – max 5)"
+rates = "From R1000 per night"
+rates_low_season = "R1000 for 2 people (+R150 per night for each additional person – max 5)"
+rates_high_season = "R1100 for 2 people (+R150 per night for each additional person – max 5)"
 weight = 5
 summary = "This cosy log cabin welcomed its first guests in 1995 and is still one of our favourites. It offers rustic accommodation for families or groups of friends – and has a private deck with uninterrupted views of the ocean"
 +++
