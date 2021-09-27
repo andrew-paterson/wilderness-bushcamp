@@ -12,9 +12,9 @@ sleeps = 2
 braai = "No – but easy access to lapa with braai"
 views = "Private deck with ocean views"
 tv_wifi = "No – just books"
-rates = "From R800 per night"
-rates_low_season = "R750 per night"
-rates_high_season = "R900 per night"
+rates = "From R900 per night"
+rates_low_season = "R900 per night"
+rates_high_season = "R1000 per night"
 weight = 3
 summary = "Discreetly located at the end of a wooden walkway and hidden amongst dense bush, this is the perfect choice for those who don’t want to be disturbed."
 +++
