@@ -1,23 +1,23 @@
 ---
 accommodates: 2-4 people
-views: Private deck with ocean views
+title: Bird Haven
+sleeps: 4
 summary: This beautifully appointed cottage sits in an area that was once the
   uppermost section of a bird sanctuary. The surrounding fynbos and vegetation
   still teems with birdlife, so bring your binoculars…
-url: accommodation/bushcamp/bird-haven
 page_banner_for_large_screens: /media/images/page-headers/pano/bird-haven.jpg
+views: Private deck with ocean views
+url: accommodation/bushcamp/bird-haven
 gallery_path: /media/images/accommodation/galleries/bird-haven
-additional_guests: + R150 per person upto a maximum of 4
+braai: Yes
 tv_wifi: Free WiFi (No TV)
+rates: FROM R1300 per night
+additional_guests: + R150 per person upto a maximum of 4
+rates_low_season: R1300 for 2 people (+R150 per night for each additional person – max 4)
+rates_high_season: R1600 for 2 people (+R150 per night for each additional person – max 4)
 cover_image: /media/images/accommodation/galleries/bird-haven/bird-haven-12.jpg
-rates: From R1250 per night
-title: Bird Haven
-sleeps: 4
-rates_low_season: R1250 for 2 people (+R150 per night for each additional person – max 4)
-rates_high_season: R1500 for 2 people (+R150 per night for each additional person – max 4)
-weight: 8
-braai: "Yes"
 page_banner_for_small_screens: /media/images/page-headers/standard/bird-haven.jpg
+weight: 8
 categories:
   - accommodation
   - bushcamp
