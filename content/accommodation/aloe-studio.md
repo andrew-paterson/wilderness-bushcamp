@@ -12,7 +12,7 @@ url: /accommodation/aloe-heights//aloe-studio
 gallery_path: /media/images/accommodation/galleries/aloe-studio
 braai: No – but easy access to lapa with braai
 tv_wifi: Free WiFi  (No TV)
-rates: From R900 per night
+rates: FROM R900 per night
 additional_guests: ""
 rates_low_season: R900
 rates_high_season: R950
