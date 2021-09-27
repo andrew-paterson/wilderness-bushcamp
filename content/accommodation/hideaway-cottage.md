@@ -11,7 +11,7 @@ url: /accommodation/bushcamp/hideaway-cottage
 gallery_path: /media/images/accommodation/galleries/hideaway-cottage
 braai: No – but easy access to lapa with braai
 tv_wifi: No – just books
-rates: From R900 per night
+rates: FROM R900 per night
 additional_guests: ""
 rates_low_season: R900 per night
 rates_high_season: R1000 per night
