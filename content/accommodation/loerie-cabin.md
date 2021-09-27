@@ -11,7 +11,7 @@ url: /accommodation/bushcamp/loerie-cabin
 gallery_path: /media/images/accommodation/galleries/loerie-cabin
 braai: No – but easy access to lapa with braai
 tv_wifi: No – just books
-rates: FROM R1000 per night
+rates: From R1000 per night
 additional_guests: +R150 per person upto a maximum of 5
 rates_low_season: R1000 for 2 people (+R150 per night for each additional person – max 5)
 rates_high_season: R1100 for 2 people (+R150 per night for each additional person – max 5)
