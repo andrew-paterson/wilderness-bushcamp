@@ -11,9 +11,9 @@ sleeps = 2
 braai = "No – but easy access to lapa with braai"
 views = "Private deck with ocean views"
 tv_wifi =	"Free WiFi and TV with DSTV"
-rates =	"From R800 per night"
-rates_low_season = "R850"
-rates_high_season = "R950"
+rates =	"From R950 per night"
+rates_low_season = "R950"
+rates_high_season = "R1000"
 weight = 2
 summary = "A private gateway leads to this spacious and comfortable self-catering suite, which is attached to the main house but enjoys total privacy."
 +++
