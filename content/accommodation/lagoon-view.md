@@ -1,23 +1,23 @@
 ---
 accommodates: 2 – 4 people.
-views: Private deck with ocean views
+title: Lagoon View
+sleeps: 4
 summary: This is one of our most popular cabins, with a private deck that offers
   glorious views of Wilderness lagoon and the ocean. There’s no better place to
   watch the sun rise while you enjoy your early morning cup of coffee…
-url: /accommodation/bushcamp/lagoon-view
 page_banner_for_large_screens: /media/images/page-headers/pano/lagoon-view.jpg
+views: Private deck with ocean views
+url: /accommodation/bushcamp/lagoon-view
 gallery_path: /media/images/accommodation/galleries/lagoon-view
-additional_guests: +R150 per person upto a maximum of 4
+braai: Yes
 tv_wifi: No – just books
-cover_image: /media/images/accommodation/galleries/lagoon-view/lagoon-view-02.jpg
-rates: From R1100 per night
-title: Lagoon View
-sleeps: 4
+rates: FROM R1100 per night
+additional_guests: +R150 per person upto a maximum of 4
 rates_low_season: R1100 for 2 people (+R150 per night for each additional person – max 4)
-rates_high_season: R1250 for 2 people (+R150 per night for each additional person – max 4)
-weight: 6
-braai: "Yes"
+rates_high_season: R1300 for 2 people (+R150 per night for each additional person – max 4)
+cover_image: /media/images/accommodation/galleries/lagoon-view/lagoon-view-02.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/lagoon-view.jpg
+weight: 6
 categories:
   - accommodation
   - bushcamp
