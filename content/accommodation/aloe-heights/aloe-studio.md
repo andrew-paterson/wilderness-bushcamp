@@ -11,9 +11,9 @@ sleeps = 2
 braai = "No – but easy access to lapa with braai"
 views = "Private deck with ocean views"
 tv_wifi = "Free WiFi  (No TV)"
-rates = "From R700 per night"
-rates_low_season = "R750"
-rates_high_season = "R850"
+rates = "From R900 per night"
+rates_low_season = "R900"
+rates_high_season = "R950"
 weight = 1
 summary = "This cosy studio apartment is located near the main house so is the perfect choice for someone who wants to have convenient access and be a little less “in the bush” but still be able to enjoy a private deck with far reaching ocean views."
 +++
