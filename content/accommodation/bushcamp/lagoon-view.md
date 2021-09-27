@@ -13,8 +13,8 @@ braai = "Yes"
 views = "Private deck with ocean views"
 tv_wifi = "No – just books"
 rates = "From R1200 per night"
-rates_low_season = "R1000 for 2 people (+R150 per night for each additional person – max 4)"
-rates_high_season = "R1100 for 2 people (+R150 per night for each additional person – max 4)"
+rates_low_season = "R1200 for 2 people (+R150 per night for each additional person – max 4)"
+rates_high_season = "R1300 for 2 people (+R150 per night for each additional person – max 4)"
 weight = 6
 summary = "This is one of our most popular cabins, with a private deck that offers glorious views of Wilderness lagoon and the ocean. There’s no better place to watch the sun rise while you enjoy your early morning cup of coffee…"
 +++
