@@ -11,9 +11,9 @@ sleeps = 2
 braai = "Yes"
 views = "Private deck with ocean views"
 tv_wifi = "No – just books"
-rates = "From R900 per night"
-rates_low_season = "R850"
-rates_high_season = "R950"
+rates = "From R1000 per night"
+rates_low_season = "R1000"
+rates_high_season = "R1100"
 weight = 4
 summary = "A wooden boardwalk leads down to this cosy wooden cabin, built for two. Step out of bed and onto your deck to enjoy the sun rise over the lagoon and the ocean"
 +++
