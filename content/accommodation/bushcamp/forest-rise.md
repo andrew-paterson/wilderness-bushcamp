@@ -10,9 +10,9 @@ sleeps = 4
 braai = "Yes"
 views = "Private deck with ocean views"
 tv_wifi = "Free WiFi (No TV)"
-rates = "From R1200 per night"
-rates_low_season = "R1200 for 2 people (+R150 per night for each additional person – max 4)"
-rates_high_season = "R1500 for 2 people (+R150 per night for each additional person – max 4)"
+rates = "From R1300 per night"
+rates_low_season = "R1300 for 2 people (+R150 per night for each additional person – max 4)"
+rates_high_season = "R1600 for 2 people (+R150 per night for each additional person – max 4)"
 weight = 7
 summary = "This newly built 2-bedroom cottage is situated on the uppermost section of the hill and is perfect for families. The slide from the deck onto the garden is designed for the kids but is also fun for the young at heart."
 +++
