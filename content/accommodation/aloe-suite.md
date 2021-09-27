@@ -1,22 +1,22 @@
 ---
 accommodates: 2 people
-views: Private deck with ocean views
+title: Aloe Suite
+sleeps: 2
 summary: A private gateway leads to this spacious and comfortable self-catering
   suite, which is attached to the main house but enjoys total privacy.
-url: /accommodation/aloe-heights/aloe-suite
 page_banner_for_large_screens: /media/images/page-headers/pano/aloe-suite.jpg
+views: Private deck with ocean views
+url: /accommodation/aloe-heights/aloe-suite
 gallery_path: /media/images/accommodation/galleries/aloe-suite
-additional_guests: ""
+braai: No – but easy access to lapa with braai
 tv_wifi: Free WiFi and TV with DSTV
+rates: From R950 per night
+additional_guests: ""
+rates_low_season: R950
+rates_high_season: R1000
 cover_image: /media/images/accommodation/galleries/aloe-suite/aloe-suite-02.jpg
-rates: From R850 per night
-rates_high_season: R950
-title: Aloe Suite
-weight: 2
-braai: "No – but easy access to lapa with braai"
 page_banner_for_small_screens: /media/images/page-headers/standard/aloe-suite.jpg
-rates_low_season: R850
-sleeps: 2
+weight: 2
 categories:
   - accommodation
   - aloe_heights
