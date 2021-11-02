@@ -1,24 +1,25 @@
 ---
+draft: true
 accommodates: 2 people
-views: Private deck with ocean views
+sleeps: 2
 summary: The Loft is the jewel in the crown of the Bushcamp and offers open plan
   living at its finest. An abundance of ocean views combined with elegant
   comfort has resulted in a truly unique apartment that is fast becoming popular
   as a honeymoon destination or special occasion getaway…
-url: accommodation/the-loft
 page_banner_for_large_screens: /media/images/page-headers/pano/the-loft.jpg
+views: Private deck with ocean views
+url: accommodation/the-loft
 gallery_path: /media/images/accommodation/galleries/the-loft
-additional_guests: ""
-tv_wifi: Free WiFi and TV with DSTV
-cover_image: /media/images/accommodation/galleries/the-loft/the-loft-04.jpg
-rates: From R1600 per night
 title: The Loft
-sleeps: 2
+braai: Yes
+tv_wifi: Free WiFi and TV with DSTV
+rates: From R1600 per night
+additional_guests: ""
 rates_low_season: R1600 for 2 people
 rates_high_season: R1600 for 2 people
-weight: 9
-braai: "Yes"
+cover_image: /media/images/accommodation/galleries/the-loft/the-loft-04.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/the-loft.jpg
+weight: 9
 categories:
   - accommodation
   - the_loft
