@@ -1,6 +1,7 @@
 ---
+draft: true
 accommodates: 2-6 people
-title: Aloe House
+sleeps: 6
 summary: Aloe House is a 3-bedroom house with a range of entertaining spaces
   that make it the perfect place for families or a group of friends who want to
   enjoy an extended break away. There’s also a private swimming pool and views
@@ -10,7 +11,7 @@ page_banner_for_large_screens: /media/images/page-headers/pano/aloe-house.jpg
 views: Private decks with ocean views
 url: /accommodation/aloe-heights/aloe-house
 gallery_path: /media/images/accommodation/galleries/aloe-house
-sleeps: 6
+title: Aloe House
 braai: Yes
 tv_wifi: Free WiFi and TV with DSTV
 rates: From R4500 per night
