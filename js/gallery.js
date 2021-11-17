@@ -19,7 +19,7 @@ var loadingMoreImagesElement;
 function initLazyLoad() {
   var opts = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
   infinityImageLoaderDefaults = opts;
-  loadingMoreImagesElement = infinityImageLoaderDefaults.loadingElement || '<div class="load-more-images" data-infinity-image-loader-load-more><div class="loader"</div></div>';
+  loadingMoreImagesElement = infinityImageLoaderDefaults.loadingElement || '<div class="load-more-images" data-infinity-image-loader-load-more><div class="loader"></div></div>';
   infinityLoaderElements.forEach(function (infinityLoaderElement) {
     doLazyLoad(infinityLoaderElement);
   });
