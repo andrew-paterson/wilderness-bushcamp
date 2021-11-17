@@ -8,4 +8,6 @@ items:
 - text: 078 419 2021
   type: phone
 - text: COVID-19
-  link: /covid-19
+  url: /covid-19 
+- text: Bookings
+  url: https://book.nightsbridge.com/32226

@@ -4,7 +4,8 @@ url: the-lapa
 page_banner_for_large_screens: /media/images/page-headers/pano/the-lapa.jpg
 gallery_path: /media/images/accommodation/galleries/the-lapa
 cover_image: /media/images/accommodation/galleries/the-lapa/the-lapa-01.jpg
-title: The Lapa
+nightsbridge: true
+title:  The Lapa
 braai: Yes
 page_banner_for_small_screens: /media/images/page-headers/standard/the-lapa.jpg
 ---

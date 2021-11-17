@@ -1,6 +1,7 @@
 ---
 accommodates: 2-4 people
-title: Hideaway Cottage
+nightsbridge: true
+title:  Hideaway Cottage
 sleeps: 2
 summary: Discreetly located at the end of a wooden walkway and hidden amongst
   dense bush, this is the perfect choice for those who don’t want to be

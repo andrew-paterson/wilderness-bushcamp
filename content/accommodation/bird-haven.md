@@ -1,6 +1,7 @@
 ---
 accommodates: 2-4 people
-title: Bird Haven
+nightsbridge: true
+title:  Bird Haven
 sleeps: 4
 summary: This beautifully appointed cottage sits in an area that was once the
   uppermost section of a bird sanctuary. The surrounding fynbos and vegetation

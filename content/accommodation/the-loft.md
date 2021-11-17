@@ -10,7 +10,8 @@ page_banner_for_large_screens: /media/images/page-headers/pano/the-loft.jpg
 views: Private deck with ocean views
 url: accommodation/the-loft
 gallery_path: /media/images/accommodation/galleries/the-loft
-title: The Loft
+nightsbridge: true
+title:  The Loft
 braai: Yes
 tv_wifi: Free WiFi and TV with DSTV
 rates: From R1600 per night

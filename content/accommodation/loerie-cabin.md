@@ -1,6 +1,7 @@
 ---
 accommodates: 2-4 people
-title: Loerie Cabin
+nightsbridge: true
+title:  Loerie Cabin
 sleeps: 5
 summary: This cosy log cabin welcomed its first guests in 1995 and is still one
   of our favourites. It offers rustic accommodation for families or groups of

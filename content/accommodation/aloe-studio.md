@@ -1,6 +1,7 @@
 ---
 accommodates: 2 people
-title: Aloe Studio
+nightsbridge: false
+title:  Aloe Studio
 sleeps: 2
 summary: This cosy studio apartment is located near the main house so is the
   perfect choice for someone who wants to have convenient access and be a little

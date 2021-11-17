@@ -1,6 +1,7 @@
 ---
 accommodates: 2 – 4 people.
-title: Lagoon View
+nightsbridge: true
+title:  Lagoon View
 sleeps: 4
 summary: This is one of our most popular cabins, with a private deck that offers
   glorious views of Wilderness lagoon and the ocean. There’s no better place to
