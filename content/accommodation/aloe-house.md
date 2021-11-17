@@ -11,7 +11,6 @@ page_banner_for_large_screens: /media/images/page-headers/pano/aloe-house.jpg
 views: Private decks with ocean views
 url: /accommodation/aloe-heights/aloe-house
 gallery_path: /media/images/accommodation/galleries/aloe-house
-nightsbridge: true
 title:  Aloe House
 braai: Yes
 tv_wifi: Free WiFi and TV with DSTV

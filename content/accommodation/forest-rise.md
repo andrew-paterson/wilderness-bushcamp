@@ -3,7 +3,6 @@ summary: This newly built 2-bedroom cottage is situated on the uppermost section
   of the hill and is perfect for families. The slide from the deck onto the
   garden is designed for the kids but is also fun for the young at heart.
 page_banner_for_large_screens: /media/images/page-headers/pano/forest-rise.jpg
-nightsbridge: true
 title:  Forest Rise
 sleeps: 4
 braai: Yes

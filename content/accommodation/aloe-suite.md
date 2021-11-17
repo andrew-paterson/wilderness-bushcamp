@@ -1,6 +1,5 @@
 ---
 accommodates: 2 people
-nightsbridge: false
 title:  Aloe Suite
 sleeps: 2
 summary: A private gateway leads to this spacious and comfortable self-catering

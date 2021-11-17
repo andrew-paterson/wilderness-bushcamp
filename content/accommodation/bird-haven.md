@@ -1,6 +1,5 @@
 ---
 accommodates: 2-4 people
-nightsbridge: true
 title:  Bird Haven
 sleeps: 4
 summary: This beautifully appointed cottage sits in an area that was once the

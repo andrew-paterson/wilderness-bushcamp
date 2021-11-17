@@ -1,6 +1,5 @@
 ---
 accommodates: 2 – 4 people.
-nightsbridge: true
 title:  Lagoon View
 sleeps: 4
 summary: This is one of our most popular cabins, with a private deck that offers

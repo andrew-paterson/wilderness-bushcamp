@@ -1,6 +1,5 @@
 ---
 accommodates: 2 people
-nightsbridge: true
 title:  Sunrise Ridge
 sleeps: 2
 summary: A wooden boardwalk leads down to this cosy wooden cabin, built for two.

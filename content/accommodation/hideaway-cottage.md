@@ -1,6 +1,5 @@
 ---
 accommodates: 2-4 people
-nightsbridge: true
 title:  Hideaway Cottage
 sleeps: 2
 summary: Discreetly located at the end of a wooden walkway and hidden amongst

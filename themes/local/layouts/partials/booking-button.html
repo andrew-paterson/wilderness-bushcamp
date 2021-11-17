@@ -1,5 +1,1 @@
-{{ $booking_link := "/contact" }}
-{{ if .Params.nightsbridge }}
-  {{ $booking_link =  .Site.Params.nightsbridge_url }}
-{{ end }}
-<a href="{{ $booking_link }}" class="btn">Book {{ .Title }}</a>
+<a href="{{ .Site.Params.nightsbridge_url }}" class="btn">Book {{if .Title }}{{ .Title }}{{ else }}now{{ end }}</a>
