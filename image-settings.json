@@ -1,7 +1,8 @@
 {
   "src": "./static/media/images",
   "dest": "./static/responsive-images",
-  "sizes": [
+  "resizeOriginal": true,
+    "sizes": [
     {
       "maxWidth": 200,
       "maxHeight": 900

@@ -1,1 +1,1 @@
-<a href="{{ .Site.Params.nightsbridge_url }}" class="btn">Book {{if .Title }}{{ .Title }}{{ else }}now{{ end }}</a>
+<a href="{{ .Site.Params.nightsbridge_url }}" class="btn">Book {{if (and .Title .Params.rates) }}{{ .Title }}{{ else }}now{{ end }}</a>

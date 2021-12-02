@@ -20,9 +20,11 @@
     {{if .Title}}<h1 class="main-header">{{ .Title }}</h1>{{end}}
     <div class="body-text">
       <div class="main-block centred">
+        <h2>Booking and Enquiries</h2>
+        <p>Please feel free to contact us if you have any queries, or send us an enquiry below and we’ll get back to you.</p>
+        {{ partial "booking-button.html" . }}
+        {{ partial "booking-form.html" . }}
         {{ .Content }}
-        <h2>Booking Enquiries</h2>
-        {{ partial "booking-button.html"}}
       </div>
     </div>
   </div>
