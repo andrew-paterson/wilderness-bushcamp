@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 accommodates: 2 people
 sleeps: 2
 summary: This cosy studio apartment is located near the reception area so is the
