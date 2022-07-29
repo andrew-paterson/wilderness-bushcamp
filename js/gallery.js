@@ -9,7 +9,7 @@
 // Dynamic pagination with url query params added- may require the ability to load images for the first time when scrolling up.
 // Different batch sizes for different media queries
 var currentlyLoadingImages = false;
-var infinityLoaderElements = document.querySelectorAll('[data-infinity-image-loader]');
+var infinityLoaderElements;
 var scrollSelectorObjects;
 var scrollSelectorMediaQueryLists = [];
 var customScrollSelector;
@@ -18,8 +18,15 @@ var loadingMoreImagesElement;
 
 function initLazyLoad() {
   var opts = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var selector = opts.containerElementSelector || '[data-infinity-image-loader]';
+
+  if (Array.from(document.querySelectorAll(selector)).length === 0) {
+    return;
+  }
+
+  infinityLoaderElements = Array.from(document.querySelectorAll(selector));
   infinityImageLoaderDefaults = opts;
-  loadingMoreImagesElement = infinityImageLoaderDefaults.loadingElement || '<div class="load-more-images" data-infinity-image-loader-load-more><div class="loader"></div></div>';
+  loadingMoreImagesElement = infinityImageLoaderDefaults.customLoadingElement || "<div class=\"load-more-images ".concat(infinityImageLoaderDefaults.loadingElementClass || '', "\" data-infinity-image-loader-load-more><div class=\"loader\"></div></div>");
   infinityLoaderElements.forEach(function (infinityLoaderElement) {
     doLazyLoad(infinityLoaderElement);
   });
@@ -105,6 +112,9 @@ function onScroll() {
 
 function doLazyLoad(infinityLoaderElement) {
   infinityLoaderElement.insertAdjacentHTML('beforeend', loadingMoreImagesElement);
+  Array.from(infinityLoaderElement.querySelectorAll('[data-lazy-image-src]')).forEach(function (infinityLoaderItem) {
+    infinityLoaderItem.style.display = 'none';
+  });
   loadImageBatch(infinityLoaderElement);
 }
 
@@ -127,7 +137,8 @@ function generateImageMarkup(infinityLoaderItem) {
     }
   }
 
-  return "<img src=\"".concat(src, "\" ").concat(srcset, " ").concat(srcsetSizes, ">");
+  var imageClass = infinityImageLoaderDefaults.imageClass ? "class=\"".concat(infinityImageLoaderDefaults.imageClass, "\"") : '';
+  return "<img src=\"".concat(src, "\" ").concat(srcset, " ").concat(srcsetSizes, " ").concat(imageClass, ">");
 }
 
 function thumbnailRequestComplete(infinityLoaderItem, currentBatch, infinityLoaderElement, status) {
@@ -255,7 +266,7 @@ function setImageParentHeight(infinityLoaderItem) {
     if (imageParent.getAttribute('data-width-height-ratio')) {
       var dimensions = imageParent.getAttribute('data-width-height-ratio').split(":");
       thumbnailHeightWidthRatio = dimensions[1] / dimensions[0];
-      var height = infinityLoaderItem.clientWidth * thumbnailHeightWidthRatio;
+      var height = imageParent.clientWidth * thumbnailHeightWidthRatio;
       imageParent.style.height = "".concat(height, "px");
     }
   }
