@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 accommodates: 2 people
 sleeps: 2
 summary: A private gateway leads to this spacious and comfortable self-catering
