@@ -1,18 +1,19 @@
 ---
+title: Forest Rise
+draft: false
+sleeps: 4
 summary: This newly built 2-bedroom cottage is situated on the uppermost section
   of the hill and is perfect for families. The slide from the deck onto the
   garden is designed for the kids but is also fun for the young at heart.
 page_banner_for_large_screens: /media/images/page-headers/pano/forest-rise.jpg
-title:  Forest Rise
-sleeps: 4
-braai: Yes
 views: Private deck with ocean views
 url: accommodation/bushcamp/forest-rise
 gallery_path: /media/images/accommodation/galleries/forest-rise
+braai: Yes
 tv_wifi: Free WiFi (No TV)
-rates: FROM R1300 per night
+rates: FROM R1400 per night
 additional_guests: +R150 per person upto a maximum of 4
-rates_low_season: R1300 for 2 people (+R150 per night for each additional person – max 4)
+rates_low_season: R1400 for 2 people (+R150 per night for each additional person – max 4)
 rates_high_season: R1600 for 2 people (+R150 per night for each additional person – max 4)
 cover_image: /media/images/accommodation/galleries/forest-rise/forest-rise-11.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/forest-rise.jpg
