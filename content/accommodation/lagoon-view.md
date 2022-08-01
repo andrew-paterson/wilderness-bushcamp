@@ -27,7 +27,7 @@ categories:
 
 On approaching the cabin you’d be forgiven for thinking it simple and unassuming, but step inside and you’re immediately drawn to the views over the ocean and lagoon, which envelop the sitting area.  
 
-The cabin itself is simple and rustic but comfortable, with accommodation for 4 people in 2 bedrooms with a shared bathroom. 
+The cabin itself is rustic but comfortable, with accommodation for 4 people in 2 bedrooms with a shared bathroom. 
 
 Lagoon View is larger than the neighbouring ‘Sunrise Ridge’. Both cabins are situated on a 2-hectare portion of the Bushcamp, which allows guests the opportunity to stroll in open areas and enjoy the views from the very top of the hill. 
 
@@ -35,12 +35,12 @@ Once the sun has set you can enjoy the warmth of the indoor fireplace or light a
 
 **Features**
 
-* Kitchen with fridge, stove, toaster and kettle.
+* Kitchenette with fridge, stove, toaster and kettle.
 * Breakfast bar.
 * Lounge area with indoor fireplace.
 * Bathroom with shower.
 * Main bedroom with double bed.
 * Second bedroom with 2 single beds.
-* Private deck with large brick-built braai.
+* Private deck with brick-built braai.
 * Lagoon and Ocean views.
 * **No TV or WiFi**
