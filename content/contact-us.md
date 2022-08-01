@@ -5,15 +5,12 @@ type: contact
 ---
 ## Contact Us
 
-* T | 044 877 1168  
 * C | 078 419 2021  
-* F | 044 877 1168  
 * [Send us an Email](mailto:info@wildernessbushcamp.co.za "Email us")
 
 ## Physical Address
 
 * Wilderness Bushcamp  
-* Aloe Heights  
 * Beacon Road  
 * Wilderness
 
@@ -23,6 +20,7 @@ type: contact
 * 6530  
 * George  
 * South Africa
+
 ## Directions
 
 Wilderness is located just off the N2, approximately 15km from George.
@@ -37,4 +35,4 @@ The road will twist and turn for approx. 300m and will get very steep in parts, 
 
 When you see this view you've reached your destination…
 
-{{< shortcodes/responsive-image image_path="/media/images/directions/top-of-the-hill.jpg" alt="Top of the hill" class="width-100" >}}
+{{< shortcodes/responsive-image image_path="/media/images/directions/top-of-the-hill.jpg" alt="Top of the hill"   >}}
