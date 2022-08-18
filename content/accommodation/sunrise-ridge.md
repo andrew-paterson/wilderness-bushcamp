@@ -16,7 +16,7 @@ rates: FROM R1000 per night
 additional_guests: ""
 rates_low_season: R1000
 rates_high_season: R1150
-cover_image: /media/images/accommodation/galleries/sunrise-ridge/sunrise-ridge-02.jpg
+cover_image: /media/images/accommodation/sunrise-ridge-cosy-corner-2.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/sunrise-ridge.jpg
 weight: 4
 categories:
