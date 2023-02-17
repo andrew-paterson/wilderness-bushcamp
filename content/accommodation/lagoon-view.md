@@ -12,10 +12,10 @@ gallery_path: /media/images/accommodation/galleries/lagoon-view
 title: Lagoon View
 braai: Yes
 tv_wifi: No – just books
-rates: FROM R1200 per night
+rates: FROM R1300 per night (low season)
 additional_guests: +R150 per person upto a maximum of 4
-rates_low_season: R1200 for 2 people (+R150 per night for each additional person – max 4)
-rates_high_season: R1400 for 2 people (+R150 per night for each additional person – max 4)
+rates_low_season: R1250 for 2 people (+R150 per night for each additional person – max 4)
+rates_high_season: R1500 for 2 people (+R150 per night for each additional person – max 4)
 cover_image: /media/images/accommodation/galleries/lagoon-view/lagoon-view-02.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/lagoon-view.jpg
 weight: 6
@@ -31,15 +31,15 @@ The cabin itself is rustic but comfortable, with accommodation for 4 people in 2
 
 Lagoon View is larger than the neighbouring ‘Sunrise Ridge’. Both cabins are situated on a 2-hectare portion of the Bushcamp, which allows guests the opportunity to stroll in open areas and enjoy the views from the very top of the hill. 
 
-Once the sun has set you can enjoy the warmth of the indoor fireplace or light a fire in the braai on the deck as you watch the lights of the village come to life and listen to the ocean rolling in …  
+Once the sun has set you can light a fire in the braai on the deck as you watch the lights of the village come to life and listen to the ocean rolling in …  
 
 **Features**
 
 * Kitchenette with fridge, stove, toaster and kettle.
 * Breakfast bar.
-* Lounge area with indoor fireplace.
+* Lounge area. 
 * Bathroom with shower.
-* Main bedroom with double bed.
+* Main bedroom with Queen bed.
 * Second bedroom with 2 single beds.
 * Private deck with brick-built braai.
 * Lagoon and Ocean views.
