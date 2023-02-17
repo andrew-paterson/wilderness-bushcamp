@@ -27,7 +27,7 @@ Wilderness is located just off the N2, approximately 15km from George.
 
 Once you turn off the N2 into Wilderness Village please take an immediate left turn onto Beacon Road. 
 
-Follow Beacon Road past the Milkwood Village and past the Kwik Spar. The road will start to narrow and then wind uphill, getting gradually steeper. 
+Follow Beacon Road past the SPAR, past the Milkwood Village and past Tops. The road will start to narrow and then wind uphill, getting gradually steeper. 
 
 Please don’t turn into the entrance to the Bird Sanctuary, this is a private residential estate. Instead follow the road upwards.
 
