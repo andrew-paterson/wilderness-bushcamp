@@ -1,6 +1,6 @@
 ---
+draft: false
 accommodates: 2-4 people
-title:  Loerie Cabin
 sleeps: 5
 summary: This cosy log cabin welcomed its first guests in 1995 and is still one
   of our favourites. It offers rustic accommodation for families or groups of
@@ -9,12 +9,13 @@ page_banner_for_large_screens: /media/images/page-headers/pano/loerie-cabin.jpg
 views: Private deck with ocean views
 url: /accommodation/bushcamp/loerie-cabin
 gallery_path: /media/images/accommodation/galleries/loerie-cabin
+title: Loerie Cabin
 braai: No – but easy access to lapa with braai
 tv_wifi: No – just books
-rates: From R1000 per night
+rates: From R1100 per night (low season)
 additional_guests: +R150 per person upto a maximum of 5
-rates_low_season: R1000 for 2 people (+R150 per night for each additional person – max 5)
-rates_high_season: R1100 for 2 people (+R150 per night for each additional person – max 5)
+rates_low_season: R1100 for 2 people (+R150 per night for each additional person – max 5)
+rates_high_season: R1200 for 2 people (+R150 per night for each additional person – max 5)
 cover_image: /media/images/accommodation/galleries/loerie-cabin/loerie-cabin-05.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/loerie-cabin.jpg
 weight: 5
