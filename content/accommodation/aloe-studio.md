@@ -13,10 +13,10 @@ gallery_path: /media/images/accommodation/galleries/aloe-studio
 title: Aloe Studio
 braai: No – but easy access to lapa with braai
 tv_wifi: Free WiFi  (No TV)
-rates: FROM R900 per night (low season)
+rates: FROM R950 per night (low season)
 additional_guests: ""
-rates_low_season: R900
-rates_high_season: R1000
+rates_low_season: R950
+rates_high_season: R1050
 cover_image: /media/images/accommodation/galleries/aloe-studio/aloe-studio-01.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/aloe-studio.jpg
 weight: 1
@@ -30,7 +30,7 @@ Aloe Studio is located near to the main house and has parking within a few steps
 
 **Features**
 
-* Kitchenette with microwave, fridge, stove, toaster, kettle and Breakfast bar.
+* Kitchenette with microwave, fridge, toaster, kettle and Breakfast bar.
 * Double bed in open plan bedroom
 * En-suite bathroom with shower
 * Wooden deck
