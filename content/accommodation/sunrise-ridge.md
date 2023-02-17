@@ -12,10 +12,10 @@ gallery_path: /media/images/accommodation/galleries/sunrise-ridge
 title: Sunrise Ridge
 braai: Yes
 tv_wifi: No – just books
-rates: FROM R1000 per night
+rates: FROM R1100 per night (low season)
 additional_guests: ""
-rates_low_season: R1000
-rates_high_season: R1150
+rates_low_season: R1100
+rates_high_season: R1200
 cover_image: /media/images/accommodation/galleries/sunrise-ridge/20220816_153145.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/sunrise-ridge.jpg
 weight: 4
