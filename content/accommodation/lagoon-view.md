@@ -41,6 +41,6 @@ Once the sun has set you can light a fire in the braai on the deck as you watch 
 * Bathroom with shower.
 * Main bedroom with Queen bed.
 * Second bedroom with 2 single beds.
-* Private deck with brick-built braai.
+* Private deck with braai.
 * Lagoon and Ocean views.
 * **No TV or WiFi**
