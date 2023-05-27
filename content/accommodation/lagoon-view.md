@@ -15,7 +15,7 @@ tv_wifi: No – just books
 rates: FROM R1300 per night (low season)
 additional_guests: +R150 per person upto a maximum of 4
 rates_low_season: R1300 for 2 people (+R150 per night for each additional person – max 4)
-rates_high_season: R1500 for 2 people (+R150 per night for each additional person – max 4)
+rates_high_season: R1600 for 2 people (+R150 per night for each additional person – max 4)
 cover_image: /media/images/accommodation/galleries/lagoon-view/lagoon-view-02.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/lagoon-view.jpg
 weight: 6
