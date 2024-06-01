@@ -11,8 +11,8 @@ sleeps = 2
 braai = "No – but easy access to lapa with braai"
 views = "Private deck with ocean views"
 tv_wifi =	"Free WiFi"
-rates =	"From R1000 per night"
-rates_low_season = "R1000"
+rates =	"From R1050 per night"
+rates_low_season = "R1050"
 rates_high_season = "R1300"
 weight = 2
 summary = "A private gateway leads to this spacious and comfortable self-catering suite, which is attached to the main house but enjoys total privacy."
@@ -20,7 +20,7 @@ summary = "A private gateway leads to this spacious and comfortable self-caterin
 
 __Aloe Suite is a lovely spacious apartment, laid out in an open setting with a private entrance and patio garden with ocean views\.__
 
-The apartment has a queen\-sized bed, kitchenette, lounge and breakfast area\. The large bathroom is the perfect place to unwind after a long day of walking on the forest trails, with its large bath, twin washbasins and shower\.
+The apartment has a king\-sized bed, kitchenette, lounge and breakfast area\. The large bathroom is the perfect place to unwind after a long day of walking on the forest trails, with its large bath, twin washbasins and shower\.
 
 The suite is fitted with American shutters so you can be lulled to sleep and gently awoken by the ocean breeze and the sound of the waves crashing on the shore\. Enjoy coffee or sundowners on your private patio while gazing out to sea\.
 
