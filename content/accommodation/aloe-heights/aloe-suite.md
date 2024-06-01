@@ -10,10 +10,10 @@ standard_page_banner = "/images/page-headers/standard/aloe-suite-600w.jpg"
 sleeps = 2 
 braai = "No – but easy access to lapa with braai"
 views = "Private deck with ocean views"
-tv_wifi =	"Free WiFi and TV with DSTV"
-rates =	"From R950 per night"
-rates_low_season = "R950"
-rates_high_season = "R1000"
+tv_wifi =	"Free WiFi"
+rates =	"From R1000 per night"
+rates_low_season = "R1000"
+rates_high_season = "R1300"
 weight = 2
 summary = "A private gateway leads to this spacious and comfortable self-catering suite, which is attached to the main house but enjoys total privacy."
 +++
@@ -30,9 +30,8 @@ __Features__
 
 - Kitchenette\.
 - Large bathroom with bath, shower and twin basins\.
-- Queen bed
+- King bed
 - Seating area
 - Private patio with wooden deck and ocean views\.
 - Free WiFi
-- Television with DSTV
 - __The braai has been removed from this unit to eliminate the risk of bush fires, but guests are welcome to make use of the lapa area, which is just a few steps away__
