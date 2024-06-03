@@ -29,7 +29,7 @@ A wooden boardwalk leads through the bush and down to the front door of Loerie C
 
 The main sleeping area is located on the lower level of the cabin with a double bed and sitting area. From here you access the private wooden deck which is surrounded by bush, framing the ocean views. The deck can only be accessed from the cabin, so you can enjoy total seclusion as you relax with your evening sundowners.
 
-Everything in Loerie Cabin is open plan, apart from the bathroom, so it’s an ideal choice for a few good friends or families with older children, as the narrow steps are hazardous for very young ones
+Everything in Loerie Cabin is open plan, apart from the bathroom, so it’s an ideal choice for a few good friends or families with older children. The narrow wooden steps between levels are potentially hazardous, so it's not suitable for families with young children or for people with mobility issues.
 
 There’s no television or WiFi in the cabin, offering a real escape away from the digital overload of day to day life…
 
