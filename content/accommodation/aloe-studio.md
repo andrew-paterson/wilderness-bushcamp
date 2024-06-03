@@ -16,7 +16,7 @@ tv_wifi: Free WiFi  (No TV)
 rates: FROM R950 per night (low season)
 additional_guests: ""
 rates_low_season: R950
-rates_high_season: R1100
+rates_high_season: R1150
 cover_image: /media/images/accommodation/galleries/aloe-studio/aloe-studio-01.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/aloe-studio.jpg
 weight: 1
@@ -26,12 +26,12 @@ categories:
 ---
 **Wake up to the ocean in this cosy studio apartment where you can watch the waves without leaving your bed…**
 
-Aloe Studio is located near to the main house and has parking within a few steps of the entrance. It’s an extremely convenient apartment with all the necessities for basic self-catering. It’s very popular with guests travelling on business or guests who want to stay for an extended period and use it as a base while they explore the Garden Route. Everything is within arm’s reach and there are views at every turn …
+Aloe Studio is located near to the main house and has parking within a few steps of the entrance. It’s a small but extremely convenient apartment, with all the necessities for basic self-catering. It’s very popular with guests travelling for business or guests who want to stay for an extended period and use it as a base while they explore the Garden Route. Everything is within arm’s reach and there are views at every turn.
 
 **Features**
 
 * Kitchenette with microwave, fridge, toaster, kettle and Breakfast bar.
-* Double bed in open plan bedroom
+* Queen bed in open plan bedroom
 * En-suite bathroom with shower
 * Wooden deck
 * Ocean views 
