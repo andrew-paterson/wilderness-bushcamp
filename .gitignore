@@ -1,7 +1,6 @@
-public
-docs
-.DS_Store
-high-res-images
-from-client
-node_modules
+.hugo_build.lock
 resources
+public
+node_modules
+trash
+high-res-images

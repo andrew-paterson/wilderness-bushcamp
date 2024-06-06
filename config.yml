@@ -55,3 +55,13 @@ params:
   image_dir: /media/images
   body_classes: header-fixed
   nightsbridge_url: https://book.nightsbridge.com/32226
+
+
+security:
+  exec:
+    allow:
+    - ^dart-sass-embedded$
+    - ^go$
+    - ^npx$
+    - ^postcss$
+    - ^babel$
