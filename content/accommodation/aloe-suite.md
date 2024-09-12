@@ -11,10 +11,10 @@ gallery_path: /media/images/accommodation/galleries/aloe-suite
 title: Aloe Suite
 braai: No – but easy access to lapa with braai
 tv_wifi: Free WiFi - No TV
-rates: FROM R1050 per night (low season)
+rates: FROM R1200 per night (low season)
 additional_guests: ""
-rates_low_season: R1050
-rates_high_season: R1300
+rates_low_season: R1200
+rates_high_season: R1400
 cover_image: /media/images/accommodation/galleries/aloe-suite/aloe-suite-02.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/aloe-suite.jpg
 weight: 2
