@@ -12,10 +12,10 @@ gallery_path: /media/images/accommodation/galleries/hideaway-cottage
 title: Hideaway Cottage
 braai: No – but easy access to lapa with braai
 tv_wifi: No – just books
-rates: FROM R950 per night (low season)
+rates: FROM R1150 per night (low season)
 additional_guests: ""
-rates_low_season: R950 per night
-rates_high_season: R1200 per night
+rates_low_season: R1150 per night
+rates_high_season: R1250 per night
 cover_image: /media/images/accommodation/galleries/hideaway-cottage/hideaway-cottage-02.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/hideaway-cottage.jpg
 weight: 3
