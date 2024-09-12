@@ -14,7 +14,7 @@ tv_wifi: Free WiFi (No TV)
 rates: FROM R2000 per night (low season)
 additional_guests: +R250 per person upto a maximum of 4
 rates_low_season: R2000 for 2 people (+R250 per night for each additional person – max 4)
-rates_high_season: R3000 for 2 people (+R250 per night for each additional person – max 4)
+rates_high_season: R2400 for 2 people (+R250 per night for each additional person – max 4)
 cover_image: /media/images/accommodation/galleries/forest-rise/forest-rise-11.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/forest-rise.jpg
 weight: 7
