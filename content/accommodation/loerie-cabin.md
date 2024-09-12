@@ -12,10 +12,10 @@ gallery_path: /media/images/accommodation/galleries/loerie-cabin
 title: Loerie Cabin
 braai: No – but easy access to lapa with braai
 tv_wifi: No – just books
-rates: From R1100 per night (low season)
+rates: From R1200 per night (low season)
 additional_guests: +R150 per person upto a maximum of 5
-rates_low_season: R1100 for 2 people (+R150 per night for each additional person – max 5)
-rates_high_season: R1200 for 2 people (+R150 per night for each additional person – max 5)
+rates_low_season: R1200 for 2 people (+R150 per night for each additional person – max 5)
+rates_high_season: R1400 for 2 people (+R150 per night for each additional person – max 5)
 cover_image: /media/images/accommodation/galleries/loerie-cabin/loerie-cabin-05.jpg
 page_banner_for_small_screens: /media/images/page-headers/standard/loerie-cabin.jpg
 weight: 5
