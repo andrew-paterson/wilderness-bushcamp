@@ -7,4 +7,4 @@ go 1.15
   //   github.com/andrew-paterson/hugo-sundries => /home/paddy/development/hugo-sundries
   // )
 
-require github.com/andrew-paterson/pandago v1.0.47 // indirect
+require github.com/andrew-paterson/pandago v1.0.103 // indirect
