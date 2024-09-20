@@ -271,4 +271,3 @@ function setImageParentHeight(infinityLoaderItem) {
     }
   }
 }
-
