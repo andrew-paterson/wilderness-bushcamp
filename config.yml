@@ -47,9 +47,6 @@ menu:
     - url: /contact-us
       name: Contact
       weight: 7
-    - url: /covid-19
-      name: COVID-19
-      weight: 8
  
 params:
   image_dir: /media/images
